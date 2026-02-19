@@ -1,0 +1,28 @@
+project:
+  type: website
+
+website:
+  title: "Archives et Projets de Mathématiques"
+  repo-url: "https://github.com/GCouffignal/site_perso"
+  repo-actions: [issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: "Accueil"
+      - text: "Projets Bac+2/Bac+3"
+        menu:
+          - href: projet1.qmd
+            text: "BE: Détermination flux optique"
+          - href: about.qmd
+            text: "À propos"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
