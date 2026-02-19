@@ -7,6 +7,20 @@
     "text": "About this site"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+  },
+  {
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+  },
+  {
     "objectID": "projetA3_inpainting.html",
     "href": "projetA3_inpainting.html",
     "title": "BE : en généralisant l’algorithme du gradient conjugué…",
@@ -28,38 +42,24 @@
     "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
   },
   {
-    "objectID": "projet1.html",
-    "href": "projet1.html",
+    "objectID": "projetA2_fluxopt.html",
+    "href": "projetA2_fluxopt.html",
     "title": "BE : détermination du mouvement apparent sur des images",
     "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/]."
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images”."
   },
   {
-    "objectID": "projet1.html#présentation-du-problème",
-    "href": "projet1.html#présentation-du-problème",
+    "objectID": "projetA2_fluxopt.html#présentation-du-problème",
+    "href": "projetA2_fluxopt.html#présentation-du-problème",
     "title": "BE : détermination du mouvement apparent sur des images",
     "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/]."
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images”."
   },
   {
-    "objectID": "projet1.html#sujet-complet",
-    "href": "projet1.html#sujet-complet",
+    "objectID": "projetA2_fluxopt.html#sujet-complet",
+    "href": "projetA2_fluxopt.html#sujet-complet",
     "title": "BE : détermination du mouvement apparent sur des images",
     "section": "Sujet complet",
     "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "G. Couffignal",
-    "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
-  },
-  {
-    "objectID": "index.html#bienvenue",
-    "href": "index.html#bienvenue",
-    "title": "G. Couffignal",
-    "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
   }
 ]
