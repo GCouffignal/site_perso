@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "projet1.html",
+    "href": "projet1.html",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur Moodle ainsi que sur la page : [https://vision.middlebury.edu/flow/data/||https://vision.middlebury.edu/flow/data/]."
+  },
+  {
+    "objectID": "projet1.html#présentation-du-problème",
+    "href": "projet1.html#présentation-du-problème",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur Moodle ainsi que sur la page : [https://vision.middlebury.edu/flow/data/||https://vision.middlebury.edu/flow/data/]."
+  },
+  {
+    "objectID": "projet1.html#sujet-complet",
+    "href": "projet1.html#sujet-complet",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "site_perso",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]
