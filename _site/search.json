@@ -1,37 +1,163 @@
 [
   {
+    "objectID": "projetA3_geominf.html",
+    "href": "projetA3_geominf.html",
+    "title": "BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.",
+    "section": "",
+    "text": "Le projet proposé suit deux buts principaux : donner une introduction à la géométrie de l’information, on obtient un point de vue différent sur les probabilités et les statistiques (en espérant que cet autre point de vue réconcilie un peu les plus récalcitrants aux statistiques…) et proposer une sorte de « laboratoire » d’épistémologie quantitative. Dans ce bureau d’étude nous allons réfléchir aux biais de cognitions et plus généralement voir par le calcul pourquoi on est souvent conduit à des erreurs de raisonnement. Nous prendrons la géométrie de l’information comme une sorte de modèle normatif de la rationalité face à de l’information à traiter et nous verrons en quoi cela peut nous éclairer et nuancer nos raisonnements. La longueur (en page) du sujet s’explique pour plusieurs raisons :\n• la présence de nombreux encart « Pause épistémologique », détaillant des biais cognitifs ou des remarques liés aux formalismes introduit. Certains de ces biais ou remarques pourraient s’appliquer à plusieurs questions du sujet, pour ne pas alourdir nous ne les répéterons pas (à vous d’identifier les différentes expressions formelles d’un même biais).\n• les questions sont souvent très découpées et les réponses sont souvent rapides.\n• les questions de statistiques et de probabilités demandent souvent un long « contexte » pour être formulées correctement.\nLa spécificité de ce sujet est de traiter de biais cognitif de manière formelle et quantitative. En mobilisant vos connaissances diverses, une consigne générale sera de produire des exemples sourcés des différents biais et de regarder les réponses apportées par la formalisation du sujet.\nAttention les sujets et thèmes abordés ne le sont qu’en surface et il y aurait beaucoup (trop) de choses à dire sur de nombreux points. Vos ouvertures personnelles (en lien avec le sujet bien sûr!) et réflexions seront fortement valorisées."
+  },
+  {
+    "objectID": "projetA3_geominf.html#présentation-du-problème",
+    "href": "projetA3_geominf.html#présentation-du-problème",
+    "title": "BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.",
+    "section": "",
+    "text": "Le projet proposé suit deux buts principaux : donner une introduction à la géométrie de l’information, on obtient un point de vue différent sur les probabilités et les statistiques (en espérant que cet autre point de vue réconcilie un peu les plus récalcitrants aux statistiques…) et proposer une sorte de « laboratoire » d’épistémologie quantitative. Dans ce bureau d’étude nous allons réfléchir aux biais de cognitions et plus généralement voir par le calcul pourquoi on est souvent conduit à des erreurs de raisonnement. Nous prendrons la géométrie de l’information comme une sorte de modèle normatif de la rationalité face à de l’information à traiter et nous verrons en quoi cela peut nous éclairer et nuancer nos raisonnements. La longueur (en page) du sujet s’explique pour plusieurs raisons :\n• la présence de nombreux encart « Pause épistémologique », détaillant des biais cognitifs ou des remarques liés aux formalismes introduit. Certains de ces biais ou remarques pourraient s’appliquer à plusieurs questions du sujet, pour ne pas alourdir nous ne les répéterons pas (à vous d’identifier les différentes expressions formelles d’un même biais).\n• les questions sont souvent très découpées et les réponses sont souvent rapides.\n• les questions de statistiques et de probabilités demandent souvent un long « contexte » pour être formulées correctement.\nLa spécificité de ce sujet est de traiter de biais cognitif de manière formelle et quantitative. En mobilisant vos connaissances diverses, une consigne générale sera de produire des exemples sourcés des différents biais et de regarder les réponses apportées par la formalisation du sujet.\nAttention les sujets et thèmes abordés ne le sont qu’en surface et il y aurait beaucoup (trop) de choses à dire sur de nombreux points. Vos ouvertures personnelles (en lien avec le sujet bien sûr!) et réflexions seront fortement valorisées."
+  },
+  {
+    "objectID": "projetA3_geominf.html#sujet-complet",
+    "href": "projetA3_geominf.html#sujet-complet",
+    "title": "BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA3_geominf.html#prérequis",
+    "href": "projetA3_geominf.html#prérequis",
+    "title": "BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.",
+    "section": "Prérequis",
+    "text": "Prérequis\nProbabilités et statistiques de base, bases du calcul différentiel."
+  },
+  {
+    "objectID": "projetA3_reducpartimage.html",
+    "href": "projetA3_reducpartimage.html",
+    "title": "BE : Réduction en dimension et segmentation d’image",
+    "section": "",
+    "text": "Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :\n\nchoisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.\nPour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.\nL’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).\nUtiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.\nOn utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.\n\n\n\n\nRésultat de l’algorithme de segmentation par ACP."
+  },
+  {
+    "objectID": "projetA3_reducpartimage.html#présentation-du-problème",
+    "href": "projetA3_reducpartimage.html#présentation-du-problème",
+    "title": "BE : Réduction en dimension et segmentation d’image",
+    "section": "",
+    "text": "Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :\n\nchoisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.\nPour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.\nL’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).\nUtiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.\nOn utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.\n\n\n\n\nRésultat de l’algorithme de segmentation par ACP."
+  },
+  {
+    "objectID": "projetA3_reducpartimage.html#sujet-complet",
+    "href": "projetA3_reducpartimage.html#sujet-complet",
+    "title": "BE : Réduction en dimension et segmentation d’image",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA3_reducpartimage.html#prérequis",
+    "href": "projetA3_reducpartimage.html#prérequis",
+    "title": "BE : Réduction en dimension et segmentation d’image",
+    "section": "Prérequis",
+    "text": "Prérequis\nBases du calcul différentiel. analyse en composantes principales"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+  },
+  {
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+  },
+  {
+    "objectID": "projetA3_ICA.html",
+    "href": "projetA3_ICA.html",
+    "title": "BE : une introduction à l’analyse en composantes indépendantes (ICA).",
+    "section": "",
+    "text": "Dans ce bureau d’étude nous allons étudier le difficile problème de la séparation « aveugle » des sources que nous allons expliquer dans la suite. Lorsque l’on observe un jeu de données (par exemple issues de capteurs comme des antennes, microphones ou des images, etc…), ces données observées peuvent être issu d’un mélange de signaux sources. Le problème est alors d’arriver à isoler les signaux sources à partir des données observées mélangées. L’exemple paradigmatique est celui du « party cocktail problem », où l’on place plusieurs microphones dans une salle, ces microphones enregistrent des mélanges de conversation et le but de la séparation « aveugle » des sources est d’isoler les différentes voix (= les sources). Ce type de problème, dans sa formulation la plus générale, n’a en général aucune solution théorique mais il est néanmoins possible en ajoutant des hypothèses de trouver des « solutions acceptables ». Nous allons voir une catégorie d’approche qui en imposant certaines conditions permet d’avoir des résultats (très) corrects : l’analyse en composantes indépendantes (independent component analysis que nous abrégerons par ICA)."
+  },
+  {
+    "objectID": "projetA3_ICA.html#présentation-du-problème",
+    "href": "projetA3_ICA.html#présentation-du-problème",
+    "title": "BE : une introduction à l’analyse en composantes indépendantes (ICA).",
+    "section": "",
+    "text": "Dans ce bureau d’étude nous allons étudier le difficile problème de la séparation « aveugle » des sources que nous allons expliquer dans la suite. Lorsque l’on observe un jeu de données (par exemple issues de capteurs comme des antennes, microphones ou des images, etc…), ces données observées peuvent être issu d’un mélange de signaux sources. Le problème est alors d’arriver à isoler les signaux sources à partir des données observées mélangées. L’exemple paradigmatique est celui du « party cocktail problem », où l’on place plusieurs microphones dans une salle, ces microphones enregistrent des mélanges de conversation et le but de la séparation « aveugle » des sources est d’isoler les différentes voix (= les sources). Ce type de problème, dans sa formulation la plus générale, n’a en général aucune solution théorique mais il est néanmoins possible en ajoutant des hypothèses de trouver des « solutions acceptables ». Nous allons voir une catégorie d’approche qui en imposant certaines conditions permet d’avoir des résultats (très) corrects : l’analyse en composantes indépendantes (independent component analysis que nous abrégerons par ICA)."
+  },
+  {
+    "objectID": "projetA3_ICA.html#sujet-complet",
+    "href": "projetA3_ICA.html#sujet-complet",
+    "title": "BE : une introduction à l’analyse en composantes indépendantes (ICA).",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA3_ICA.html#prérequis",
+    "href": "projetA3_ICA.html#prérequis",
+    "title": "BE : une introduction à l’analyse en composantes indépendantes (ICA).",
+    "section": "Prérequis",
+    "text": "Prérequis\nProbabilités et statistiques de base, bases du calcul différentiel."
+  },
+  {
+    "objectID": "projetA3_inpainting.html",
+    "href": "projetA3_inpainting.html",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "",
+    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté."
+  },
+  {
+    "objectID": "projetA3_inpainting.html#présentation-du-problème",
+    "href": "projetA3_inpainting.html#présentation-du-problème",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "",
+    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté."
+  },
+  {
+    "objectID": "projetA3_inpainting.html#sujet-complet",
+    "href": "projetA3_inpainting.html#sujet-complet",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA3_inpainting.html#prérequis",
+    "href": "projetA3_inpainting.html#prérequis",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "Prérequis",
+    "text": "Prérequis\nBases du calcul différentiel et de l’analyse convexe, forme quadratique, gradiant conjugué."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html",
+    "href": "projetA2_fluxopt.html",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#présentation-du-problème",
+    "href": "projetA2_fluxopt.html#présentation-du-problème",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#sujet-complet",
+    "href": "projetA2_fluxopt.html#sujet-complet",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#prérequis",
+    "href": "projetA2_fluxopt.html#prérequis",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "Prérequis",
+    "text": "Prérequis\nBases du calcul différentiel, moindres carrés, méthodes itératives matricielles (Jacobi, Relaxation)."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "site_perso",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
-  },
-  {
-    "objectID": "projet1.html",
-    "href": "projet1.html",
-    "title": "BE : détermination du mouvement apparent sur des images",
-    "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur Moodle ainsi que sur la page : [https://vision.middlebury.edu/flow/data/||https://vision.middlebury.edu/flow/data/]."
-  },
-  {
-    "objectID": "projet1.html#présentation-du-problème",
-    "href": "projet1.html#présentation-du-problème",
-    "title": "BE : détermination du mouvement apparent sur des images",
-    "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur Moodle ainsi que sur la page : [https://vision.middlebury.edu/flow/data/||https://vision.middlebury.edu/flow/data/]."
-  },
-  {
-    "objectID": "projet1.html#sujet-complet",
-    "href": "projet1.html#sujet-complet",
-    "title": "BE : détermination du mouvement apparent sur des images",
-    "section": "Sujet complet",
-    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
   }
 ]

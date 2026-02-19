@@ -9,12 +9,24 @@ website:
     left:
       - href: index.qmd
         text: "Accueil"
-      - text: "Projets Bac+2/Bac+3"
+      - text: "Projets Bac+2"
         menu:
-          - href: projet1.qmd
+          - href: projetA2_fluxopt.qmd
             text: "BE: Détermination flux optique"
-          - href: about.qmd
-            text: "À propos"
+          # Ajoutez itérativement vos autres projets Bac+2 ici en respectant l'indentation
+      - text: "Projets Bac+3"
+        menu:
+          - href: projetA3_inpainting.qmd
+            text: "BE : en généralisant l'algorithme du gradient conjugué..."
+          - href: projetA3_geominf.qmd
+            text: "BE :  Introduction à la géométrie de l'information"
+          - href: projetA3_ICA.qmd
+            text: "BE :  une introduction à l'analyse en composantes indépendantes (ICA)"
+          - href: projetA3_reducpartimage.qmd
+            text: "BE : Réduction en dimension et segmentation d'image"
+           # Ajoutez itérativement vos autres projets Bac+3 ici
+      - href: about.qmd
+        text: "À propos"
 
 format:
   html:

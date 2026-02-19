@@ -1,7 +1,24 @@
 ---
-title: "site_perso"
+title: "G. Couffignal"
+image: avatar.webp
+about:
+  template: trestles
+  links:
+    - icon: envelope
+      text: Contact
+      href: mailto:guillaume.couffignal@ipsa.fr
+    - icon: github
+      text: GitHub
+      href: https://github.com/gcouffignal
 ---
 
-This is a Quarto website.
+## Bienvenue
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Cet espace centralise mes archives pédagogiques :
+
+   * cours
+   * les sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)
+   * notes personnelles sur différents domaines.
+
+
+

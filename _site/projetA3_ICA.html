@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Archives et Projets de Mathématiques</title>
+<title>BE : une introduction à l’analyse en composantes indépendantes (ICA). – Archives et Projets de Mathématiques</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -143,15 +143,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
+  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
+  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">BE : une introduction à l’analyse en composantes indépendantes (ICA).</h1>
 </div>
 
 
@@ -168,9 +176,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="présentation-du-problème" class="level2">
+<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
+<p>Dans ce bureau d’étude nous allons étudier le difficile problème de la séparation « aveugle » des sources que nous allons expliquer dans la suite. Lorsque l’on observe un jeu de données (par exemple issues de capteurs comme des antennes, microphones ou des images, etc…), ces données observées peuvent être issu d’un mélange de signaux sources. Le problème est alors d’arriver à isoler les signaux sources à partir des données observées mélangées. L’exemple paradigmatique est celui du « party cocktail problem », où l’on place plusieurs microphones dans une salle, ces microphones enregistrent des mélanges de conversation et le but de la séparation « aveugle » des sources est d’isoler les différentes voix (= les sources). Ce type de problème, dans sa formulation la plus générale, n’a en général aucune solution théorique mais il est néanmoins possible en ajoutant des hypothèses de trouver des « solutions acceptables ». Nous allons voir une catégorie d’approche qui en imposant certaines conditions permet d’avoir des résultats (très) corrects : l’analyse en composantes indépendantes (independent component analysis que nous abrégerons par ICA).</p>
+</section>
+<section id="sujet-complet" class="level2">
+<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
+<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
+<p><a href="sujets_BE/Ma315_BE_2023.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+</section>
+<section id="prérequis" class="level2">
+<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
+<p>Probabilités et statistiques de base, bases du calcul différentiel.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -578,4 +598,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>

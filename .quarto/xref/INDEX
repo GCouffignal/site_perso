@@ -7,5 +7,20 @@
   },
   "index.qmd": {
     "index.html": "49fea9cf"
+  },
+  "projetA3_inpainting.qmd": {
+    "projetA3_inpainting.html": "5180dd92"
+  },
+  "projetA2_fluxopt.qmd": {
+    "projetA2_fluxopt.html": "90ed32e1"
+  },
+  "projetA3_geominf.qmd": {
+    "projetA3_geominf.html": "cbbe1dbb"
+  },
+  "projetA3_ICA.qmd": {
+    "projetA3_ICA.html": "2236f4a2"
+  },
+  "projetA3_reducpartimage.qmd": {
+    "projetA3_reducpartimage.html": "e97e68b1"
   }
 }

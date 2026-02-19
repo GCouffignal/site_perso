@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Archives et Projets de Mathématiques</title>
+<title>BE : en généralisant l’algorithme du gradient conjugué… – Archives et Projets de Mathématiques</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -129,7 +129,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -143,15 +143,23 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
+  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
+  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">BE : en généralisant l’algorithme du gradient conjugué…</h1>
 </div>
 
 
@@ -168,9 +176,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>About this site</p>
+<section id="présentation-du-problème" class="level2">
+<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
+<p>Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sujets_BE/margritte_bird_mod.jpg" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Un célèbre tableau de Margritte “inpainté.</figcaption>
+</figure>
+</div>
+</section>
+<section id="sujet-complet" class="level2">
+<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
+<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
+<p><a href="sujets_BE/Ma316_BE_2024.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+</section>
+<section id="prérequis" class="level2">
+<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
+<p>Bases du calcul différentiel et de l’analyse convexe, forme quadratique, gradiant conjugué.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -578,4 +604,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div></div></footer></body></html>
