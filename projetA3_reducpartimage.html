@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BE : une introduction à l’analyse en composantes indépendantes (ICA). – Archives et Projets de Mathématiques</title>
+<title>BE : Réduction en dimension et segmentation d’image – Archives et Projets de Mathématiques</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BE : une introduction à l’analyse en composantes indépendantes (ICA).</h1>
+<h1 class="title">BE : Réduction en dimension et segmentation d’image</h1>
 </div>
 
 
@@ -178,16 +178,29 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="présentation-du-problème" class="level2">
 <h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Dans ce bureau d’étude nous allons étudier le difficile problème de la séparation « aveugle » des sources que nous allons expliquer dans la suite. Lorsque l’on observe un jeu de données (par exemple issues de capteurs comme des antennes, microphones ou des images, etc…), ces données observées peuvent être issu d’un mélange de signaux sources. Le problème est alors d’arriver à isoler les signaux sources à partir des données observées mélangées. L’exemple paradigmatique est celui du « party cocktail problem », où l’on place plusieurs microphones dans une salle, ces microphones enregistrent des mélanges de conversation et le but de la séparation « aveugle » des sources est d’isoler les différentes voix (= les sources). Ce type de problème, dans sa formulation la plus générale, n’a en général aucune solution théorique mais il est néanmoins possible en ajoutant des hypothèses de trouver des « solutions acceptables ». Nous allons voir une catégorie d’approche qui en imposant certaines conditions permet d’avoir des résultats (très) corrects : l’analyse en composantes indépendantes (independent component analysis que nous abrégerons par ICA).</p>
+<p>Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :</p>
+<ol type="1">
+<li><p>choisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.</p></li>
+<li><p>Pour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.</p></li>
+<li><p>L’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).</p></li>
+<li><p>Utiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.</p></li>
+<li><p>On utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.</p></li>
+</ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sujets_BE/test8.png" class="img-fluid figure-img" style="width:75.0%"></p>
+<figcaption>Résultat de l’algorithme de segmentation par ACP.</figcaption>
+</figure>
+</div>
 </section>
 <section id="sujet-complet" class="level2">
 <h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
 <p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="sujets_BE/Ma315_BE_2023.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+<p><a href="sujets_BE/Ma324_BE_2024.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
 </section>
 <section id="prérequis" class="level2">
 <h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
-<p>Probabilités et statistiques de base, bases du calcul différentiel.</p>
+<p>Bases du calcul différentiel. analyse en composantes principales</p>
 
 
 </section>

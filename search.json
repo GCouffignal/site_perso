@@ -28,60 +28,46 @@
     "text": "Prérequis\nProbabilités et statistiques de base, bases du calcul différentiel."
   },
   {
-    "objectID": "projetA2_fluxopt.html",
-    "href": "projetA2_fluxopt.html",
-    "title": "BE : détermination du mouvement apparent sur des images",
+    "objectID": "projetA3_reducpartimage.html",
+    "href": "projetA3_reducpartimage.html",
+    "title": "BE : Réduction en dimension et segmentation d’image",
     "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+    "text": "Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :\n\nchoisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.\nPour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.\nL’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).\nUtiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.\nOn utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.\n\n\n\n\nRésultat de l’algorithme de segmentation par ACP."
   },
   {
-    "objectID": "projetA2_fluxopt.html#présentation-du-problème",
-    "href": "projetA2_fluxopt.html#présentation-du-problème",
-    "title": "BE : détermination du mouvement apparent sur des images",
+    "objectID": "projetA3_reducpartimage.html#présentation-du-problème",
+    "href": "projetA3_reducpartimage.html#présentation-du-problème",
+    "title": "BE : Réduction en dimension et segmentation d’image",
     "section": "",
-    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+    "text": "Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :\n\nchoisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.\nPour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.\nL’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).\nUtiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.\nOn utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.\n\n\n\n\nRésultat de l’algorithme de segmentation par ACP."
   },
   {
-    "objectID": "projetA2_fluxopt.html#sujet-complet",
-    "href": "projetA2_fluxopt.html#sujet-complet",
-    "title": "BE : détermination du mouvement apparent sur des images",
+    "objectID": "projetA3_reducpartimage.html#sujet-complet",
+    "href": "projetA3_reducpartimage.html#sujet-complet",
+    "title": "BE : Réduction en dimension et segmentation d’image",
     "section": "Sujet complet",
     "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
   },
   {
-    "objectID": "projetA2_fluxopt.html#prérequis",
-    "href": "projetA2_fluxopt.html#prérequis",
-    "title": "BE : détermination du mouvement apparent sur des images",
+    "objectID": "projetA3_reducpartimage.html#prérequis",
+    "href": "projetA3_reducpartimage.html#prérequis",
+    "title": "BE : Réduction en dimension et segmentation d’image",
     "section": "Prérequis",
-    "text": "Prérequis\nBases du calcul différentiel, moindres carrés, méthodes itératives matricielles (Jacobi, Relaxation)."
+    "text": "Prérequis\nBases du calcul différentiel. analyse en composantes principales"
   },
   {
-    "objectID": "projetA3_inpainting.html",
-    "href": "projetA3_inpainting.html",
-    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "G. Couffignal",
     "section": "",
-    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté”."
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
   },
   {
-    "objectID": "projetA3_inpainting.html#présentation-du-problème",
-    "href": "projetA3_inpainting.html#présentation-du-problème",
-    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "G. Couffignal",
     "section": "",
-    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté”."
-  },
-  {
-    "objectID": "projetA3_inpainting.html#sujet-complet",
-    "href": "projetA3_inpainting.html#sujet-complet",
-    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
-    "section": "Sujet complet",
-    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
-  },
-  {
-    "objectID": "projetA3_inpainting.html#prérequis",
-    "href": "projetA3_inpainting.html#prérequis",
-    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
-    "section": "Prérequis",
-    "text": "Prérequis\nBases du calcul différentiel et de l’analyse convexe, forme quadratique, gradiant conjugué."
+    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
   },
   {
     "objectID": "projetA3_ICA.html",
@@ -112,18 +98,60 @@
     "text": "Prérequis\nProbabilités et statistiques de base, bases du calcul différentiel."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "G. Couffignal",
+    "objectID": "projetA3_inpainting.html",
+    "href": "projetA3_inpainting.html",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
     "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté."
   },
   {
-    "objectID": "index.html#bienvenue",
-    "href": "index.html#bienvenue",
-    "title": "G. Couffignal",
+    "objectID": "projetA3_inpainting.html#présentation-du-problème",
+    "href": "projetA3_inpainting.html#présentation-du-problème",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
     "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+    "text": "Dans ce BE nous allons étendre/généraliser deux notions étudiées dans ce module : les équations d’Euler-Lagrange et l’algorithme du gradient conjugué à l’espace vectoriel des matrices directement. Ces deux points feront l’objet des deux premières parties et peuvent être traités de manière globalement séparées. Enfin dans une troisième et dernière partie nous utiliserons les résultats des deux premières parties afin d’obtenir des algorithmes efficaces pour résoudre des problèmes en électrostatique et dans un second temps nous utiliserons ces mêmes équations (à des variations près) afin de réaliser du traitement d’image. Ces dernières équations font bien entendu sens en physique (électrostatique, gravitation, etc…) mais les contextes physiques s’y rapportant étant assez long et complexe à introduire nous avons fait le choix du « visuel » rapide à introduire et de l’application de ces équations au traitement d’image. L’application finale de ce projet est la réalisation d’inpainting contraint.\n\n\n\nUn célèbre tableau de Margritte “inpainté."
+  },
+  {
+    "objectID": "projetA3_inpainting.html#sujet-complet",
+    "href": "projetA3_inpainting.html#sujet-complet",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA3_inpainting.html#prérequis",
+    "href": "projetA3_inpainting.html#prérequis",
+    "title": "BE : en généralisant l’algorithme du gradient conjugué…",
+    "section": "Prérequis",
+    "text": "Prérequis\nBases du calcul différentiel et de l’analyse convexe, forme quadratique, gradiant conjugué."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html",
+    "href": "projetA2_fluxopt.html",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#présentation-du-problème",
+    "href": "projetA2_fluxopt.html#présentation-du-problème",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "",
+    "text": "Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e. 2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].\n\n\n\nUn exemple de calcul du flux optique sur des images."
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#sujet-complet",
+    "href": "projetA2_fluxopt.html#sujet-complet",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "Sujet complet",
+    "text": "Sujet complet\nLe développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :\n📄 Télécharger / Consulter le sujet au format PDF"
+  },
+  {
+    "objectID": "projetA2_fluxopt.html#prérequis",
+    "href": "projetA2_fluxopt.html#prérequis",
+    "title": "BE : détermination du mouvement apparent sur des images",
+    "section": "Prérequis",
+    "text": "Prérequis\nBases du calcul différentiel, moindres carrés, méthodes itératives matricielles (Jacobi, Relaxation)."
   },
   {
     "objectID": "about.html",
