@@ -46,14 +46,14 @@
     "href": "index.html",
     "title": "G. Couffignal",
     "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+    "text": "Cet espace centralise mes archives pédagogiques :\n\nnotes de cours diverses\nles sujets de projets proposés aux étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
   },
   {
     "objectID": "index.html#bienvenue",
     "href": "index.html#bienvenue",
     "title": "G. Couffignal",
     "section": "",
-    "text": "Cet espace centralise mes archives pédagogiques :\n\ncours\nles sujets de projets proposés à mes étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
+    "text": "Cet espace centralise mes archives pédagogiques :\n\nnotes de cours diverses\nles sujets de projets proposés aux étudiants (Bac+2 / Bac+3)\nnotes personnelles sur différents domaines."
   },
   {
     "objectID": "notes-cours.html",
@@ -144,14 +144,14 @@
     "href": "autres-cours.html",
     "title": "Autres cours et présentations",
     "section": "",
-    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n(—)\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre Partie 1 : 📄 Télécharger / Consulter les slides au format PDF Partie 2 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n(—)\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF Partie 2 : Autour du texte : “Valeur, égalité,justice politique de Marx à Aristote et d’Aristote à nous\n📄 Télécharger / Consulter les slides au format PDF"
+    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre - Partie 1 : 📄 Télécharger / Consulter les slides au format PDF - Partie 2 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous” 📄 Télécharger / Consulter les slides au format PDF"
   },
   {
     "objectID": "projets-etudiants/index.html",
     "href": "projets-etudiants/index.html",
     "title": "Projets étudiants",
     "section": "",
-    "text": "Dans cette section, vous trouverez les sujets de projets proposés à mes étudiants de Bac+2 et Bac+3. Ces projets couvrent divers domaines liés à l’informatique, à l’intelligence artificielle, à la vision par ordinateur, et plus encore. Chaque projet est accompagné d’une description détaillée, des objectifs, des ressources recommandées, et des critères d’évaluation. Chaque projet est conçu pour exemplifier et développer des notions précises de cours, ils sont donc écrits de manière à être accessibles aux étudiants ayant suivi les cours correspondants et sous la contrainte forte de ne pas nécessiter de connaissances préalables en dehors du cours.\n\n\n\nBE: Détermination flux optique \n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\nBE : Introduction à la géométrie de l’information\nBE : une introduction à l’analyse en composantes indépendantes (ICA)\nBE : Réduction en dimension et segmentation d’image"
+    "text": "Dans cette section, vous trouverez les sujets de projets proposés à mes étudiants de niveau Bac+2 et Bac+3. Ces projets couvrent divers domaines liés à l’informatique, à l’intelligence artificielle, à la vision par ordinateur, et plus encore. Chaque projet est accompagné d’une description détaillée, des objectifs, des ressources recommandées, et des critères d’évaluation. Chaque projet est conçu pour exemplifier et développer des notions précises de cours, ils sont donc écrits de manière à être accessibles aux étudiants ayant suivi les cours correspondants et sous la contrainte forte de ne pas nécessiter de connaissances préalables en dehors du cours.\n\n\n\nBE: Détermination flux optique \n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\nBE : Introduction à la géométrie de l’information\nBE : une introduction à l’analyse en composantes indépendantes (ICA)\nBE : Réduction en dimension et segmentation d’image"
   },
   {
     "objectID": "projets-etudiants/index.html#projets-bac2",
