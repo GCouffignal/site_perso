@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>BE : détermination du mouvement apparent sur des images – Archives et Projets de Mathématiques</title>
+<title>Notes de cours et exercices – Archives</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Archives et Projets de Mathématiques</span>
+    <span class="navbar-title">Archives</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -94,28 +94,22 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projets-bac2" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projets Bac+2</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projets-bac2">    
-        <li>
-    <a class="dropdown-item" href="./projet1.html">
- <span class="dropdown-text">BE: Détermination flux optique</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./projets-etudiants/index.html"> 
+<span class="menu-text">Projets étudiants</span></a>
   </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projets-bac3" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projets Bac+3</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projets-bac3">    
-        <li>
-    <a class="dropdown-item" href="./projetA3_inpainting.html">
- <span class="dropdown-text">BE : en généralisant l’algorithme du gradient conjugué…</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="./notes-cours.html" aria-current="page"> 
+<span class="menu-text">Notes de cours et exercices</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./autres-cours.html"> 
+<span class="menu-text">Autres cours et présentations</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./notes-personnelles.html"> 
+<span class="menu-text">Notes personnelles</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">À propos</span></a>
@@ -136,8 +130,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
-  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
+  <li><a href="#notes-de-cours-et-exercices" id="toc-notes-de-cours-et-exercices" class="nav-link active" data-scroll-target="#notes-de-cours-et-exercices">Notes de cours et exercices</a>
+  <ul class="collapse">
+  <li><a href="#bac1" id="toc-bac1" class="nav-link" data-scroll-target="#bac1">BAC+1</a>
+  <ul class="collapse">
+  <li><a href="#exercices" id="toc-exercices" class="nav-link" data-scroll-target="#exercices">Exercices</a></li>
+  <li><a href="#khôles" id="toc-khôles" class="nav-link" data-scroll-target="#khôles">Khôles</a></li>
+  </ul></li>
+  <li><a href="#bac2" id="toc-bac2" class="nav-link" data-scroll-target="#bac2">BAC+2</a>
+  <ul class="collapse">
+  <li><a href="#exercices-1" id="toc-exercices-1" class="nav-link" data-scroll-target="#exercices-1">Exercices</a></li>
+  <li><a href="#khôles-1" id="toc-khôles-1" class="nav-link" data-scroll-target="#khôles-1">Khôles</a></li>
+  </ul></li>
+  <li><a href="#bac3" id="toc-bac3" class="nav-link" data-scroll-target="#bac3">BAC+3</a>
+  <ul class="collapse">
+  <li><a href="#exercices-2" id="toc-exercices-2" class="nav-link" data-scroll-target="#exercices-2">Exercices</a></li>
+  </ul></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -146,7 +155,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BE : détermination du mouvement apparent sur des images</h1>
+<h1 class="title">Notes de cours et exercices</h1>
 </div>
 
 
@@ -163,16 +172,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="présentation-du-problème" class="level2">
-<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e.&nbsp;2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].</p>
+<section id="notes-de-cours-et-exercices" class="level1">
+<h1>Notes de cours et exercices</h1>
+<section id="bac1" class="level2">
+<h2 class="anchored" data-anchor-id="bac1">BAC+1</h2>
+<section id="exercices" class="level3">
+<h3 class="anchored" data-anchor-id="exercices">Exercices</h3>
+<ul>
+<li>Exercice 1</li>
+<li>Exercice 2</li>
+</ul>
 </section>
-<section id="sujet-complet" class="level2">
-<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
-<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="sujets_BE/Ma223_BE_2024.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+<section id="khôles" class="level3">
+<h3 class="anchored" data-anchor-id="khôles">Khôles</h3>
+<ul>
+<li>Khôle 1</li>
+<li>Khôle 2</li>
+</ul>
+</section>
+</section>
+<section id="bac2" class="level2">
+<h2 class="anchored" data-anchor-id="bac2">BAC+2</h2>
+<section id="exercices-1" class="level3">
+<h3 class="anchored" data-anchor-id="exercices-1">Exercices</h3>
+<ul>
+<li>Exercice 1</li>
+<li>Exercice 2</li>
+</ul>
+</section>
+<section id="khôles-1" class="level3">
+<h3 class="anchored" data-anchor-id="khôles-1">Khôles</h3>
+<ul>
+<li>Khôle 1</li>
+<li>Khôle 2</li>
+</ul>
+</section>
+</section>
+<section id="bac3" class="level2">
+<h2 class="anchored" data-anchor-id="bac3">BAC+3</h2>
+<section id="exercices-2" class="level3">
+<h3 class="anchored" data-anchor-id="exercices-2">Exercices</h3>
+<ul>
+<li>Exercice 1</li>
+<li>Exercice 2</li>
+</ul>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->

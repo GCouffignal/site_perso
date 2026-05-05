@@ -1,16 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_geominf.html</loc>
-    <lastmod>2026-02-19T12:01:12.839Z</lastmod>
+    <loc>https://GCouffignal.github.io/site_perso/notes-personnelles.html</loc>
+    <lastmod>2026-05-05T07:27:37.649Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_reducpartimage.html</loc>
-    <lastmod>2026-02-19T12:31:26.081Z</lastmod>
+    <loc>https://GCouffignal.github.io/site_perso/about.html</loc>
+    <lastmod>2026-02-19T09:52:25.784Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GCouffignal.github.io/site_perso/projetA2_fluxopt.html</loc>
+    <lastmod>2026-02-19T11:53:49.206Z</lastmod>
   </url>
   <url>
     <loc>https://GCouffignal.github.io/site_perso/index.html</loc>
-    <lastmod>2026-02-19T10:26:14.834Z</lastmod>
+    <lastmod>2026-05-05T06:59:40.719Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GCouffignal.github.io/site_perso/notes-cours.html</loc>
+    <lastmod>2026-05-05T07:27:37.649Z</lastmod>
   </url>
   <url>
     <loc>https://GCouffignal.github.io/site_perso/projetA3_ICA.html</loc>
@@ -21,11 +29,19 @@
     <lastmod>2026-02-19T12:31:27.174Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA2_fluxopt.html</loc>
-    <lastmod>2026-02-19T11:53:49.206Z</lastmod>
+    <loc>https://GCouffignal.github.io/site_perso/autres-cours.html</loc>
+    <lastmod>2026-05-05T07:27:37.649Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/about.html</loc>
-    <lastmod>2026-02-19T09:52:25.784Z</lastmod>
+    <loc>https://GCouffignal.github.io/site_perso/projets-etudiants/index.html</loc>
+    <lastmod>2026-05-05T07:43:38.354Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GCouffignal.github.io/site_perso/projetA3_reducpartimage.html</loc>
+    <lastmod>2026-02-19T12:31:26.081Z</lastmod>
+  </url>
+  <url>
+    <loc>https://GCouffignal.github.io/site_perso/projetA3_geominf.html</loc>
+    <lastmod>2026-02-19T12:01:12.839Z</lastmod>
   </url>
 </urlset>
