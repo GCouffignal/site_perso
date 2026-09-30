@@ -9,7 +9,7 @@ Cette section rassemble mes enseignements de mathématiques, par année d'étude
 
 * [A1 (Bac+1)](A1/index.qmd)
 * [A2 (Bac+2)](A2/index.qmd), avec ses [cours et exercices](A2/index.qmd#cours) et ses [projets](A2/index.qmd#projets)
-* [A3 (Bac+3)](A3/index.qmd), avec ses [projets](A3/index.qmd#projets)
+* [A3 (Bac+3)](A3/index.qmd), avec ses [cours et exercices](A3/index.qmd#cours) et ses [projets](A3/index.qmd#projets)
 
 ## Projets (bureaux d'études)
 

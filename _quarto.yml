@@ -61,6 +61,10 @@ website:
         - section: "A3 (Bac+3)"
           href: enseignements/A3/index.qmd
           contents:
+            - section: "Cours et exercices"
+              contents:
+                - href: enseignements/A3/cours/ma312-analyse-harmonique.qmd
+                  text: "Ma312 : analyse harmonique (Fourier, Laplace)"
             - section: "Projets"
               contents:
                 - href: enseignements/A3/projets/inpainting.qmd

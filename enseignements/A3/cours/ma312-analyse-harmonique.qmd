@@ -1,0 +1,35 @@
+---
+title: "Ma312 : Éléments d'analyse harmonique pour l'ingénieur"
+description: "Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d'échantillonnage, transformée de Laplace."
+order: 1
+---
+
+## Présentation
+
+Ce fascicule a été rédigé pour la troisième année (A3) de l'IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d'une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d'échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.
+
+::: {.callout-note}
+## Avertissement
+
+Ces notes ne constituent pas un cours complet d'analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d'exemples pratiques et numériques.
+
+Version du 15/09/2025.
+:::
+
+## Contenu
+
+* Séries de Fourier : décomposition par une famille orthonormale, convergence (théorème de Dirichlet), noyau de Fejér et théorème de Parseval, lien avec la dérivation, convolution, noyau de Poisson et problème de Dirichlet sur le cercle.
+* Transformée de Fourier : définitions et propriétés, théorème de Plancherel, relation d'incertitude, produit de convolution, formule de sommation de Poisson et ses conséquences.
+* Transformée de Laplace : définition et conditions d'existence, propriétés, convolution des fonctions causales, transformée inverse.
+* Transformée de Fourier discrète et transformation de Fourier rapide.
+
+## Document
+
+[📄 Télécharger / Consulter le fascicule de cours au format PDF](Ma312_Fascicule_cours.pdf)
+
+## Travaux dirigés
+
+* **TD 1 : séries de Fourier.** [📄 Énoncé au format PDF](Ma312_TD1.pdf)
+* **TD 2 : introduction à la transformée de Fourier.** [📄 Énoncé au format PDF](Ma312_TD2.pdf)
+* **TD 3 : quelques applications de la transformée de Fourier**, dont le théorème d'échantillonnage et le repliement de spectre (aliasing). [📄 Énoncé au format PDF](Ma312_TD3.pdf)
+* **TD 4 : transformée de Laplace.** [📄 Énoncé au format PDF](Ma312_TD4.pdf)
