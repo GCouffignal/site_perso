@@ -9,6 +9,8 @@ order: 4
 
 Exposé présenté en mars 2014 lors d'un séminaire à l'université Paul Sabatier, à Toulouse. Il présente les premiers travaux en théorie de l'homotopie du mathématicien Daniel Kan, à l'origine de concepts catégoriques importants.
 
+Sur le même sujet, voir aussi les exposés de [juin 2013](../kan-cavailles-sphere/index.qmd) et d'[avril 2013](../kan-cavailles-avril/index.qmd).
+
 ## Contenu
 
 * Motivations.
