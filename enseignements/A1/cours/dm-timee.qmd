@@ -1,0 +1,25 @@
+---
+title: "Devoir maison : autour du Timée de Platon"
+description: "Devoir maison d'analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité."
+year: "2016-2017"
+order: 1
+---
+
+## Présentation
+
+Devoir maison de première année (A1) de l'IPSA, premier semestre 2016-2017 (module Ma12). Il propose d'aider le Démiurge du *Timée* de Platon à former le Monde : le Démiurge y emploie trois médiétés (proportions), qui correspondent aux moyennes arithmétique, géométrique et harmonique.
+
+Il s'agit d'un document ancien, repris tel quel. L'énoncé ne contient pas de corrigé.
+
+## Contenu
+
+Le devoir comporte quatre parties :
+
+* **Un Dieu calculateur…** : les trois médiétés, inégalités entre les moyennes, suites arithmétiques, géométriques et harmoniques.
+* **This One's For You…** : suites définies par récurrence en mélangeant moyennes arithmétique et harmonique, suites adjacentes.
+* **Cette fois c'est la bonne !** : étude d'une fonction, existence de limites, dérivabilité.
+* **Le remix de trop** : suites mêlant moyennes harmonique et géométrique.
+
+## Document
+
+[📄 Télécharger / Consulter le devoir maison (2016-2017) au format PDF](DM_TIMEE.pdf)
