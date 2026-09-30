@@ -1,14 +1,22 @@
 [
   {
-    "listing": "/enseignements/A2/index.html",
+    "listing": "/notes/index.html",
     "items": [
-      "/enseignements/A2/cours/ma223-analyse-numerique-matricielle.html",
-      "/enseignements/A2/projets/fluxopt.html"
+      "/notes/valeurs/index.html",
+      "/notes/geometries/index.html",
+      "/notes/maths-philosophie/index.html",
+      "/notes/echanges-info-maths/index.html",
+      "/notes/homotopie-kan/index.html",
+      "/notes/kan-cavailles-sphere/index.html",
+      "/notes/kan-cavailles-avril/index.html"
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/enseignements/A1/index.html",
+    "items": [
+      "/enseignements/A1/cours/dm-timee.html",
+      "/enseignements/A1/cours/kit-survie-analyse.html"
+    ]
   },
   {
     "listing": "/enseignements/A3/index.html",
@@ -23,21 +31,14 @@
     ]
   },
   {
-    "listing": "/enseignements/A1/index.html",
-    "items": [
-      "/enseignements/A1/cours/dm-timee.html",
-      "/enseignements/A1/cours/kit-survie-analyse.html"
-    ]
+    "listing": "/blog/index.html",
+    "items": []
   },
   {
-    "listing": "/notes/index.html",
+    "listing": "/enseignements/A2/index.html",
     "items": [
-      "/notes/valeurs/index.html",
-      "/notes/geometries/index.html",
-      "/notes/maths-philosophie/index.html",
-      "/notes/homotopie-kan/index.html",
-      "/notes/kan-cavailles-sphere/index.html",
-      "/notes/kan-cavailles-avril/index.html"
+      "/enseignements/A2/cours/ma223-analyse-numerique-matricielle.html",
+      "/enseignements/A2/projets/fluxopt.html"
     ]
   }
 ]
