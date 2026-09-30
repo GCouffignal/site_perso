@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -284,7 +284,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse numérique matricielle (SVD)</span></a>
+ <span class="menu-text">Analyse numérique matricielle (2026)</span></a>
   </div>
 </li>
       </ul>
@@ -301,7 +301,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : flux optique</span></a>
+ <span class="menu-text">BE : flux optique (2024)</span></a>
   </div>
 </li>
       </ul>
@@ -328,14 +328,20 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Calcul différentiel, Typst (2026-2027)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse harmonique (Fourier, Laplace)</span></a>
+ <span class="menu-text">Analyse harmonique (2025)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse complexe (cours 2021-2022)</span></a>
+ <span class="menu-text">Analyse complexe (2021-2022)</span></a>
   </div>
 </li>
       </ul>
@@ -352,25 +358,25 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : gradient conjugué, inpainting</span></a>
+ <span class="menu-text">BE : gradient conjugué, inpainting (2024)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : géométrie de l’information</span></a>
+ <span class="menu-text">BE : géométrie de l’information (2025-2026)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : analyse en composantes indépendantes</span></a>
+ <span class="menu-text">BE : analyse en composantes indépendantes (2023)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : réduction en dimension, segmentation</span></a>
+ <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
   </div>
 </li>
       </ul>
@@ -426,6 +432,10 @@ Titre
 </th>
 
 <th>
+Année
+</th>
+
+<th>
 Description
 </th>
 
@@ -433,9 +443,12 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790798300683" data-listing-reading-time-sort="1" data-listing-word-count-sort="189" data-listing-title-sort="Analyse numérique matricielle : autour de la décomposition en valeurs singulières" data-listing-filename-sort="ma223-analyse-numerique-matricielle.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790799120927" data-listing-reading-time-sort="1" data-listing-word-count-sort="189" data-listing-title-sort="Analyse numérique matricielle : autour de la décomposition en valeurs singulières" data-listing-filename-sort="ma223-analyse-numerique-matricielle.qmd">
 <td>
 <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="title listing-title">Analyse numérique matricielle : autour de la décomposition en valeurs singulières</a>
+</td>
+<td>
+<span class="listing-year">2026</span>
 </td>
 <td>
 <span class="listing-description">Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.</span>
@@ -460,6 +473,10 @@ Titre
 </th>
 
 <th>
+Année
+</th>
+
+<th>
 Description
 </th>
 
@@ -467,9 +484,12 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790798300683" data-listing-reading-time-sort="1" data-listing-word-count-sort="157" data-listing-title-sort="BE : détermination du mouvement apparent sur des images" data-listing-filename-sort="fluxopt.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790799120927" data-listing-reading-time-sort="1" data-listing-word-count-sort="158" data-listing-title-sort="BE : détermination du mouvement apparent sur des images" data-listing-filename-sort="fluxopt.qmd">
 <td>
 <a href="../../enseignements/A2/projets/fluxopt.html" class="title listing-title">BE : détermination du mouvement apparent sur des images</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
 </td>
 <td>
 <span class="listing-description">Détermination du mouvement apparent (flux optique) à partir des images d’une vidéo.</span>

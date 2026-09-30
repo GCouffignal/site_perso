@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,7 +85,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
       searchColumns: ["listing-title","listing-author"],
     };
@@ -284,7 +284,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse numérique matricielle (SVD)</span></a>
+ <span class="menu-text">Analyse numérique matricielle (2026)</span></a>
   </div>
 </li>
       </ul>
@@ -301,7 +301,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : flux optique</span></a>
+ <span class="menu-text">BE : flux optique (2024)</span></a>
   </div>
 </li>
       </ul>
@@ -328,14 +328,20 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Calcul différentiel, Typst (2026-2027)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse harmonique (Fourier, Laplace)</span></a>
+ <span class="menu-text">Analyse harmonique (2025)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse complexe (cours 2021-2022)</span></a>
+ <span class="menu-text">Analyse complexe (2021-2022)</span></a>
   </div>
 </li>
       </ul>
@@ -352,25 +358,25 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : gradient conjugué, inpainting</span></a>
+ <span class="menu-text">BE : gradient conjugué, inpainting (2024)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : géométrie de l’information</span></a>
+ <span class="menu-text">BE : géométrie de l’information (2025-2026)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : analyse en composantes indépendantes</span></a>
+ <span class="menu-text">BE : analyse en composantes indépendantes (2023)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : réduction en dimension, segmentation</span></a>
+ <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
   </div>
 </li>
       </ul>
@@ -426,6 +432,10 @@ Titre
 </th>
 
 <th>
+Année
+</th>
+
+<th>
 Description
 </th>
 
@@ -433,9 +443,25 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790798300715" data-listing-reading-time-sort="2" data-listing-word-count-sort="268" data-listing-title-sort="Éléments d'analyse harmonique pour l'ingénieur" data-listing-filename-sort="ma312-analyse-harmonique.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790799120959" data-listing-reading-time-sort="2" data-listing-word-count-sort="223" data-listing-title-sort="Outils d'analyse pour l'ingénieur : rappels de calcul différentiel" data-listing-filename-sort="outils-analyse-calcul-differentiel.qmd">
+<td>
+<a href="../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="title listing-title">Outils d’analyse pour l’ingénieur : rappels de calcul différentiel</a>
+</td>
+<td>
+<span class="listing-year">2026-2027</span>
+</td>
+<td>
+<span class="listing-description">Notes de cours et trois feuilles de TD rédigées avec Typst : dérivée directionnelle, formule de Taylor, formulation variationnelle, multiplicateurs de Lagrange.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1790799120958" data-listing-reading-time-sort="2" data-listing-word-count-sort="270" data-listing-title-sort="Éléments d'analyse harmonique pour l'ingénieur" data-listing-filename-sort="ma312-analyse-harmonique.qmd">
 <td>
 <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="title listing-title">Éléments d’analyse harmonique pour l’ingénieur</a>
+</td>
+<td>
+<span class="listing-year">2025</span>
 </td>
 <td>
 <span class="listing-description">Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.</span>
@@ -443,9 +469,12 @@ Description
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1790798300715" data-listing-reading-time-sort="2" data-listing-word-count-sort="211" data-listing-title-sort="Analyse complexe, transformées de Fourier et de Laplace" data-listing-filename-sort="ma311-312-analyse-complexe.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1790799120958" data-listing-reading-time-sort="2" data-listing-word-count-sort="212" data-listing-title-sort="Analyse complexe, transformées de Fourier et de Laplace" data-listing-filename-sort="ma311-312-analyse-complexe.qmd">
 <td>
 <a href="../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="title listing-title">Analyse complexe, transformées de Fourier et de Laplace</a>
+</td>
+<td>
+<span class="listing-year">2021-2022</span>
 </td>
 <td>
 <span class="listing-description">Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.</span>
@@ -470,6 +499,10 @@ Titre
 </th>
 
 <th>
+Année
+</th>
+
+<th>
 Description
 </th>
 
@@ -477,9 +510,12 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790798300716" data-listing-reading-time-sort="1" data-listing-word-count-sort="191" data-listing-title-sort="BE : en généralisant l'algorithme du gradient conjugué..." data-listing-filename-sort="inpainting.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790799120960" data-listing-reading-time-sort="1" data-listing-word-count-sort="192" data-listing-title-sort="BE : en généralisant l'algorithme du gradient conjugué..." data-listing-filename-sort="inpainting.qmd">
 <td>
 <a href="../../enseignements/A3/projets/inpainting.html" class="title listing-title">BE : en généralisant l’algorithme du gradient conjugué…</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
 </td>
 <td>
 <span class="listing-description">Généralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.</span>
@@ -487,9 +523,12 @@ Description
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1790798300715" data-listing-reading-time-sort="2" data-listing-word-count-sort="328" data-listing-title-sort="BE : Introduction à la géométrie de l'information ou comment calculer pour comprendre pourquoi on se trompe." data-listing-filename-sort="geominf.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1790799120959" data-listing-reading-time-sort="2" data-listing-word-count-sort="329" data-listing-title-sort="BE : Introduction à la géométrie de l'information ou comment calculer pour comprendre pourquoi on se trompe." data-listing-filename-sort="geominf.qmd">
 <td>
 <a href="../../enseignements/A3/projets/geominf.html" class="title listing-title">BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.</a>
+</td>
+<td>
+<span class="listing-year">2025-2026</span>
 </td>
 <td>
 <span class="listing-description">Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.</span>
@@ -497,9 +536,12 @@ Description
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1790798300716" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" data-listing-title-sort="BE : une introduction à l'analyse en composantes indépendantes (ICA)." data-listing-filename-sort="ica.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1790799120960" data-listing-reading-time-sort="2" data-listing-word-count-sort="210" data-listing-title-sort="BE : une introduction à l'analyse en composantes indépendantes (ICA)." data-listing-filename-sort="ica.qmd">
 <td>
 <a href="../../enseignements/A3/projets/ica.html" class="title listing-title">BE : une introduction à l’analyse en composantes indépendantes (ICA).</a>
+</td>
+<td>
+<span class="listing-year">2023</span>
 </td>
 <td>
 <span class="listing-description">Séparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».</span>
@@ -507,9 +549,12 @@ Description
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1790798300716" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="BE : Réduction en dimension et segmentation d'image" data-listing-filename-sort="reducpartimage.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1790799120960" data-listing-reading-time-sort="2" data-listing-word-count-sort="231" data-listing-title-sort="BE : Réduction en dimension et segmentation d'image" data-listing-filename-sort="reducpartimage.qmd">
 <td>
 <a href="../../enseignements/A3/projets/reducpartimage.html" class="title listing-title">BE : Réduction en dimension et segmentation d’image</a>
+</td>
+<td>
+<span class="listing-year">2024</span>
 </td>
 <td>
 <span class="listing-description">Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.</span>

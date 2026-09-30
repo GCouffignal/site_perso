@@ -7,8 +7,13 @@
     ]
   },
   {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
     "listing": "/enseignements/A3/index.html",
     "items": [
+      "/enseignements/A3/cours/outils-analyse-calcul-differentiel.html",
       "/enseignements/A3/cours/ma312-analyse-harmonique.html",
       "/enseignements/A3/cours/ma311-312-analyse-complexe.html",
       "/enseignements/A3/projets/inpainting.html",
@@ -16,10 +21,6 @@
       "/enseignements/A3/projets/ica.html",
       "/enseignements/A3/projets/reducpartimage.html"
     ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": []
   },
   {
     "listing": "/notes/index.html",
