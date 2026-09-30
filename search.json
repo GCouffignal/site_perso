@@ -181,52 +181,64 @@
     ]
   },
   {
-    "objectID": "enseignements/A3/index.html",
-    "href": "enseignements/A3/index.html",
-    "title": "A3 (Bac+3)",
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html",
+    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
     "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\n\n\nGénéralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.\n\n\n\n\n\n\nBE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.\n\n\nIntroduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.\n\n\n\n\n\n\nBE : une introduction à l’analyse en composantes indépendantes (ICA).\n\n\nSéparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».\n\n\n\n\n\n\nBE : Réduction en dimension et segmentation d’image\n\n\nSegmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Ce fascicule a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
     "crumbs": [
-      "A3 (Bac+3)"
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Ma312 : analyse harmonique (Fourier, Laplace)"
     ]
   },
   {
-    "objectID": "enseignements/A3/index.html#projets",
-    "href": "enseignements/A3/index.html#projets",
-    "title": "A3 (Bac+3)",
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
+    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
     "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\n\n\nGénéralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.\n\n\n\n\n\n\nBE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.\n\n\nIntroduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.\n\n\n\n\n\n\nBE : une introduction à l’analyse en composantes indépendantes (ICA).\n\n\nSéparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».\n\n\n\n\n\n\nBE : Réduction en dimension et segmentation d’image\n\n\nSegmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Ce fascicule a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
     "crumbs": [
-      "A3 (Bac+3)"
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Ma312 : analyse harmonique (Fourier, Laplace)"
     ]
   },
   {
-    "objectID": "autres-enseignements/index.html",
-    "href": "autres-enseignements/index.html",
-    "title": "Autres enseignements",
-    "section": "",
-    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre\n\nPartie 1 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : 📄 Télécharger / Consulter les slides au format PDF\n\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous” 📄 Télécharger / Consulter les slides au format PDF"
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
+    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Contenu",
+    "text": "Contenu\n\nSéries de Fourier : décomposition par une famille orthonormale, convergence (théorème de Dirichlet), noyau de Fejér et théorème de Parseval, lien avec la dérivation, convolution, noyau de Poisson et problème de Dirichlet sur le cercle.\nTransformée de Fourier : définitions et propriétés, théorème de Plancherel, relation d’incertitude, produit de convolution, formule de sommation de Poisson et ses conséquences.\nTransformée de Laplace : définition et conditions d’existence, propriétés, convolution des fonctions causales, transformée inverse.\nTransformée de Fourier discrète et transformation de Fourier rapide.",
+    "crumbs": [
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Ma312 : analyse harmonique (Fourier, Laplace)"
+    ]
   },
   {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Billets courts : réflexions, remarques, mathématiques.\n\n\n\n\n\n\n\n\nAucun article correspondant"
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
+    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Document",
+    "text": "Document\n📄 Télécharger / Consulter le fascicule de cours au format PDF",
+    "crumbs": [
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Ma312 : analyse harmonique (Fourier, Laplace)"
+    ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "G. Couffignal",
-    "section": "",
-    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
-  },
-  {
-    "objectID": "index.html#bienvenue",
-    "href": "index.html#bienvenue",
-    "title": "G. Couffignal",
-    "section": "",
-    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
+    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Travaux dirigés",
+    "text": "Travaux dirigés\n\nTD 1 : séries de Fourier. 📄 Énoncé au format PDF\nTD 2 : introduction à la transformée de Fourier. 📄 Énoncé au format PDF\nTD 3 : quelques applications de la transformée de Fourier, dont le théorème d’échantillonnage et le repliement de spectre (aliasing). 📄 Énoncé au format PDF\nTD 4 : transformée de Laplace. 📄 Énoncé au format PDF",
+    "crumbs": [
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Ma312 : analyse harmonique (Fourier, Laplace)"
+    ]
   },
   {
     "objectID": "enseignements/index.html",
@@ -246,6 +258,64 @@
     "text": "Projets (bureaux d’études)\nDans cette section, vous trouverez les sujets de projets proposés à mes étudiants de niveau A2 (Bac+2) et A3 (Bac+3). Ces projets couvrent divers domaines liés à l’informatique, à l’intelligence artificielle, à la vision par ordinateur, et plus encore. Chaque projet est accompagné d’une description détaillée, des objectifs, des ressources recommandées, et des critères d’évaluation. Chaque projet est conçu pour exemplifier et développer des notions précises de cours, ils sont donc écrits de manière à être accessibles aux étudiants ayant suivi les cours correspondants et sous la contrainte forte de ne pas nécessiter de connaissances préalables en dehors du cours.",
     "crumbs": [
       "Vue d'ensemble"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
+  },
+  {
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Billets courts : réflexions, remarques, mathématiques.\n\n\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "autres-enseignements/index.html",
+    "href": "autres-enseignements/index.html",
+    "title": "Autres enseignements",
+    "section": "",
+    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre\n\nPartie 1 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : 📄 Télécharger / Consulter les slides au format PDF\n\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous” 📄 Télécharger / Consulter les slides au format PDF"
+  },
+  {
+    "objectID": "enseignements/A3/index.html",
+    "href": "enseignements/A3/index.html",
+    "title": "A3 (Bac+3)",
+    "section": "",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa312 : Éléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/index.html#cours",
+    "href": "enseignements/A3/index.html#cours",
+    "title": "A3 (Bac+3)",
+    "section": "",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa312 : Éléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/index.html#projets",
+    "href": "enseignements/A3/index.html#projets",
+    "title": "A3 (Bac+3)",
+    "section": "Projets",
+    "text": "Projets\n\n\n\n\n\n\nTitre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\n\n\nGénéralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.\n\n\n\n\n\n\nBE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.\n\n\nIntroduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.\n\n\n\n\n\n\nBE : une introduction à l’analyse en composantes indépendantes (ICA).\n\n\nSéparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».\n\n\n\n\n\n\nBE : Réduction en dimension et segmentation d’image\n\n\nSegmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
     ]
   },
   {

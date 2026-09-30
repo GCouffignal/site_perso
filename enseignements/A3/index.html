@@ -78,6 +78,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-cours-a3 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-cours-a3'] = new List('listing-cours-a3', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-projets-a3 .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -292,12 +320,29 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
+ <span class="menu-text">Cours et exercices</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ma312 : analyse harmonique (Fourier, Laplace)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
@@ -336,7 +381,8 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#projets" id="toc-projets" class="nav-link active" data-scroll-target="#projets">Projets</a></li>
+  <li><a href="#cours" id="toc-cours" class="nav-link active" data-scroll-target="#cours">Cours et exercices</a></li>
+  <li><a href="#projets" id="toc-projets" class="nav-link" data-scroll-target="#projets">Projets</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
@@ -362,6 +408,40 @@ window.Quarto = {
 </header>
 
 
+<section id="cours" class="level2">
+<h2 class="anchored" data-anchor-id="cours">Cours et exercices</h2>
+<div id="listing-cours-a3" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Titre
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1790797807098" data-listing-reading-time-sort="2" data-listing-word-count-sort="263" data-listing-title-sort="Ma312 : Éléments d'analyse harmonique pour l'ingénieur" data-listing-filename-sort="ma312-analyse-harmonique.qmd">
+<td>
+<a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="title listing-title">Ma312 : Éléments d’analyse harmonique pour l’ingénieur</a>
+</td>
+<td>
+<span class="listing-description">Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Aucun article correspondant</div>
+</div>
+</section>
 <section id="projets" class="level2">
 <h2 class="anchored" data-anchor-id="projets">Projets</h2>
 <div id="listing-projets-a3" class="quarto-listing quarto-listing-container-table">
@@ -381,7 +461,7 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790775715696" data-listing-reading-time-sort="1" data-listing-word-count-sort="191" data-listing-title-sort="BE : en généralisant l'algorithme du gradient conjugué..." data-listing-filename-sort="inpainting.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790797807099" data-listing-reading-time-sort="1" data-listing-word-count-sort="191" data-listing-title-sort="BE : en généralisant l'algorithme du gradient conjugué..." data-listing-filename-sort="inpainting.qmd">
 <td>
 <a href="../../enseignements/A3/projets/inpainting.html" class="title listing-title">BE : en généralisant l’algorithme du gradient conjugué…</a>
 </td>
@@ -391,7 +471,7 @@ Description
 
 </tr>
 
-<tr data-index="1" data-listing-file-modified-sort="1790775715696" data-listing-reading-time-sort="2" data-listing-word-count-sort="328" data-listing-title-sort="BE : Introduction à la géométrie de l'information ou comment calculer pour comprendre pourquoi on se trompe." data-listing-filename-sort="geominf.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1790797807098" data-listing-reading-time-sort="2" data-listing-word-count-sort="328" data-listing-title-sort="BE : Introduction à la géométrie de l'information ou comment calculer pour comprendre pourquoi on se trompe." data-listing-filename-sort="geominf.qmd">
 <td>
 <a href="../../enseignements/A3/projets/geominf.html" class="title listing-title">BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.</a>
 </td>
@@ -401,7 +481,7 @@ Description
 
 </tr>
 
-<tr data-index="2" data-listing-file-modified-sort="1790775715696" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" data-listing-title-sort="BE : une introduction à l'analyse en composantes indépendantes (ICA)." data-listing-filename-sort="ica.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1790797807099" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" data-listing-title-sort="BE : une introduction à l'analyse en composantes indépendantes (ICA)." data-listing-filename-sort="ica.qmd">
 <td>
 <a href="../../enseignements/A3/projets/ica.html" class="title listing-title">BE : une introduction à l’analyse en composantes indépendantes (ICA).</a>
 </td>
@@ -411,7 +491,7 @@ Description
 
 </tr>
 
-<tr data-index="3" data-listing-file-modified-sort="1790775715696" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="BE : Réduction en dimension et segmentation d'image" data-listing-filename-sort="reducpartimage.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1790797807099" data-listing-reading-time-sort="2" data-listing-word-count-sort="230" data-listing-title-sort="BE : Réduction en dimension et segmentation d'image" data-listing-filename-sort="reducpartimage.qmd">
 <td>
 <a href="../../enseignements/A3/projets/reducpartimage.html" class="title listing-title">BE : Réduction en dimension et segmentation d’image</a>
 </td>

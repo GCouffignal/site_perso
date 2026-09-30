@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.">
+<meta name="description" content="Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.">
 
-<title>BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe. – Archives et Projets de Mathématiques</title>
+<title>Ma312 : Éléments d’analyse harmonique pour l’ingénieur – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,8 +77,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe. – Archives et Projets de Mathématiques">
-<meta property="og:description" content="Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.">
+<meta property="og:title" content="Ma312 : Éléments d’analyse harmonique pour l’ingénieur – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
 
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/geominf.html">BE : géométrie de l’information</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Ma312 : analyse harmonique (Fourier, Laplace)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Ma312 : analyse harmonique (Fourier, Laplace)</span></a>
   </div>
 </li>
@@ -265,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : géométrie de l’information</span></a>
   </div>
 </li>
@@ -295,23 +295,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
-  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
-  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#document" id="toc-document" class="nav-link" data-scroll-target="#document">Document</a></li>
+  <li><a href="#travaux-dirigés" id="toc-travaux-dirigés" class="nav-link" data-scroll-target="#travaux-dirigés">Travaux dirigés</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/geominf.html">BE : géométrie de l’information</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Ma312 : analyse harmonique (Fourier, Laplace)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.</h1>
+<h1 class="title">Ma312 : Éléments d’analyse harmonique pour l’ingénieur</h1>
 </div>
 
 <div>
   <div class="description">
-    Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.
+    Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.
   </div>
 </div>
 
@@ -328,23 +329,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="présentation-du-problème" class="level2">
-<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Le projet proposé suit deux buts principaux : donner une introduction à la géométrie de l’information, on obtient un point de vue différent sur les probabilités et les statistiques (en espérant que cet autre point de vue réconcilie un peu les plus récalcitrants aux statistiques…) et proposer une sorte de « laboratoire » d’épistémologie quantitative. Dans ce bureau d’étude nous allons réfléchir aux biais de cognitions et plus généralement voir par le calcul pourquoi on est souvent conduit à des erreurs de raisonnement. Nous prendrons la géométrie de l’information comme une sorte de modèle normatif de la rationalité face à de l’information à traiter et nous verrons en quoi cela peut nous éclairer et nuancer nos raisonnements. La longueur (en page) du sujet s’explique pour plusieurs raisons :</p>
-<p>• la présence de nombreux encart « Pause épistémologique », détaillant des biais cognitifs ou des remarques liés aux formalismes introduit. Certains de ces biais ou remarques pourraient s’appliquer à plusieurs questions du sujet, pour ne pas alourdir nous ne les répéterons pas (à vous d’identifier les différentes expressions formelles d’un même biais).</p>
-<p>• les questions sont souvent très découpées et les réponses sont souvent rapides.</p>
-<p>• les questions de statistiques et de probabilités demandent souvent un long « contexte » pour être formulées correctement.</p>
-<p>La spécificité de ce sujet est de traiter de biais cognitif de manière formelle et quantitative. En mobilisant vos connaissances diverses, une consigne générale sera de produire des exemples sourcés des différents biais et de regarder les réponses apportées par la formalisation du sujet.</p>
-<p>Attention les sujets et thèmes abordés ne le sont qu’en surface et il y aurait beaucoup (trop) de choses à dire sur de nombreux points. Vos ouvertures personnelles (en lien avec le sujet bien sûr!) et réflexions seront fortement valorisées.</p>
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Ce fascicule a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ces notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.</p>
+<p>Version du 15/09/2025.</p>
+</div>
+</div>
 </section>
-<section id="sujet-complet" class="level2">
-<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
-<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="../../../sujets_BE/Ma315_BE_2025_26.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<ul>
+<li>Séries de Fourier : décomposition par une famille orthonormale, convergence (théorème de Dirichlet), noyau de Fejér et théorème de Parseval, lien avec la dérivation, convolution, noyau de Poisson et problème de Dirichlet sur le cercle.</li>
+<li>Transformée de Fourier : définitions et propriétés, théorème de Plancherel, relation d’incertitude, produit de convolution, formule de sommation de Poisson et ses conséquences.</li>
+<li>Transformée de Laplace : définition et conditions d’existence, propriétés, convolution des fonctions causales, transformée inverse.</li>
+<li>Transformée de Fourier discrète et transformation de Fourier rapide.</li>
+</ul>
 </section>
-<section id="prérequis" class="level2">
-<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
-<p>Probabilités et statistiques de base, bases du calcul différentiel.</p>
+<section id="document" class="level2">
+<h2 class="anchored" data-anchor-id="document">Document</h2>
+<p><a href="Ma312_Fascicule_cours.pdf">📄 Télécharger / Consulter le fascicule de cours au format PDF</a></p>
+</section>
+<section id="travaux-dirigés" class="level2">
+<h2 class="anchored" data-anchor-id="travaux-dirigés">Travaux dirigés</h2>
+<ul>
+<li><strong>TD 1 : séries de Fourier.</strong> <a href="Ma312_TD1.pdf">📄 Énoncé au format PDF</a></li>
+<li><strong>TD 2 : introduction à la transformée de Fourier.</strong> <a href="Ma312_TD2.pdf">📄 Énoncé au format PDF</a></li>
+<li><strong>TD 3 : quelques applications de la transformée de Fourier</strong>, dont le théorème d’échantillonnage et le repliement de spectre (aliasing). <a href="Ma312_TD3.pdf">📄 Énoncé au format PDF</a></li>
+<li><strong>TD 4 : transformée de Laplace.</strong> <a href="Ma312_TD4.pdf">📄 Énoncé au format PDF</a></li>
+</ul>
 
 
 </section>

@@ -7,17 +7,18 @@
     ]
   },
   {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
     "listing": "/enseignements/A3/index.html",
     "items": [
+      "/enseignements/A3/cours/ma312-analyse-harmonique.html",
       "/enseignements/A3/projets/inpainting.html",
       "/enseignements/A3/projets/geominf.html",
       "/enseignements/A3/projets/ica.html",
       "/enseignements/A3/projets/reducpartimage.html"
     ]
-  },
-  {
-    "listing": "/blog/index.html",
-    "items": []
   },
   {
     "listing": "/notes/index.html",
