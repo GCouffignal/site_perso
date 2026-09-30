@@ -5,14 +5,18 @@ listing:
     contents: "cours/*.qmd"
     type: table
     sort: "order"
-    fields: [title, description]
+    fields: [title, year, description]
+    field-display-names:
+      year: "Année"
     sort-ui: false
     filter-ui: false
   - id: projets-a3
     contents: "projets/*.qmd"
     type: table
     sort: "order"
-    fields: [title, description]
+    fields: [title, year, description]
+    field-display-names:
+      year: "Année"
     sort-ui: false
     filter-ui: false
 ---

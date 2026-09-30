@@ -1,6 +1,7 @@
 ---
 title: "BE : détermination du mouvement apparent sur des images"
 description: "Détermination du mouvement apparent (flux optique) à partir des images d'une vidéo."
+year: "2024"
 order: 1
 aliases:
   - /projetA2_fluxopt.html
@@ -16,7 +17,7 @@ Dans ce BE nous allons nous intéresser au problème de la détermination du mou
 
 Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :
 
-[📄 Télécharger / Consulter le sujet au format PDF](/sujets_BE/Ma223_BE_2024.pdf)
+[📄 Télécharger / Consulter le sujet (2024) au format PDF](/sujets_BE/Ma223_BE_2024.pdf)
 
 
 ## Prérequis 

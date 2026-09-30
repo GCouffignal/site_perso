@@ -1,6 +1,7 @@
 ---
 title: "BE : Introduction à la géométrie de l'information ou comment calculer pour comprendre pourquoi on se trompe."
 description: "Introduction à la géométrie de l'information, comme « laboratoire » d'épistémologie quantitative : calculer pour comprendre les biais de cognition."
+year: "2025-2026"
 order: 2
 aliases:
   - /projetA3_geominf.html
@@ -29,7 +30,7 @@ Attention les sujets et thèmes abordés ne le sont qu'en surface et il y aurait
 
 Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :
 
-[📄 Télécharger / Consulter le sujet au format PDF](/sujets_BE/Ma315_BE_2025_26.pdf)
+[📄 Télécharger / Consulter le sujet (2025-2026) au format PDF](/sujets_BE/Ma315_BE_2025_26.pdf)
 
 ## Prérequis 
 
