@@ -1,6 +1,13 @@
 ---
 title: "A3 (Bac+3)"
 listing:
+  - id: cours-a3
+    contents: "cours/*.qmd"
+    type: table
+    sort: "order"
+    fields: [title, description]
+    sort-ui: false
+    filter-ui: false
   - id: projets-a3
     contents: "projets/*.qmd"
     type: table
@@ -9,6 +16,11 @@ listing:
     sort-ui: false
     filter-ui: false
 ---
+
+## Cours et exercices {#cours}
+
+::: {#cours-a3}
+:::
 
 ## Projets {#projets}
 
