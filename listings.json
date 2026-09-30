@@ -1,21 +1,25 @@
 [
   {
-    "listing": "/notes/index.html",
-    "items": [
-      "/notes/valeurs/index.html",
-      "/notes/geometries/index.html",
-      "/notes/maths-philosophie/index.html",
-      "/notes/echanges-info-maths/index.html",
-      "/notes/homotopie-kan/index.html",
-      "/notes/kan-cavailles-sphere/index.html",
-      "/notes/kan-cavailles-avril/index.html"
-    ]
-  },
-  {
     "listing": "/enseignements/A1/index.html",
     "items": [
       "/enseignements/A1/cours/dm-timee.html",
       "/enseignements/A1/cours/kit-survie-analyse.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": []
+  },
+  {
+    "listing": "/seminaires/index.html",
+    "items": [
+      "/seminaires/valeurs/index.html",
+      "/seminaires/geometries/index.html",
+      "/seminaires/maths-philosophie/index.html",
+      "/seminaires/echanges-info-maths/index.html",
+      "/seminaires/homotopie-kan/index.html",
+      "/seminaires/kan-cavailles-sphere/index.html",
+      "/seminaires/kan-cavailles-avril/index.html"
     ]
   },
   {
@@ -31,8 +35,11 @@
     ]
   },
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/enseignements/autres/index.html",
+    "items": [
+      "/enseignements/autres/cours/castoriadis.html",
+      "/enseignements/autres/cours/histoire-des-mathematiques.html"
+    ]
   },
   {
     "listing": "/enseignements/A2/index.html",

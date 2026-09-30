@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.">
 
-<title>BE : Réduction en dimension et segmentation d’image – Archives et Projets de Mathématiques</title>
+<title>Séminaires – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,23 +29,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,25 +75,80 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="BE : Réduction en dimension et segmentation d’image – Archives et Projets de Mathématiques">
-<meta property="og:description" content="Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.">
-<meta property="og:image" content="https://gcouffignal.github.io/site_perso/sujets_BE/test8.png">
+    const options = {
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="Séminaires – Archives et Projets de Mathématiques">
+<meta property="og:description" content="">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
-<meta property="og:image:height" content="512">
-<meta property="og:image:width" content="1515">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -103,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -112,37 +168,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="../../../enseignements/index.html">
+    <a class="dropdown-item" href="../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
+    <a class="dropdown-item" href="../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
+    <a class="dropdown-item" href="../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
+    <a class="dropdown-item" href="../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/autres/index.html">
+    <a class="dropdown-item" href="../enseignements/autres/index.html">
  <span class="dropdown-text">Autres enseignements</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../seminaires/index.html"> 
+    <a class="nav-link active" href="../seminaires/index.html" aria-current="page"> 
 <span class="menu-text">Séminaires</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog/index.html"> 
+    <a class="nav-link" href="../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -151,246 +207,22 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/reducpartimage.html">BE : réduction en dimension, segmentation (2024)</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vue d’ensemble</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A1 (Bac+1)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A1/cours/dm-timee.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DM : autour du Timée (2016-2017)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A1/cours/kit-survie-analyse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kit de survie d’analyse (2015-2016)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A2 (Bac+2)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse numérique matricielle (2026)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : flux optique (2024)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A3 (Bac+3)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Calcul différentiel, Typst (2026-2027)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse harmonique (2025)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse complexe (2021-2022)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : gradient conjugué, inpainting (2024)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : géométrie de l’information (2025-2026)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : analyse en composantes indépendantes (2023)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/autres/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Autres enseignements</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/autres/cours/castoriadis.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Pensée de Castoriadis (2018-2019)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/autres/cours/histoire-des-mathematiques.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Histoire des mathématiques (2013)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Sur cette page</h2>
-   
-  <ul>
-  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
-  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
-  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/reducpartimage.html">BE : réduction en dimension, segmentation (2024)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BE : Réduction en dimension et segmentation d’image</h1>
+<h1 class="title">Séminaires</h1>
 </div>
 
-<div>
-  <div class="description">
-    Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -405,36 +237,133 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="présentation-du-problème" class="level2">
-<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :</p>
-<ol type="1">
-<li><p>choisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.</p></li>
-<li><p>Pour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.</p></li>
-<li><p>L’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).</p></li>
-<li><p>Utiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.</p></li>
-<li><p>On utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.</p></li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../sujets_BE/test8.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption>Résultat de l’algorithme de segmentation par ACP.</figcaption>
-</figure>
-</div>
-</section>
-<section id="sujet-complet" class="level2">
-<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
-<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="../../../sujets_BE/Ma324_BE_2024.pdf">📄 Télécharger / Consulter le sujet (2024) au format PDF</a></p>
-</section>
-<section id="prérequis" class="level2">
-<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
-<p>Bases du calcul différentiel. analyse en composantes principales</p>
+<p>Présentations données lors de séminaires et d’exposés, pour des étudiants, des collègues ou un public non spécialiste.</p>
+<!--
+Pour ajouter un séminaire : créer un dossier seminaires/<nom>/ contenant un fichier
+index.qmd (avec title, description, year et order) et son PDF. Il apparaît alors
+automatiquement dans la liste de cette page. Les plus récents ont les numéros
+d'ordre (order) les plus petits.
+-->
 
 
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Titre
+</th>
+
+<th>
+Année
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1790802450014" data-listing-reading-time-sort="1" data-listing-word-count-sort="131" data-listing-title-sort="Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/valeurs/index.html" class="title listing-title">Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme</a>
+</td>
+<td>
+<span class="listing-year">2019</span>
+</td>
+<td>
+<span class="listing-description">Séminaire pour les étudiants de l’IPSA (25 février 2019) : sociétés, individus, choses et valeurs, modèle de la cité, capitalisme intégral.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1790802450001" data-listing-reading-time-sort="1" data-listing-word-count-sort="128" data-listing-title-sort="De la géométrie aux géométries : une promenade mathématico-historique" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/geometries/index.html" class="title listing-title">De la géométrie aux géométries : une promenade mathématico-historique</a>
+</td>
+<td>
+<span class="listing-year">2018</span>
+</td>
+<td>
+<span class="listing-description">Séminaire pour les étudiants de l’IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes.</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1790802450010" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Des mathématiques à la philosophie… …de la philosophie aux mathématiques" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/maths-philosophie/index.html" class="title listing-title">Des mathématiques à la philosophie… …de la philosophie aux mathématiques</a>
+</td>
+<td>
+<span class="listing-year">2017</span>
+</td>
+<td>
+<span class="listing-description">Séminaire tout public pour l’association La Sauce aux idées (12 mai 2017) : allers-retours entre mathématiques et philosophie.</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1790802449995" data-listing-reading-time-sort="1" data-listing-word-count-sort="73" data-listing-title-sort="Échanges entre informatique et mathématiques, ou une noix dans un verre d'eau" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/echanges-info-maths/index.html" class="title listing-title">Échanges entre informatique et mathématiques, ou une noix dans un verre d’eau</a>
+</td>
+<td>
+<span class="listing-year">mai 2014</span>
+</td>
+<td>
+<span class="listing-description">Séminaire étudiant IMT-IRIT (université Paul Sabatier, 14 mai 2014), avec Mathias Winckel : exemples historiques d’échanges entre logique, informatique, topologie, physique et linguistique, systèmes formels, logique externe et logique interne.</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1790802450002" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-title-sort="La théorie des catégories et la théorie de l'homotopie chez Daniel Kan" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/homotopie-kan/index.html" class="title listing-title">La théorie des catégories et la théorie de l’homotopie chez Daniel Kan</a>
+</td>
+<td>
+<span class="listing-year">mars 2014</span>
+</td>
+<td>
+<span class="listing-description">Séminaire à l’université Paul Sabatier (mars 2014) : les premiers travaux de Daniel Kan en théorie de l’homotopie, et le problème de l’identification.</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1790802450006" data-listing-reading-time-sort="1" data-listing-word-count-sort="129" data-listing-title-sort="Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/kan-cavailles-sphere/index.html" class="title listing-title">Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès</a>
+</td>
+<td>
+<span class="listing-year">juin 2013</span>
+</td>
+<td>
+<span class="listing-description">Séminaire Mathématiques et philosophie, 19e et 20e siècles (SΦHERE), 25 juin 2013 : paradigme et thématisation chez Cavaillès, processus de production et de comparaison en mathématique, de l’homotopie à l’identification.</span>
+</td>
+
+</tr>
+
+<tr data-index="6" data-listing-file-modified-sort="1790802450004" data-listing-reading-time-sort="1" data-listing-word-count-sort="109" data-listing-title-sort="Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d'avril 2013)" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../seminaires/kan-cavailles-avril/index.html" class="title listing-title">Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d’avril 2013)</a>
+</td>
+<td>
+<span class="listing-year">avril 2013</span>
+</td>
+<td>
+<span class="listing-description">Exposé d’avril 2013 : une étude philosophique (Cavaillès), une étude mathématique (premiers travaux de Kan en théorie de l’homotopie), puis une synthèse.</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Aucun article correspondant</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -840,4 +769,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></div></div></footer></body></html>

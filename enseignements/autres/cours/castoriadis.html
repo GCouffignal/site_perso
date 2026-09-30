@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.">
+<meta name="description" content="Séminaire Arts et Culture de l’ISAE (2018-2019, niveau Bac+3/+4) : introduction à la philosophie politique de Castoriadis, intérêt du monde grec ancien, étude du texte « Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous ».">
 
-<title>BE : Réduction en dimension et segmentation d’image – Archives et Projets de Mathématiques</title>
+<title>Introduction à la pensée de Cornelius Castoriadis – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -77,12 +77,9 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="BE : Réduction en dimension et segmentation d’image – Archives et Projets de Mathématiques">
-<meta property="og:description" content="Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.">
-<meta property="og:image" content="https://gcouffignal.github.io/site_perso/sujets_BE/test8.png">
+<meta property="og:title" content="Introduction à la pensée de Cornelius Castoriadis – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Séminaire Arts et Culture de l’ISAE (2018-2019, niveau Bac+3/+4) : introduction à la philosophie politique de Castoriadis, intérêt du monde grec ancien, étude du texte « Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous ».">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
-<meta property="og:image:height" content="512">
-<meta property="og:image:width" content="1515">
 </head>
 
 <body class="nav-sidebar docked nav-fixed quarto-light">
@@ -156,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/reducpartimage.html">BE : réduction en dimension, segmentation (2024)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/autres/index.html">Autres enseignements</a></li><li class="breadcrumb-item"><a href="../../../enseignements/autres/cours/castoriadis.html">Cours</a></li><li class="breadcrumb-item"><a href="../../../enseignements/autres/cours/castoriadis.html">Pensée de Castoriadis (2018-2019)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -320,7 +317,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
   </div>
 </li>
@@ -348,7 +345,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/autres/cours/castoriadis.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/autres/cours/castoriadis.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Pensée de Castoriadis (2018-2019)</span></a>
   </div>
 </li>
@@ -372,23 +369,23 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
-  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
-  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#documents" id="toc-documents" class="nav-link" data-scroll-target="#documents">Documents</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/reducpartimage.html">BE : réduction en dimension, segmentation (2024)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/autres/index.html">Autres enseignements</a></li><li class="breadcrumb-item"><a href="../../../enseignements/autres/cours/castoriadis.html">Cours</a></li><li class="breadcrumb-item"><a href="../../../enseignements/autres/cours/castoriadis.html">Pensée de Castoriadis (2018-2019)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">BE : Réduction en dimension et segmentation d’image</h1>
+<h1 class="title">Introduction à la pensée de Cornelius Castoriadis</h1>
 </div>
 
 <div>
   <div class="description">
-    Segmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.
+    Séminaire Arts et Culture de l’ISAE (2018-2019, niveau Bac+3/+4) : introduction à la philosophie politique de Castoriadis, intérêt du monde grec ancien, étude du texte « Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous ».
   </div>
 </div>
 
@@ -405,31 +402,24 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="présentation-du-problème" class="level2">
-<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Le but principal de ce BE est de créer un algorithme de partitionnement ou segmentation d’image (clustering) qui consistera dans ses grandes lignes à :</p>
-<ol type="1">
-<li><p>choisir des points au hasard sur une image : position i,j en lignes et colonnes sur l’image.</p></li>
-<li><p>Pour chaque pixel (i,j) on associera un vecteur (ligne) contenant la position i,j ainsi que l’intensité des trois couches de couleurs mais également d’autres paramètres que vous définirez par la suite.</p></li>
-<li><p>L’étape précédente permet de créer une matrice où chaque ligne représente les pixels choisis. On réalisera ensuite une réduction en dimension 2 sur ce tableau soit par une ACP classique ou par un auto-encodeur. On obtient une représentation 2D des pixels considérés avec leurs attributs (positions, couleurs, etc…).</p></li>
-<li><p>Utiliser l’algorithme des k-moyennes pour créer des catégories/partitions entre les pixels. On associera à chaque catégorie une couleur afin de créer un « masque ponctuel » sur l’image.</p></li>
-<li><p>On utilisera enfin un algorithme d’inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l’image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l’image totale.</p></li>
-</ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../sujets_BE/test8.png" class="img-fluid figure-img" style="width:75.0%"></p>
-<figcaption>Résultat de l’algorithme de segmentation par ACP.</figcaption>
-</figure>
-</div>
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Cours d’introduction à la pensée de Cornelius Castoriadis, donné à l’ISAE (niveau Bac+3/+4), dans le cadre du séminaire Arts et Culture, sur la philosophie politique de ce penseur. Il comporte huit séances. Le travail demandé aux étudiants est le commentaire d’un texte de Castoriadis, mis en rapport avec une ou plusieurs problématiques actuelles.</p>
 </section>
-<section id="sujet-complet" class="level2">
-<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
-<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="../../../sujets_BE/Ma324_BE_2024.pdf">📄 Télécharger / Consulter le sujet (2024) au format PDF</a></p>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<ul>
+<li>Introduction et première lecture : éléments biographiques.</li>
+<li>De l’intérêt du monde grec ancien pour nous (deux à trois séances) : évolution historique des institutions à Athènes, sociétés hétéronomes et sociétés autonomes.</li>
+<li>Autour du texte « Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous » (quatre séances) : analyse du passage de Marx, retour à Aristote et au livre V de l’<em>Éthique à Nicomaque</em>, variations autour de l’équation fondamentale.</li>
+</ul>
 </section>
-<section id="prérequis" class="level2">
-<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
-<p>Bases du calcul différentiel. analyse en composantes principales</p>
+<section id="documents" class="level2">
+<h2 class="anchored" data-anchor-id="documents">Documents</h2>
+<ul>
+<li><strong>Partie 1 : introduction à la pensée de Castoriadis.</strong> <a href="../../../Autres_cours/seance_1.pdf">📄 Diapositives au format PDF</a></li>
+<li><strong>Partie 2 : autour du texte « Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous ».</strong> <a href="../../../Autres_cours/seance_2.pdf">📄 Diapositives au format PDF</a></li>
+</ul>
 
 
 </section>

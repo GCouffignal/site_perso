@@ -2,110 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gcouffignal.github.io/site_perso/about.html</loc>
-    <lastmod>2026-09-30T20:50:44.267Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/echanges-info-maths/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.315Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/maths-philosophie/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.329Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/geometries/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.321Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.322Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.944Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A2/cours/ma223-analyse-numerique-matricielle.html</loc>
-    <lastmod>2026-09-30T20:50:44.285Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.963Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A1/cours/kit-survie-analyse.html</loc>
-    <lastmod>2026-09-30T20:50:44.270Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.947Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A1/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.270Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.947Z</lastmod>
   </url>
   <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/ica.html</loc>
-    <lastmod>2026-09-30T20:50:44.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/reducpartimage.html</loc>
-    <lastmod>2026-09-30T20:50:44.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/ma311-312-analyse-complexe.html</loc>
-    <lastmod>2026-09-30T20:50:44.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/autres-enseignements/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.267Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/blog/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.268Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.314Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/ma312-analyse-harmonique.html</loc>
-    <lastmod>2026-09-30T20:50:44.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/outils-analyse-calcul-differentiel.html</loc>
-    <lastmod>2026-09-30T20:50:44.312Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/inpainting.html</loc>
-    <lastmod>2026-09-30T20:50:44.314Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/autres/cours/castoriadis.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/geominf.html</loc>
-    <lastmod>2026-09-30T20:50:44.312Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/inpainting.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/outils-analyse-calcul-differentiel.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/ma312-analyse-harmonique.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/blog/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/echanges-info-maths/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.995Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/maths-philosophie/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.010Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/geometries/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.001Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/kan-cavailles-sphere/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.006Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/kan-cavailles-avril/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.004Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/homotopie-kan/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.002Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/seminaires/valeurs/index.html</loc>
+    <lastmod>2026-09-30T21:07:30.014Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/cours/ma311-312-analyse-complexe.html</loc>
+    <lastmod>2026-09-30T21:07:29.991Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/reducpartimage.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/ica.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/autres/index.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/autres/cours/histoire-des-mathematiques.html</loc>
+    <lastmod>2026-09-30T21:07:29.992Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A1/cours/dm-timee.html</loc>
-    <lastmod>2026-09-30T20:50:44.270Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.947Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A2/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.285Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.963Z</lastmod>
   </url>
   <url>
     <loc>https://gcouffignal.github.io/site_perso/enseignements/A2/projets/fluxopt.html</loc>
-    <lastmod>2026-09-30T20:50:44.285Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/kan-cavailles-sphere/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.326Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/kan-cavailles-avril/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.324Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/homotopie-kan/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.322Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gcouffignal.github.io/site_perso/notes/valeurs/index.html</loc>
-    <lastmod>2026-09-30T20:50:44.333Z</lastmod>
+    <lastmod>2026-09-30T21:07:29.963Z</lastmod>
   </url>
 </urlset>
