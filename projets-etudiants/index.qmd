@@ -1,0 +1,20 @@
+---
+title: "Projets étudiants"
+---
+
+# Information
+
+Dans cette section, vous trouverez les sujets de projets proposés à mes étudiants de niveau Bac+2 et Bac+3. Ces projets couvrent divers domaines liés à l'informatique, à l'intelligence artificielle, à la vision par ordinateur, et plus encore. Chaque projet est accompagné d'une description détaillée, des objectifs, des ressources recommandées, et des critères d'évaluation. Chaque projet est conçu pour exemplifier et développer des notions précises de cours, ils sont donc écrits de manière à être accessibles aux étudiants ayant suivi les cours correspondants et sous la contrainte forte de ne pas nécessiter de connaissances préalables en dehors du cours.
+
+## Projets Bac+2
+
+- [BE: Détermination flux optique](../projetA2_fluxopt.qmd)
+<!-- Ajoutez d'autres projets Bac+2 ici -->
+
+## Projets Bac+3
+
+- [BE : en généralisant l'algorithme du gradient conjugué...](../projetA3_inpainting.qmd)
+- [BE : Introduction à la géométrie de l'information](../projetA3_geominf.qmd)
+- [BE : une introduction à l'analyse en composantes indépendantes (ICA)](../projetA3_ICA.qmd)
+- [BE : Réduction en dimension et segmentation d'image](../projetA3_reducpartimage.qmd)
+<!-- Ajoutez d'autres projets Bac+3 ici -->
