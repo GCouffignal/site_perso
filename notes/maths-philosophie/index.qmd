@@ -1,0 +1,22 @@
+---
+title: "Des mathématiques à la philosophie… …de la philosophie aux mathématiques"
+description: "Séminaire tout public pour l'association La Sauce aux idées (12 mai 2017) : allers-retours entre mathématiques et philosophie."
+year: "2017"
+order: 3
+---
+
+## Présentation
+
+Exposé présenté le 12 mai 2017 à Clermont-le-Fort, pour l'association La Sauce aux idées, devant un public non spécialiste. Il explore des allers-retours entre mathématiques et philosophie.
+
+## Contenu
+
+Trois chapitres :
+
+* De ce que les mathématiques nous disent des nombres.
+* De ce que les nombres nous disent en philosophie (politique).
+* De ce que la philosophie (politique) nous dit des mathématiques.
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (2017) au format PDF](Des_mathematiques_a_la_philosophie.pdf)

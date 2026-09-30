@@ -1,0 +1,20 @@
+---
+title: "Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d'avril 2013)"
+description: "Exposé d'avril 2013 : une étude philosophique (Cavaillès), une étude mathématique (premiers travaux de Kan en théorie de l'homotopie), puis une synthèse."
+year: "avril 2013"
+order: 6
+---
+
+## Présentation
+
+Exposé d'avril 2013, donné depuis l'université Paul Sabatier de Toulouse, sur le même thème que l'[exposé de juin 2013](../kan-cavailles-sphere/index.qmd), avec un plan différent : une étude philosophique, puis une étude mathématique, puis une synthèse. Voir aussi l'exposé de [mars 2014](../homotopie-kan/index.qmd).
+
+## Contenu
+
+* **Paradigme et thématisation chez Cavaillès** : une interprétation catégorique.
+* **Un exemple mathématique** : les premiers travaux en théorie de l'homotopie du mathématicien Daniel Kan.
+* **Processus de production et de comparaison en mathématique**, avec l'hypothèse que les processus qui permettent à la fois de produire et de comparer sont nécessaires à la pratique et aux développements des mathématiques.
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (avril 2013) au format PDF](Kan_Cavailles_avril_2013.pdf)

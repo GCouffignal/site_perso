@@ -1,0 +1,23 @@
+---
+title: "Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès"
+description: "Séminaire Mathématiques et philosophie, 19e et 20e siècles (SΦHERE), 25 juin 2013 : paradigme et thématisation chez Cavaillès, processus de production et de comparaison en mathématique, de l'homotopie à l'identification."
+year: "juin 2013"
+order: 5
+---
+
+## Présentation
+
+Exposé présenté le 25 juin 2013 dans le cadre du séminaire « Mathématiques et philosophie, 19e et 20e siècles » (SΦHERE), depuis l'université Paul Sabatier de Toulouse.
+
+Sur le même sujet, voir aussi l'[exposé d'avril 2013](../kan-cavailles-avril/index.qmd) et celui de [mars 2014](../homotopie-kan/index.qmd).
+
+## Contenu
+
+* Introduction : pourquoi s'intéresser au mathématicien Daniel Kan, créateur de concepts catégoriques importants (notion générale de limite et de colimite, adjonction, extension de Kan) et en topologie algébrique (approche simpliciale, complexes de Kan).
+* Paradigme et thématisation chez Cavaillès, dans une approche inspirée de la théorie des catégories.
+* Processus de production et de comparaison en mathématique.
+* Exemple : de l'homotopie à l'identification, avec les catégories « relatives » (une catégorie munie d'une classe de flèches, les équivalences faibles).
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (juin 2013) au format PDF](Kan_Cavailles_juin_2013.pdf)

@@ -15,4 +15,4 @@ about:
 
 ## Bienvenue
 
-Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion.
+Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes, des présentations de séminaires et des billets de réflexion.

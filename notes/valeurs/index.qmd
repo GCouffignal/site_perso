@@ -1,0 +1,21 @@
+---
+title: "Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme"
+description: "Séminaire pour les étudiants de l'IPSA (25 février 2019) : sociétés, individus, choses et valeurs, modèle de la cité, capitalisme intégral."
+year: "2019"
+order: 1
+---
+
+## Présentation
+
+Exposé présenté le 25 février 2019 lors d'un séminaire destiné aux étudiants de l'IPSA. Il prolonge un travail mené avec Luc Boltanski et Arnaud Esquerre, ainsi que l'annexe rédigée par l'auteur dans l'ouvrage *Enrichissement*.
+
+## Contenu
+
+* Comment définir la société ? Sociétés, individus, choses et valeurs.
+* De la valeur des choses : l'analyse est limitée à notre type de société et aux marchandises.
+* Le cosmos des individus et le modèle de la cité, d'après *De la justification* de L. Boltanski et L. Thévenot, puis les formes de mise en valeur présentées dans *Enrichissement* de L. Boltanski et A. Esquerre.
+* Analyse de notre société : quelle forme de valeur (standard, collection, tendance, actif) et quel modèle de cité ? Le capitalisme intégral ?
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (2019) au format PDF](Des_valeurs.pdf)
