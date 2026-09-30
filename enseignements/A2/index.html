@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-d779191fb58665fba6013d76b5d4c7b3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,6 +76,34 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-cours-a2 .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-cours-a2'] = new List('listing-cours-a2', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-projets-a2 .list');
@@ -247,12 +275,29 @@ window.Quarto = {
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
+ <span class="menu-text">Cours et exercices</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ma223 : analyse numérique matricielle (SVD)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
@@ -267,20 +312,20 @@ window.Quarto = {
       <div class="sidebar-item-container"> 
             <a href="../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A3 (Bac+3)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
@@ -319,7 +364,8 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#projets" id="toc-projets" class="nav-link active" data-scroll-target="#projets">Projets</a></li>
+  <li><a href="#cours" id="toc-cours" class="nav-link active" data-scroll-target="#cours">Cours et exercices</a></li>
+  <li><a href="#projets" id="toc-projets" class="nav-link" data-scroll-target="#projets">Projets</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
@@ -345,31 +391,15 @@ window.Quarto = {
 </header>
 
 
-<section id="projets" class="level2">
-<h2 class="anchored" data-anchor-id="projets">Projets</h2>
-<div id="listing-projets-a2" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-    <select id="listing-projets-a2-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-projets-a2'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-      <option value="" disabled="" selected="" hidden="">Trier par</option>
-      <option value="index" data-direction="asc">Ordre par défaut</option>
-      <option value="listing-title-sort" data-direction="asc">
-        Titre
-      </option>
-    </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filtre">
-    </div>
-</div>
+<section id="cours" class="level2">
+<h2 class="anchored" data-anchor-id="cours">Cours et exercices</h2>
+<div id="listing-cours-a2" class="quarto-listing quarto-listing-container-table">
 <table class="quarto-listing-table table">
 <thead>
 <tr>
 
 <th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titre</a>
+Titre
 </th>
 
 <th>
@@ -380,7 +410,41 @@ Description
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-file-modified-sort="1790774299922" data-listing-reading-time-sort="1" data-listing-word-count-sort="157" data-listing-title-sort="BE : détermination du mouvement apparent sur des images" data-listing-filename-sort="fluxopt.qmd">
+<tr data-index="0" data-listing-file-modified-sort="1790775715695" data-listing-reading-time-sort="1" data-listing-word-count-sort="184" data-listing-title-sort="Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières" data-listing-filename-sort="ma223-analyse-numerique-matricielle.qmd">
+<td>
+<a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="title listing-title">Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières</a>
+</td>
+<td>
+<span class="listing-description">Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
+<div class="listing-no-matching d-none">Aucun article correspondant</div>
+</div>
+</section>
+<section id="projets" class="level2">
+<h2 class="anchored" data-anchor-id="projets">Projets</h2>
+<div id="listing-projets-a2" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+
+<th>
+Titre
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1790775715695" data-listing-reading-time-sort="1" data-listing-word-count-sort="157" data-listing-title-sort="BE : détermination du mouvement apparent sur des images" data-listing-filename-sort="fluxopt.qmd">
 <td>
 <a href="../../enseignements/A2/projets/fluxopt.html" class="title listing-title">BE : détermination du mouvement apparent sur des images</a>
 </td>

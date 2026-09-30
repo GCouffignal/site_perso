@@ -1,7 +1,10 @@
 [
   {
-    "listing": "/blog/index.html",
-    "items": []
+    "listing": "/enseignements/A2/index.html",
+    "items": [
+      "/enseignements/A2/cours/ma223-analyse-numerique-matricielle.html",
+      "/enseignements/A2/projets/fluxopt.html"
+    ]
   },
   {
     "listing": "/enseignements/A3/index.html",
@@ -13,10 +16,8 @@
     ]
   },
   {
-    "listing": "/enseignements/A2/index.html",
-    "items": [
-      "/enseignements/A2/projets/fluxopt.html"
-    ]
+    "listing": "/blog/index.html",
+    "items": []
   },
   {
     "listing": "/notes/index.html",

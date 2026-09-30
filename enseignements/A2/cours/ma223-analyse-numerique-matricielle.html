@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.">
 
-<title>Autres enseignements – Archives et Projets de Mathématiques</title>
+<title>Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,20 +76,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Autres enseignements – Archives et Projets de Mathématiques">
-<meta property="og:description" content="">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -99,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -108,37 +109,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="../enseignements/index.html">
+    <a class="dropdown-item" href="../../../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/A1/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/A2/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../enseignements/A3/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="../autres-enseignements/index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../autres-enseignements/index.html"> 
 <span class="menu-text">Autres enseignements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../notes/index.html"> 
+    <a class="nav-link" href="../../../notes/index.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -147,29 +148,155 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A2/index.html">A2 (Bac+2)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html">Ma223 : analyse numérique matricielle (SVD)</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vue d’ensemble</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A1 (Bac+1)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A2 (Bac+2)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Cours et exercices</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Ma223 : analyse numérique matricielle (SVD)</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : flux optique</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A3 (Bac+3)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : gradient conjugué, inpainting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : géométrie de l’information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : analyse en composantes indépendantes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : réduction en dimension, segmentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#histoire-des-mathématiques-avec-c.-eckes" id="toc-histoire-des-mathématiques-avec-c.-eckes" class="nav-link active" data-scroll-target="#histoire-des-mathématiques-avec-c.-eckes">Histoire des mathématiques (avec C. Eckes)</a></li>
-  <li><a href="#introduction-à-la-pensée-de-cornelius-castoriadis" id="toc-introduction-à-la-pensée-de-cornelius-castoriadis" class="nav-link" data-scroll-target="#introduction-à-la-pensée-de-cornelius-castoriadis">Introduction à la pensée de Cornelius Castoriadis</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#document" id="toc-document" class="nav-link" data-scroll-target="#document">Document</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A2/index.html">A2 (Bac+2)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html">Ma223 : analyse numérique matricielle (SVD)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Autres enseignements</h1>
+<h1 class="title">Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières</h1>
 </div>
 
+<div>
+  <div class="description">
+    Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -184,24 +311,38 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.</p>
-<section id="histoire-des-mathématiques-avec-c.-eckes" class="level1">
-<h1>Histoire des mathématiques (avec C. Eckes)</h1>
-<p>Cours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).</p>
-<p><strong>Partie 1 : Généralités et géométrie</strong> <a href="../Autres_cours/P1 geometrie.pdf">📄 Télécharger / Consulter les slides au format PDF</a></p>
-<p><strong>Partie 2 : De la règle et du compas à l’algèbre</strong></p>
-<ul>
-<li>Partie 1 : <a href="../Autres_cours/P2_regle_compas.pdf">📄 Télécharger / Consulter les slides au format PDF</a></li>
-<li>Partie 2 : <a href="../Autres_cours/P2_regle_compas_2.pdf">📄 Télécharger / Consulter les slides au format PDF</a></li>
-</ul>
-<p><strong>Partie 3 : Sur la construction des nombres réels</strong> <a href="../Autres_cours/P3_construction_des_reels.pdf">📄 Télécharger / Consulter les slides au format PDF</a></p>
-<hr>
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Ce fascicule a été rédigé pour la seconde année (A2) de l’IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Avertissement
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Ces notes ne constituent pas un cours exhaustif d’analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l’accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).</p>
+<p>Version préliminaire du 12/04/2026.</p>
+</div>
+</div>
 </section>
-<section id="introduction-à-la-pensée-de-cornelius-castoriadis" class="level1">
-<h1>Introduction à la pensée de Cornelius Castoriadis</h1>
-<p>Cours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.</p>
-<p><strong>Partie 1 : Introduction à la pensée de Castoriadis</strong> <a href="../Autres_cours/seance_1.pdf">📄 Télécharger / Consulter les slides au format PDF</a></p>
-<p><strong>Partie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous”</strong> <a href="../Autres_cours/seance_2.pdf">📄 Télécharger / Consulter les slides au format PDF</a></p>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<ul>
+<li>Décomposition en valeurs singulières : structure euclidienne de l’espace des matrices, norme de Frobenius, SVD, valeurs singulières comme mesure de l’information.</li>
+<li>Théorème d’Eckart-Young-Mirsky et ses conséquences : problème d’approximation de Schmidt, compression d’image, analyse en composantes principales (version algébrique).</li>
+<li>Analyse procustéenne linéaire : cas d’une transformation orthogonale, cas d’une transformation affine, exemples sous Python.</li>
+<li>Moindres carrés : résolution par SVD, moindres carrés totaux, exemple d’apprentissage supervisé (reconnaissance de chiffres manuscrits).</li>
+<li>Ouverture : décompositions biconjuguées.</li>
+<li>Annexes : rappels de calcul matriciel, formes bilinéaires et quadratiques, produit de Kronecker, éléments de Python (dont OpenCV), bibliographie.</li>
+</ul>
+</section>
+<section id="document" class="level2">
+<h2 class="anchored" data-anchor-id="document">Document</h2>
+<p><a href="Ma223_Cours.pdf">📄 Télécharger / Consulter le cours au format PDF</a></p>
 
 
 </section>
