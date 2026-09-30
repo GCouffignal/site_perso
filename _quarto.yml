@@ -41,7 +41,7 @@ website:
     - id: enseignements
       title: "Enseignements mathématiques"
       style: docked
-      collapse-level: 2
+      collapse-level: 3
       contents:
         - href: enseignements/index.qmd
           text: "Vue d'ensemble"

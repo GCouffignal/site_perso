@@ -3,7 +3,7 @@ title: "A2 (Bac+2)"
 listing:
   - id: projets-a2
     contents: "projets/*.qmd"
-    type: default
+    type: table
     sort: "order"
     fields: [title, description]
 ---
