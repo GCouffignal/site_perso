@@ -1,0 +1,23 @@
+---
+title: "Autres enseignements"
+aliases:
+  - /autres-cours.html
+  - /autres-enseignements/index.html
+listing:
+  - id: cours-autres
+    contents: "cours/*.qmd"
+    type: table
+    sort: "order"
+    fields: [title, year, description]
+    field-display-names:
+      year: "Année"
+    sort-ui: false
+    filter-ui: false
+---
+
+Cette section rassemble d'autres cours et présentations que j'ai préparés pour des étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets, de l'histoire des mathématiques à la philosophie.
+
+## Cours {#cours}
+
+::: {#cours-autres}
+:::

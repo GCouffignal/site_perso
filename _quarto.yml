@@ -24,8 +24,8 @@ website:
             text: "A2 (Bac+2)"
           - href: enseignements/A3/index.qmd
             text: "A3 (Bac+3)"
-      - href: autres-enseignements/index.qmd
-        text: "Autres enseignements"
+          - href: enseignements/autres/index.qmd
+            text: "Autres enseignements"
       - href: notes/index.qmd
         text: "Notes et présentations"
       - href: blog/index.qmd
@@ -86,6 +86,15 @@ website:
                   text: "BE : analyse en composantes indépendantes (2023)"
                 - href: enseignements/A3/projets/reducpartimage.qmd
                   text: "BE : réduction en dimension, segmentation (2024)"
+        - section: "Autres enseignements"
+          href: enseignements/autres/index.qmd
+          contents:
+            - section: "Cours"
+              contents:
+                - href: enseignements/autres/cours/castoriadis.qmd
+                  text: "Pensée de Castoriadis (2018-2019)"
+                - href: enseignements/autres/cours/histoire-des-mathematiques.qmd
+                  text: "Histoire des mathématiques (2013)"
 
 format:
   html:
