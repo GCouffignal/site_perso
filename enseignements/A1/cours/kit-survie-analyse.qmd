@@ -1,0 +1,23 @@
+---
+title: "Kit de survie d'analyse : primitives, développements limités, trigonométrie"
+description: "Fiche de formules classiques : intégration, primitives usuelles, développements limités usuels et trigonométrie."
+year: "2015-2016"
+order: 2
+---
+
+## Présentation
+
+Fiche de formules de première année (A1) de l'IPSA, année 2015-2016, intitulée « Kit de survie d'analyse ». Elle rassemble sur deux pages les formules classiques à connaître ou à avoir sous la main.
+
+Il s'agit d'un document ancien, repris tel quel.
+
+## Contenu
+
+* Formules générales : théorème fondamental de l'analyse, intégration par parties, changement de variable.
+* Primitives de base, y compris pour les fonctions hyperboliques.
+* Développements limités usuels (sinus, sinus hyperbolique, tangente, arc sinus, arc cosinus…).
+* Trigonométrie : valeurs remarquables, relations remarquables, formules d'addition et de duplication, transformation des sommes en produits.
+
+## Document
+
+[📄 Télécharger / Consulter la fiche (2015-2016) au format PDF](Fiche_int_devlimit.pdf)

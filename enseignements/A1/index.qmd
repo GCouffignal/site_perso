@@ -1,5 +1,18 @@
 ---
 title: "A1 (Bac+1)"
+listing:
+  - id: cours-a1
+    contents: "cours/*.qmd"
+    type: table
+    sort: "order"
+    fields: [title, year, description]
+    field-display-names:
+      year: "Année"
+    sort-ui: false
+    filter-ui: false
 ---
 
-Cette section est en cours de constitution.
+## Cours et exercices {#cours}
+
+::: {#cours-a1}
+:::

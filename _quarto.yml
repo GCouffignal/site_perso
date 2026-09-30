@@ -45,8 +45,15 @@ website:
       contents:
         - href: enseignements/index.qmd
           text: "Vue d'ensemble"
-        - href: enseignements/A1/index.qmd
-          text: "A1 (Bac+1)"
+        - section: "A1 (Bac+1)"
+          href: enseignements/A1/index.qmd
+          contents:
+            - section: "Cours et exercices"
+              contents:
+                - href: enseignements/A1/cours/dm-timee.qmd
+                  text: "DM : autour du Timée (2016-2017)"
+                - href: enseignements/A1/cours/kit-survie-analyse.qmd
+                  text: "Kit de survie d'analyse (2015-2016)"
         - section: "A2 (Bac+2)"
           href: enseignements/A2/index.qmd
           contents:
