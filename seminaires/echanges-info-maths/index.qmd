@@ -2,6 +2,8 @@
 title: "Échanges entre informatique et mathématiques, ou une noix dans un verre d'eau"
 description: "Séminaire étudiant IMT-IRIT (université Paul Sabatier, 14 mai 2014), avec Mathias Winckel : exemples historiques d'échanges entre logique, informatique, topologie, physique et linguistique, systèmes formels, logique externe et logique interne."
 year: "mai 2014"
+aliases:
+  - /notes/echanges-info-maths/index.html
 order: 4
 ---
 

@@ -1,0 +1,23 @@
+---
+title: "Histoire des mathématiques"
+description: "Cours de L3 co-enseigné avec Christophe Eckes à l'université Paul Sabatier (2013) : géométries et parallèles, règle et compas, construction des réels."
+year: "2013"
+order: 2
+---
+
+## Présentation
+
+Cours d'histoire des mathématiques co-enseigné avec Christophe Eckes à l'université Paul Sabatier (niveau L3, Bac+3). Les diapositives ne sont pas datées : le cours a été donné en 2013.
+
+## Contenu
+
+* **Généralités et géométrie** : les géométries, la question des parallèles, les géométries non euclidiennes, les *Grundlagen der Geometrie* de Hilbert.
+* **De la règle et du compas à l'algèbre**, en deux parties : grandeurs et nombres, classification des courbes, constructions à la règle et au compas ; puis après Descartes, le mémoire de Galois, points et nombres constructibles.
+* **Sur la construction des nombres réels** : les cours de Cauchy (calcul intégral, suites et séries de fonctions), la rigueur weierstrassienne, les constructions de l'ensemble des réels.
+
+## Documents
+
+* **Partie 1 : généralités et géométrie.** [📄 Diapositives au format PDF](/Autres_cours/P1%20geometrie.pdf)
+* **Partie 2 : de la règle et du compas à l'algèbre**, première partie. [📄 Diapositives au format PDF](/Autres_cours/P2_regle_compas.pdf)
+* **Partie 2 : de la règle et du compas à l'algèbre**, seconde partie. [📄 Diapositives au format PDF](/Autres_cours/P2_regle_compas_2.pdf)
+* **Partie 3 : sur la construction des nombres réels.** [📄 Diapositives au format PDF](/Autres_cours/P3_construction_des_reels.pdf)

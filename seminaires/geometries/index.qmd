@@ -2,6 +2,8 @@
 title: "De la géométrie aux géométries : une promenade mathématico-historique"
 description: "Séminaire pour les étudiants de l'IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes."
 year: "2018"
+aliases:
+  - /notes/geometries/index.html
 order: 2
 ---
 

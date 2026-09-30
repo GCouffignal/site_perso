@@ -2,6 +2,8 @@
 title: "Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès"
 description: "Séminaire Mathématiques et philosophie, 19e et 20e siècles (SΦHERE), 25 juin 2013 : paradigme et thématisation chez Cavaillès, processus de production et de comparaison en mathématique, de l'homotopie à l'identification."
 year: "juin 2013"
+aliases:
+  - /notes/kan-cavailles-sphere/index.html
 order: 6
 ---
 

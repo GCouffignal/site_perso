@@ -2,6 +2,8 @@
 title: "Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme"
 description: "Séminaire pour les étudiants de l'IPSA (25 février 2019) : sociétés, individus, choses et valeurs, modèle de la cité, capitalisme intégral."
 year: "2019"
+aliases:
+  - /notes/valeurs/index.html
 order: 1
 ---
 

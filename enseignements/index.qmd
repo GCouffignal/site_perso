@@ -5,11 +5,12 @@ aliases:
   - /projets-etudiants/index.html
 ---
 
-Cette section rassemble mes enseignements de mathématiques, par année d'études post-bac :
+Cette section rassemble mes enseignements : les mathématiques par année d'études post-bac, puis d'autres cours (histoire des mathématiques, philosophie) :
 
 * [A1 (Bac+1)](A1/index.qmd), avec ses [cours et exercices](A1/index.qmd#cours)
 * [A2 (Bac+2)](A2/index.qmd), avec ses [cours et exercices](A2/index.qmd#cours) et ses [projets](A2/index.qmd#projets)
 * [A3 (Bac+3)](A3/index.qmd), avec ses [cours et exercices](A3/index.qmd#cours) et ses [projets](A3/index.qmd#projets)
+* [Autres enseignements](autres/index.qmd) : [cours](autres/index.qmd#cours) d'histoire des mathématiques et sur la pensée de Castoriadis
 
 ## Projets (bureaux d'études)
 

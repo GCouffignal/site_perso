@@ -1,0 +1,32 @@
+---
+# MODÈLE DE NOTE : ce fichier est ignoré à la compilation (son nom commence par « _ »).
+# La section « Notes » n'est pas encore visible sur le site. Pour la créer à la
+# première note :
+#   1. créer notes/<nom-de-la-note>/index.qmd à partir de ce modèle ;
+#   2. copier seminaires/index.qmd vers notes/index.qmd, avec le titre « Notes » et
+#      une phrase de présentation, et SANS les alias /notes/... (ils redirigent
+#      aujourd'hui vers les séminaires) ;
+#   3. ajouter dans _quarto.yml, dans la barre de navigation, une entrée
+#      « Notes » pointant vers notes/index.qmd.
+#
+# Règle de partage avec le blog :
+#   - Blog : billets courts, datés, de réflexion, classés par date.
+#   - Notes : documents de référence sur une notion, sans date de parution,
+#     parfois plus longs et mis à jour.
+title: "Titre de la note"
+description: "Une phrase qui résume la note (affichée dans la liste)."
+year: "2026"
+order: 1
+---
+
+## Présentation
+
+Le texte s'écrit en Markdown. Les formules s'écrivent en LaTeX : en ligne, $e^{i\pi}+1=0$ ; en bloc :
+
+$$
+\int_0^{+\infty} e^{-x^2}\,dx=\frac{\sqrt{\pi}}{2}.
+$$
+
+## Document (facultatif)
+
+[📄 Télécharger / Consulter la note au format PDF](ma-note.pdf)

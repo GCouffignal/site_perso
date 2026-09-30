@@ -1,0 +1,24 @@
+---
+title: "Séminaires"
+aliases:
+  - /notes/index.html
+  - /notes-personnelles.html
+listing:
+  contents: "*/index.qmd"
+  type: table
+  sort: "order"
+  fields: [title, year, description]
+  field-display-names:
+    year: "Année"
+  sort-ui: false
+  filter-ui: false
+---
+
+Présentations données lors de séminaires et d'exposés, pour des étudiants, des collègues ou un public non spécialiste.
+
+<!--
+Pour ajouter un séminaire : créer un dossier seminaires/<nom>/ contenant un fichier
+index.qmd (avec title, description, year et order) et son PDF. Il apparaît alors
+automatiquement dans la liste de cette page. Les plus récents ont les numéros
+d'ordre (order) les plus petits.
+-->

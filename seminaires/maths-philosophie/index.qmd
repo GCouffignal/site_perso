@@ -2,6 +2,8 @@
 title: "Des mathématiques à la philosophie… …de la philosophie aux mathématiques"
 description: "Séminaire tout public pour l'association La Sauce aux idées (12 mai 2017) : allers-retours entre mathématiques et philosophie."
 year: "2017"
+aliases:
+  - /notes/maths-philosophie/index.html
 order: 3
 ---
 

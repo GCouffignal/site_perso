@@ -1,0 +1,21 @@
+---
+title: "Introduction à la pensée de Cornelius Castoriadis"
+description: "Séminaire Arts et Culture de l'ISAE (2018-2019, niveau Bac+3/+4) : introduction à la philosophie politique de Castoriadis, intérêt du monde grec ancien, étude du texte « Valeur, égalité, justice politique de Marx à Aristote et d'Aristote à nous »."
+year: "2018-2019"
+order: 1
+---
+
+## Présentation
+
+Cours d'introduction à la pensée de Cornelius Castoriadis, donné à l'ISAE (niveau Bac+3/+4), dans le cadre du séminaire Arts et Culture, sur la philosophie politique de ce penseur. Il comporte huit séances. Le travail demandé aux étudiants est le commentaire d'un texte de Castoriadis, mis en rapport avec une ou plusieurs problématiques actuelles.
+
+## Contenu
+
+* Introduction et première lecture : éléments biographiques.
+* De l'intérêt du monde grec ancien pour nous (deux à trois séances) : évolution historique des institutions à Athènes, sociétés hétéronomes et sociétés autonomes.
+* Autour du texte « Valeur, égalité, justice politique de Marx à Aristote et d'Aristote à nous » (quatre séances) : analyse du passage de Marx, retour à Aristote et au livre V de l'*Éthique à Nicomaque*, variations autour de l'équation fondamentale.
+
+## Documents
+
+* **Partie 1 : introduction à la pensée de Castoriadis.** [📄 Diapositives au format PDF](/Autres_cours/seance_1.pdf)
+* **Partie 2 : autour du texte « Valeur, égalité, justice politique de Marx à Aristote et d'Aristote à nous ».** [📄 Diapositives au format PDF](/Autres_cours/seance_2.pdf)
