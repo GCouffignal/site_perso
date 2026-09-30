@@ -1,47 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/notes-personnelles.html</loc>
-    <lastmod>2026-05-05T07:27:37.649Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/about.html</loc>
+    <lastmod>2026-09-30T13:18:19.920Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/about.html</loc>
-    <lastmod>2026-02-19T09:52:25.784Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A2/projets/fluxopt.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA2_fluxopt.html</loc>
-    <lastmod>2026-02-19T11:53:49.206Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A1/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/index.html</loc>
-    <lastmod>2026-05-05T09:55:08.229Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/ica.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/notes-cours.html</loc>
-    <lastmod>2026-05-05T07:27:37.649Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/reducpartimage.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_ICA.html</loc>
-    <lastmod>2026-02-19T12:05:44.340Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_inpainting.html</loc>
-    <lastmod>2026-02-19T12:31:27.174Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/autres-cours.html</loc>
-    <lastmod>2026-05-05T09:55:46.103Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/blog/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.921Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projets-etudiants/index.html</loc>
-    <lastmod>2026-05-05T09:55:08.229Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/autres-enseignements/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.920Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_reducpartimage.html</loc>
-    <lastmod>2026-02-19T12:31:26.081Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
   <url>
-    <loc>https://GCouffignal.github.io/site_perso/projetA3_geominf.html</loc>
-    <lastmod>2026-02-19T12:01:12.839Z</lastmod>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/inpainting.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A3/projets/geominf.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/enseignements/A2/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gcouffignal.github.io/site_perso/notes/index.html</loc>
+    <lastmod>2026-09-30T13:18:19.922Z</lastmod>
   </url>
 </urlset>

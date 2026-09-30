@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.">
 
-<title>G. Couffignal – Archives et Projets de Mathématiques</title>
+<title>BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe. – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,22 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d779191fb58665fba6013d76b5d4c7b3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-d779191fb58665fba6013d76b5d4c7b3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,21 +76,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="G. Couffignal – Archives et Projets de Mathématiques">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://gcouffignal.github.io/site_perso/avatar.jpeg">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe. – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-sidebar docked nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -99,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -108,37 +109,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="./enseignements/index.html">
+    <a class="dropdown-item" href="../../../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./enseignements/A1/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./enseignements/A2/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./enseignements/A3/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./autres-enseignements/index.html"> 
+    <a class="nav-link" href="../../../autres-enseignements/index.html"> 
 <span class="menu-text">Autres enseignements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./notes/index.html"> 
+    <a class="nav-link" href="../../../notes/index.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -147,64 +148,183 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/geominf.html">BE : géométrie de l’information</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Vue d’ensemble</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A1 (Bac+1)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A2 (Bac+2)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : flux optique</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A3 (Bac+3)</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+ <span class="menu-text">Projets</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : gradient conjugué, inpainting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">BE : géométrie de l’information</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : analyse en composantes indépendantes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BE : réduction en dimension, segmentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
+   
   <ul>
-  <li><a href="#bienvenue" id="toc-bienvenue" class="nav-link active" data-scroll-target="#bienvenue">Bienvenue</a></li>
-  <li><a href="#par-où-commencer" id="toc-par-où-commencer" class="nav-link" data-scroll-target="#par-où-commencer">Par où commencer ?</a></li>
+  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
+  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
+  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="avatar.jpeg" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/inpainting.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/projets/geominf.html">BE : géométrie de l’information</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">G. Couffignal</h1>
+<h1 class="title">BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.</h1>
 </div>
+
+<div>
+  <div class="description">
+    Introduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.
+  </div>
+</div>
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="mailto:guillaume.couffignal@ipsa.fr" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Contact</span>
-  </a>
-  <a href="https://github.com/gcouffignal" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
 
-<section id="bienvenue" class="level2">
-<h2 data-anchor-id="bienvenue">Bienvenue</h2>
-<p>Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion.</p>
+
+<section id="présentation-du-problème" class="level2">
+<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
+<p>Le projet proposé suit deux buts principaux : donner une introduction à la géométrie de l’information, on obtient un point de vue différent sur les probabilités et les statistiques (en espérant que cet autre point de vue réconcilie un peu les plus récalcitrants aux statistiques…) et proposer une sorte de « laboratoire » d’épistémologie quantitative. Dans ce bureau d’étude nous allons réfléchir aux biais de cognitions et plus généralement voir par le calcul pourquoi on est souvent conduit à des erreurs de raisonnement. Nous prendrons la géométrie de l’information comme une sorte de modèle normatif de la rationalité face à de l’information à traiter et nous verrons en quoi cela peut nous éclairer et nuancer nos raisonnements. La longueur (en page) du sujet s’explique pour plusieurs raisons :</p>
+<p>• la présence de nombreux encart « Pause épistémologique », détaillant des biais cognitifs ou des remarques liés aux formalismes introduit. Certains de ces biais ou remarques pourraient s’appliquer à plusieurs questions du sujet, pour ne pas alourdir nous ne les répéterons pas (à vous d’identifier les différentes expressions formelles d’un même biais).</p>
+<p>• les questions sont souvent très découpées et les réponses sont souvent rapides.</p>
+<p>• les questions de statistiques et de probabilités demandent souvent un long « contexte » pour être formulées correctement.</p>
+<p>La spécificité de ce sujet est de traiter de biais cognitif de manière formelle et quantitative. En mobilisant vos connaissances diverses, une consigne générale sera de produire des exemples sourcés des différents biais et de regarder les réponses apportées par la formalisation du sujet.</p>
+<p>Attention les sujets et thèmes abordés ne le sont qu’en surface et il y aurait beaucoup (trop) de choses à dire sur de nombreux points. Vos ouvertures personnelles (en lien avec le sujet bien sûr!) et réflexions seront fortement valorisées.</p>
 </section>
-<section id="par-où-commencer" class="level2">
-<h2 data-anchor-id="par-où-commencer">Par où commencer ?</h2>
-<ul>
-<li><strong>Étudiants</strong> : les <a href="./enseignements/index.html">enseignements mathématiques</a> par niveau (A1, A2, A3) et les sujets de projets (BE).</li>
-<li><strong>Collègues et chercheurs</strong> : les <a href="./notes/index.html">notes personnelles</a> sur diverses notions.</li>
-<li><strong>Curieux</strong> : le <a href="./blog/index.html">blog</a> et les <a href="./autres-enseignements/index.html">autres enseignements</a> (histoire des mathématiques, pensée de Castoriadis).</li>
-</ul>
+<section id="sujet-complet" class="level2">
+<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
+<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
+<p><a href="../../../sujets_BE/Ma315_BE_2025_26.pdf">📄 Télécharger / Consulter le sujet au format PDF</a></p>
+</section>
+<section id="prérequis" class="level2">
+<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
+<p>Probabilités et statistiques de base, bases du calcul différentiel.</p>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

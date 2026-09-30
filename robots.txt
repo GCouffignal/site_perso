@@ -1,1 +1,1 @@
-Sitemap: https://GCouffignal.github.io/site_perso/sitemap.xml
+Sitemap: https://gcouffignal.github.io/site_perso/sitemap.xml
