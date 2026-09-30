@@ -1,8 +1,8 @@
 ---
 title: "La théorie des catégories et la théorie de l'homotopie chez Daniel Kan"
 description: "Séminaire à l'université Paul Sabatier (mars 2014) : les premiers travaux de Daniel Kan en théorie de l'homotopie, et le problème de l'identification."
-year: "2014"
-order: 4
+year: "mars 2014"
+order: 5
 ---
 
 ## Présentation
