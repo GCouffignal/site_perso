@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.">
 
-<title>A1 (Bac+1) – Archives et Projets de Mathématiques</title>
+<title>Analyse complexe, transformées de Fourier et de Laplace – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,23 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-aa4cb5e7187c72799537e9e7b9541bf7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,9 +76,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="A1 (Bac+1) – Archives et Projets de Mathématiques">
-<meta property="og:description" content="">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Analyse complexe, transformées de Fourier et de Laplace – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
 
@@ -88,7 +89,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -99,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -108,37 +109,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="../../enseignements/index.html">
+    <a class="dropdown-item" href="../../../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A1/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A2/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A3/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../autres-enseignements/index.html"> 
+    <a class="nav-link" href="../../../autres-enseignements/index.html"> 
 <span class="menu-text">Autres enseignements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../notes/index.html"> 
+    <a class="nav-link" href="../../../notes/index.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -152,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../enseignements/A1/index.html">A1 (Bac+1)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html">Analyse complexe (cours 2021-2022)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -166,19 +167,19 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vue d’ensemble</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A1 (Bac+1)</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A2 (Bac+2)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -196,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse numérique matricielle (SVD)</span></a>
   </div>
 </li>
@@ -213,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : flux optique</span></a>
   </div>
 </li>
@@ -223,7 +224,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A3 (Bac+3)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -241,13 +242,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse harmonique (Fourier, Laplace)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Analyse complexe (cours 2021-2022)</span></a>
   </div>
 </li>
@@ -264,25 +265,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : gradient conjugué, inpainting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : géométrie de l’information</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : analyse en composantes indépendantes</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : réduction en dimension, segmentation</span></a>
   </div>
 </li>
@@ -295,17 +296,31 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#document" id="toc-document" class="nav-link" data-scroll-target="#document">Document</a></li>
+  <li><a href="#travaux-dirigés" id="toc-travaux-dirigés" class="nav-link" data-scroll-target="#travaux-dirigés">Travaux dirigés</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A3/index.html">A3 (Bac+3)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html">Analyse complexe (cours 2021-2022)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">A1 (Bac+1)</h1>
+<h1 class="title">Analyse complexe, transformées de Fourier et de Laplace</h1>
 </div>
 
+<div>
+  <div class="description">
+    Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -320,9 +335,35 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Cette section est en cours de constitution.</p>
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Cours de troisième année (A3) de l’IPSA (modules Ma311 et Ma312), dans sa version 2021-2022. Sa première partie porte sur l’analyse complexe, avec pour application l’aérodynamique plane : écoulements plans, calcul de la portance et transformation de Joukovski. La seconde partie présente les séries de Fourier, les transformées de Fourier et de Laplace.</p>
+<p>Pour une version plus récente du volet Fourier et Laplace, voir le cours <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html">Éléments d’analyse harmonique pour l’ingénieur</a>.</p>
+</section>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<ul>
+<li>Analyse complexe : fonctions holomorphes et leurs propriétés géométriques, intégration complexe (théorème de Cauchy, théorème des résidus).</li>
+<li>Fonctions harmoniques et mécanique des fluides : exemples d’écoulements plans, calculs de portance.</li>
+<li>Transformations conformes : transformation de Möbius, transformation de Joukovski.</li>
+<li>Séries de Fourier, transformée de Fourier, transformée de Laplace.</li>
+</ul>
+</section>
+<section id="document" class="level2">
+<h2 class="anchored" data-anchor-id="document">Document</h2>
+<p><a href="Ma311_312_cours.pdf">📄 Télécharger / Consulter le cours au format PDF</a></p>
+</section>
+<section id="travaux-dirigés" class="level2">
+<h2 class="anchored" data-anchor-id="travaux-dirigés">Travaux dirigés</h2>
+<p>Les TD sont regroupés dans un fascicule unique.</p>
+<p><a href="Fascicule_TD_Ma311_312_.pdf">📄 Télécharger / Consulter le fascicule de TD au format PDF</a></p>
+<ul>
+<li><strong>Analyse complexe (Ma311) :</strong> TD 0 (révision sur les nombres complexes), TD 1 et 2 (fonctions à variable complexe, fonctions holomorphes), TD 3 (potentiel et vitesse complexe), TD 4 (intégrales, séries de Laurent et résidus), TD 5 (portance et vitesse complexe), TD 6 (travaux pratiques).</li>
+<li><strong>Analyse harmonique (Ma312) :</strong> TD 1 (séries de Fourier), TD 2 (transformées de Fourier), TD 3 (transformées de Laplace).</li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -730,4 +771,4 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></div></div></footer></body></html>

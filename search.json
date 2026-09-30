@@ -59,7 +59,7 @@
     "href": "enseignements/A2/index.html",
     "title": "A2 (Bac+2)",
     "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières\n\n\nFascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAnalyse numérique matricielle : autour de la décomposition en valeurs singulières\n\n\nFascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "A2 (Bac+2)"
     ]
@@ -69,7 +69,7 @@
     "href": "enseignements/A2/index.html#cours",
     "title": "A2 (Bac+2)",
     "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières\n\n\nFascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nAnalyse numérique matricielle : autour de la décomposition en valeurs singulières\n\n\nFascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d’Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés.\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "A2 (Bac+2)"
     ]
@@ -181,64 +181,122 @@
     ]
   },
   {
-    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html",
-    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html",
-    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "objectID": "enseignements/A3/cours/ma311-312-analyse-complexe.html",
+    "href": "enseignements/A3/cours/ma311-312-analyse-complexe.html",
+    "title": "Analyse complexe, transformées de Fourier et de Laplace",
     "section": "",
-    "text": "Ce fascicule a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
+    "text": "Cours de troisième année (A3) de l’IPSA (modules Ma311 et Ma312), dans sa version 2021-2022. Sa première partie porte sur l’analyse complexe, avec pour application l’aérodynamique plane : écoulements plans, calcul de la portance et transformation de Joukovski. La seconde partie présente les séries de Fourier, les transformées de Fourier et de Laplace.\nPour une version plus récente du volet Fourier et Laplace, voir le cours Éléments d’analyse harmonique pour l’ingénieur.",
     "crumbs": [
       "A3 (Bac+3)",
       "Cours et exercices",
-      "Ma312 : analyse harmonique (Fourier, Laplace)"
+      "Analyse complexe (cours 2021-2022)"
     ]
   },
   {
-    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
-    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
-    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "objectID": "enseignements/A3/cours/ma311-312-analyse-complexe.html#présentation",
+    "href": "enseignements/A3/cours/ma311-312-analyse-complexe.html#présentation",
+    "title": "Analyse complexe, transformées de Fourier et de Laplace",
     "section": "",
-    "text": "Ce fascicule a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
+    "text": "Cours de troisième année (A3) de l’IPSA (modules Ma311 et Ma312), dans sa version 2021-2022. Sa première partie porte sur l’analyse complexe, avec pour application l’aérodynamique plane : écoulements plans, calcul de la portance et transformation de Joukovski. La seconde partie présente les séries de Fourier, les transformées de Fourier et de Laplace.\nPour une version plus récente du volet Fourier et Laplace, voir le cours Éléments d’analyse harmonique pour l’ingénieur.",
     "crumbs": [
       "A3 (Bac+3)",
       "Cours et exercices",
-      "Ma312 : analyse harmonique (Fourier, Laplace)"
+      "Analyse complexe (cours 2021-2022)"
     ]
   },
   {
-    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
-    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
-    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "objectID": "enseignements/A3/cours/ma311-312-analyse-complexe.html#contenu",
+    "href": "enseignements/A3/cours/ma311-312-analyse-complexe.html#contenu",
+    "title": "Analyse complexe, transformées de Fourier et de Laplace",
     "section": "Contenu",
-    "text": "Contenu\n\nSéries de Fourier : décomposition par une famille orthonormale, convergence (théorème de Dirichlet), noyau de Fejér et théorème de Parseval, lien avec la dérivation, convolution, noyau de Poisson et problème de Dirichlet sur le cercle.\nTransformée de Fourier : définitions et propriétés, théorème de Plancherel, relation d’incertitude, produit de convolution, formule de sommation de Poisson et ses conséquences.\nTransformée de Laplace : définition et conditions d’existence, propriétés, convolution des fonctions causales, transformée inverse.\nTransformée de Fourier discrète et transformation de Fourier rapide.",
+    "text": "Contenu\n\nAnalyse complexe : fonctions holomorphes et leurs propriétés géométriques, intégration complexe (théorème de Cauchy, théorème des résidus).\nFonctions harmoniques et mécanique des fluides : exemples d’écoulements plans, calculs de portance.\nTransformations conformes : transformation de Möbius, transformation de Joukovski.\nSéries de Fourier, transformée de Fourier, transformée de Laplace.",
     "crumbs": [
       "A3 (Bac+3)",
       "Cours et exercices",
-      "Ma312 : analyse harmonique (Fourier, Laplace)"
+      "Analyse complexe (cours 2021-2022)"
     ]
   },
   {
-    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
-    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
-    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "objectID": "enseignements/A3/cours/ma311-312-analyse-complexe.html#document",
+    "href": "enseignements/A3/cours/ma311-312-analyse-complexe.html#document",
+    "title": "Analyse complexe, transformées de Fourier et de Laplace",
     "section": "Document",
-    "text": "Document\n📄 Télécharger / Consulter le fascicule de cours au format PDF",
+    "text": "Document\n📄 Télécharger / Consulter le cours au format PDF",
     "crumbs": [
       "A3 (Bac+3)",
       "Cours et exercices",
-      "Ma312 : analyse harmonique (Fourier, Laplace)"
+      "Analyse complexe (cours 2021-2022)"
     ]
   },
   {
-    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
-    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
-    "title": "Ma312 : Éléments d’analyse harmonique pour l’ingénieur",
+    "objectID": "enseignements/A3/cours/ma311-312-analyse-complexe.html#travaux-dirigés",
+    "href": "enseignements/A3/cours/ma311-312-analyse-complexe.html#travaux-dirigés",
+    "title": "Analyse complexe, transformées de Fourier et de Laplace",
     "section": "Travaux dirigés",
-    "text": "Travaux dirigés\n\nTD 1 : séries de Fourier. 📄 Énoncé au format PDF\nTD 2 : introduction à la transformée de Fourier. 📄 Énoncé au format PDF\nTD 3 : quelques applications de la transformée de Fourier, dont le théorème d’échantillonnage et le repliement de spectre (aliasing). 📄 Énoncé au format PDF\nTD 4 : transformée de Laplace. 📄 Énoncé au format PDF",
+    "text": "Travaux dirigés\nLes TD sont regroupés dans un fascicule unique.\n📄 Télécharger / Consulter le fascicule de TD au format PDF\n\nAnalyse complexe (Ma311) : TD 0 (révision sur les nombres complexes), TD 1 et 2 (fonctions à variable complexe, fonctions holomorphes), TD 3 (potentiel et vitesse complexe), TD 4 (intégrales, séries de Laurent et résidus), TD 5 (portance et vitesse complexe), TD 6 (travaux pratiques).\nAnalyse harmonique (Ma312) : TD 1 (séries de Fourier), TD 2 (transformées de Fourier), TD 3 (transformées de Laplace).",
     "crumbs": [
       "A3 (Bac+3)",
       "Cours et exercices",
-      "Ma312 : analyse harmonique (Fourier, Laplace)"
+      "Analyse complexe (cours 2021-2022)"
     ]
+  },
+  {
+    "objectID": "enseignements/A3/index.html",
+    "href": "enseignements/A3/index.html",
+    "title": "A3 (Bac+3)",
+    "section": "",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nÉléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAnalyse complexe, transformées de Fourier et de Laplace\n\n\nCours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/index.html#cours",
+    "href": "enseignements/A3/index.html#cours",
+    "title": "A3 (Bac+3)",
+    "section": "",
+    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nÉléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAnalyse complexe, transformées de Fourier et de Laplace\n\n\nCours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/index.html#projets",
+    "href": "enseignements/A3/index.html#projets",
+    "title": "A3 (Bac+3)",
+    "section": "Projets",
+    "text": "Projets\n\n\n\n\n\n\nTitre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\n\n\nGénéralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.\n\n\n\n\n\n\nBE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.\n\n\nIntroduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.\n\n\n\n\n\n\nBE : une introduction à l’analyse en composantes indépendantes (ICA).\n\n\nSéparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».\n\n\n\n\n\n\nBE : Réduction en dimension et segmentation d’image\n\n\nSegmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A3 (Bac+3)"
+    ]
+  },
+  {
+    "objectID": "autres-enseignements/index.html",
+    "href": "autres-enseignements/index.html",
+    "title": "Autres enseignements",
+    "section": "",
+    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre\n\nPartie 1 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : 📄 Télécharger / Consulter les slides au format PDF\n\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous” 📄 Télécharger / Consulter les slides au format PDF"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Billets courts : réflexions, remarques, mathématiques.\n\n\n\n\n\n\n\n\nAucun article correspondant"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
+  },
+  {
+    "objectID": "index.html#bienvenue",
+    "href": "index.html#bienvenue",
+    "title": "G. Couffignal",
+    "section": "",
+    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
   },
   {
     "objectID": "enseignements/index.html",
@@ -261,61 +319,63 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "G. Couffignal",
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html",
+    "title": "Éléments d’analyse harmonique pour l’ingénieur",
     "section": "",
-    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
-  },
-  {
-    "objectID": "index.html#bienvenue",
-    "href": "index.html#bienvenue",
-    "title": "G. Couffignal",
-    "section": "",
-    "text": "Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Billets courts : réflexions, remarques, mathématiques.\n\n\n\n\n\n\n\n\nAucun article correspondant"
-  },
-  {
-    "objectID": "autres-enseignements/index.html",
-    "href": "autres-enseignements/index.html",
-    "title": "Autres enseignements",
-    "section": "",
-    "text": "Sur cette page, vous trouverez d’autres cours et présentations que j’ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l’histoire des mathématiques en passant par la philosophie.\n\nHistoire des mathématiques (avec C. Eckes)\nCours d’histoire des mathématiques que j’ai co-enseigné avec Christophes Eckes (niveau BAC+3).\nPartie 1 : Généralités et géométrie 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : De la règle et du compas à l’algèbre\n\nPartie 1 : 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : 📄 Télécharger / Consulter les slides au format PDF\n\nPartie 3 : Sur la construction des nombres réels 📄 Télécharger / Consulter les slides au format PDF\n\n\n\nIntroduction à la pensée de Cornelius Castoriadis\nCours d’introduction à la pensée de Cornelius Castoriadis que j’ai donné à l’ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.\nPartie 1 : Introduction à la pensée de Castoriadis 📄 Télécharger / Consulter les slides au format PDF\nPartie 2 : Autour du texte : “Valeur, égalité, justice politique de Marx à Aristote et d’Aristote à nous” 📄 Télécharger / Consulter les slides au format PDF"
-  },
-  {
-    "objectID": "enseignements/A3/index.html",
-    "href": "enseignements/A3/index.html",
-    "title": "A3 (Bac+3)",
-    "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa312 : Éléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Ce fascicule, qui correspond au module Ma312, a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
     "crumbs": [
-      "A3 (Bac+3)"
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Analyse harmonique (Fourier, Laplace)"
     ]
   },
   {
-    "objectID": "enseignements/A3/index.html#cours",
-    "href": "enseignements/A3/index.html#cours",
-    "title": "A3 (Bac+3)",
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#présentation",
+    "title": "Éléments d’analyse harmonique pour l’ingénieur",
     "section": "",
-    "text": "Titre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nMa312 : Éléments d’analyse harmonique pour l’ingénieur\n\n\nFascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d’échantillonnage, transformée de Laplace.\n\n\n\n\n\n\nAucun article correspondant",
+    "text": "Ce fascicule, qui correspond au module Ma312, a été rédigé pour la troisième année (A3) de l’IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d’une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d’échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours complet d’analyse harmonique : beaucoup de résultats sont décrits sous une forme moins générale que possible, et beaucoup de démonstrations sont passées sous silence, au profit d’exemples pratiques et numériques.\nVersion du 15/09/2025.",
     "crumbs": [
-      "A3 (Bac+3)"
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Analyse harmonique (Fourier, Laplace)"
     ]
   },
   {
-    "objectID": "enseignements/A3/index.html#projets",
-    "href": "enseignements/A3/index.html#projets",
-    "title": "A3 (Bac+3)",
-    "section": "Projets",
-    "text": "Projets\n\n\n\n\n\n\nTitre\n\n\n\nDescription\n\n\n\n\n\n\n\n\nBE : en généralisant l’algorithme du gradient conjugué…\n\n\nGénéralisation des équations d’Euler-Lagrange et du gradient conjugué aux matrices, puis application à l’électrostatique et à l’inpainting contraint.\n\n\n\n\n\n\nBE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.\n\n\nIntroduction à la géométrie de l’information, comme « laboratoire » d’épistémologie quantitative : calculer pour comprendre les biais de cognition.\n\n\n\n\n\n\nBE : une introduction à l’analyse en composantes indépendantes (ICA).\n\n\nSéparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party ».\n\n\n\n\n\n\nBE : Réduction en dimension et segmentation d’image\n\n\nSegmentation d’image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting.\n\n\n\n\n\n\nAucun article correspondant",
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#contenu",
+    "title": "Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Contenu",
+    "text": "Contenu\n\nSéries de Fourier : décomposition par une famille orthonormale, convergence (théorème de Dirichlet), noyau de Fejér et théorème de Parseval, lien avec la dérivation, convolution, noyau de Poisson et problème de Dirichlet sur le cercle.\nTransformée de Fourier : définitions et propriétés, théorème de Plancherel, relation d’incertitude, produit de convolution, formule de sommation de Poisson et ses conséquences.\nTransformée de Laplace : définition et conditions d’existence, propriétés, convolution des fonctions causales, transformée inverse.\nTransformée de Fourier discrète et transformation de Fourier rapide.",
     "crumbs": [
-      "A3 (Bac+3)"
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Analyse harmonique (Fourier, Laplace)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#document",
+    "title": "Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Document",
+    "text": "Document\n📄 Télécharger / Consulter le fascicule de cours au format PDF",
+    "crumbs": [
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Analyse harmonique (Fourier, Laplace)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
+    "href": "enseignements/A3/cours/ma312-analyse-harmonique.html#travaux-dirigés",
+    "title": "Éléments d’analyse harmonique pour l’ingénieur",
+    "section": "Travaux dirigés",
+    "text": "Travaux dirigés\n\nTD 1 : séries de Fourier. 📄 Énoncé au format PDF\nTD 2 : introduction à la transformée de Fourier. 📄 Énoncé au format PDF\nTD 3 : quelques applications de la transformée de Fourier, dont le théorème d’échantillonnage et le repliement de spectre (aliasing). 📄 Énoncé au format PDF\nTD 4 : transformée de Laplace. 📄 Énoncé au format PDF",
+    "crumbs": [
+      "A3 (Bac+3)",
+      "Cours et exercices",
+      "Analyse harmonique (Fourier, Laplace)"
     ]
   },
   {
@@ -427,49 +487,49 @@
   {
     "objectID": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html",
     "href": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html",
-    "title": "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières",
+    "title": "Analyse numérique matricielle : autour de la décomposition en valeurs singulières",
     "section": "",
-    "text": "Ce fascicule a été rédigé pour la seconde année (A2) de l’IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours exhaustif d’analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l’accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).\nVersion préliminaire du 12/04/2026.",
+    "text": "Ce fascicule, qui correspond au module Ma223, a été rédigé pour la seconde année (A2) de l’IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours exhaustif d’analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l’accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).\nVersion préliminaire du 12/04/2026.",
     "crumbs": [
       "A2 (Bac+2)",
       "Cours et exercices",
-      "Ma223 : analyse numérique matricielle (SVD)"
+      "Analyse numérique matricielle (SVD)"
     ]
   },
   {
     "objectID": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#présentation",
     "href": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#présentation",
-    "title": "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières",
+    "title": "Analyse numérique matricielle : autour de la décomposition en valeurs singulières",
     "section": "",
-    "text": "Ce fascicule a été rédigé pour la seconde année (A2) de l’IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours exhaustif d’analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l’accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).\nVersion préliminaire du 12/04/2026.",
+    "text": "Ce fascicule, qui correspond au module Ma223, a été rédigé pour la seconde année (A2) de l’IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.\n\n\n\n\n\n\nNoteAvertissement\n\n\n\nCes notes ne constituent pas un cours exhaustif d’analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l’accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).\nVersion préliminaire du 12/04/2026.",
     "crumbs": [
       "A2 (Bac+2)",
       "Cours et exercices",
-      "Ma223 : analyse numérique matricielle (SVD)"
+      "Analyse numérique matricielle (SVD)"
     ]
   },
   {
     "objectID": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#contenu",
     "href": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#contenu",
-    "title": "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières",
+    "title": "Analyse numérique matricielle : autour de la décomposition en valeurs singulières",
     "section": "Contenu",
     "text": "Contenu\n\nDécomposition en valeurs singulières : structure euclidienne de l’espace des matrices, norme de Frobenius, SVD, valeurs singulières comme mesure de l’information.\nThéorème d’Eckart-Young-Mirsky et ses conséquences : problème d’approximation de Schmidt, compression d’image, analyse en composantes principales (version algébrique).\nAnalyse procustéenne linéaire : cas d’une transformation orthogonale, cas d’une transformation affine, exemples sous Python.\nMoindres carrés : résolution par SVD, moindres carrés totaux, exemple d’apprentissage supervisé (reconnaissance de chiffres manuscrits).\nOuverture : décompositions biconjuguées.\nAnnexes : rappels de calcul matriciel, formes bilinéaires et quadratiques, produit de Kronecker, éléments de Python (dont OpenCV), bibliographie.",
     "crumbs": [
       "A2 (Bac+2)",
       "Cours et exercices",
-      "Ma223 : analyse numérique matricielle (SVD)"
+      "Analyse numérique matricielle (SVD)"
     ]
   },
   {
     "objectID": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#document",
     "href": "enseignements/A2/cours/ma223-analyse-numerique-matricielle.html#document",
-    "title": "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières",
+    "title": "Analyse numérique matricielle : autour de la décomposition en valeurs singulières",
     "section": "Document",
     "text": "Document\n📄 Télécharger / Consulter le cours au format PDF",
     "crumbs": [
       "A2 (Bac+2)",
       "Cours et exercices",
-      "Ma223 : analyse numérique matricielle (SVD)"
+      "Analyse numérique matricielle (SVD)"
     ]
   },
   {
