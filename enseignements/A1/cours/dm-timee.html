@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Devoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.">
 
-<title>A1 (Bac+1) – Archives et Projets de Mathématiques</title>
+<title>Devoir maison : autour du Timée de Platon – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -29,25 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,68 +74,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-cours-a1 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-cours-a1'] = new List('listing-cours-a1', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="A1 (Bac+1) – Archives et Projets de Mathématiques">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="Devoir maison : autour du Timée de Platon – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Devoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
 
@@ -147,7 +89,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -158,7 +100,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -167,37 +109,37 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="../../enseignements/index.html">
+    <a class="dropdown-item" href="../../../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A1/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A2/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../enseignements/A3/index.html">
+    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../autres-enseignements/index.html"> 
+    <a class="nav-link" href="../../../autres-enseignements/index.html"> 
 <span class="menu-text">Autres enseignements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../notes/index.html"> 
+    <a class="nav-link" href="../../../notes/index.html"> 
 <span class="menu-text">Notes</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog/index.html"> 
+    <a class="nav-link" href="../../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -211,7 +153,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../enseignements/A1/index.html">A1 (Bac+1)</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A1/index.html">A1 (Bac+1)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A1/cours/dm-timee.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A1/cours/dm-timee.html">DM : autour du Timée (2016-2017)</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -225,13 +167,13 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Vue d’ensemble</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link active">
+            <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A1 (Bac+1)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -249,13 +191,13 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A1/cours/dm-timee.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A1/cours/dm-timee.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">DM : autour du Timée (2016-2017)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A1/cours/kit-survie-analyse.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A1/cours/kit-survie-analyse.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Kit de survie d’analyse (2015-2016)</span></a>
   </div>
 </li>
@@ -265,7 +207,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A2 (Bac+2)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -283,7 +225,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse numérique matricielle (2026)</span></a>
   </div>
 </li>
@@ -300,7 +242,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : flux optique (2024)</span></a>
   </div>
 </li>
@@ -310,7 +252,7 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
+            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">A3 (Bac+3)</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -328,19 +270,19 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Calcul différentiel, Typst (2026-2027)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse harmonique (2025)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Analyse complexe (2021-2022)</span></a>
   </div>
 </li>
@@ -357,25 +299,25 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : gradient conjugué, inpainting (2024)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : géométrie de l’information (2025-2026)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : analyse en composantes indépendantes (2023)</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
+  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
   </div>
 </li>
@@ -393,18 +335,25 @@ window.Quarto = {
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#cours" id="toc-cours" class="nav-link active" data-scroll-target="#cours">Cours et exercices</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#document" id="toc-document" class="nav-link" data-scroll-target="#document">Document</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A1/index.html">A1 (Bac+1)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A1/cours/dm-timee.html">Cours et exercices</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A1/cours/dm-timee.html">DM : autour du Timée (2016-2017)</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">A1 (Bac+1)</h1>
+<h1 class="title">Devoir maison : autour du Timée de Platon</h1>
 </div>
 
+<div>
+  <div class="description">
+    Devoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -419,60 +368,24 @@ window.Quarto = {
 </header>
 
 
-<section id="cours" class="level2">
-<h2 class="anchored" data-anchor-id="cours">Cours et exercices</h2>
-<div id="listing-cours-a1" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-
-<th>
-Titre
-</th>
-
-<th>
-Année
-</th>
-
-<th>
-Description
-</th>
-
-</tr>
-</thead>
-<tbody class="list">
-
-<tr data-index="0" data-listing-file-modified-sort="1790799412959" data-listing-reading-time-sort="1" data-listing-word-count-sort="130" data-listing-title-sort="Devoir maison : autour du Timée de Platon" data-listing-filename-sort="dm-timee.qmd">
-<td>
-<a href="../../enseignements/A1/cours/dm-timee.html" class="title listing-title">Devoir maison : autour du Timée de Platon</a>
-</td>
-<td>
-<span class="listing-year">2016-2017</span>
-</td>
-<td>
-<span class="listing-description">Devoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.</span>
-</td>
-
-</tr>
-
-<tr data-index="1" data-listing-file-modified-sort="1790799412959" data-listing-reading-time-sort="1" data-listing-word-count-sort="101" data-listing-title-sort="Kit de survie d'analyse : primitives, développements limités, trigonométrie" data-listing-filename-sort="kit-survie-analyse.qmd">
-<td>
-<a href="../../enseignements/A1/cours/kit-survie-analyse.html" class="title listing-title">Kit de survie d’analyse : primitives, développements limités, trigonométrie</a>
-</td>
-<td>
-<span class="listing-year">2015-2016</span>
-</td>
-<td>
-<span class="listing-description">Fiche de formules classiques : intégration, primitives usuelles, développements limités usuels et trigonométrie.</span>
-</td>
-
-</tr>
-
-</tbody>
-</table>
-<div class="listing-no-matching d-none">Aucun article correspondant</div>
-</div>
-
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Devoir maison de première année (A1) de l’IPSA, premier semestre 2016-2017 (module Ma12). Il propose d’aider le Démiurge du <em>Timée</em> de Platon à former le Monde : le Démiurge y emploie trois médiétés (proportions), qui correspondent aux moyennes arithmétique, géométrique et harmonique.</p>
+<p>Il s’agit d’un document ancien, repris tel quel. L’énoncé ne contient pas de corrigé.</p>
+</section>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<p>Le devoir comporte quatre parties :</p>
+<ul>
+<li><strong>Un Dieu calculateur…</strong> : les trois médiétés, inégalités entre les moyennes, suites arithmétiques, géométriques et harmoniques.</li>
+<li><strong>This One’s For You…</strong> : suites définies par récurrence en mélangeant moyennes arithmétique et harmonique, suites adjacentes.</li>
+<li><strong>Cette fois c’est la bonne !</strong> : étude d’une fonction, existence de limites, dérivabilité.</li>
+<li><strong>Le remix de trop</strong> : suites mêlant moyennes harmonique et géométrique.</li>
+</ul>
+</section>
+<section id="document" class="level2">
+<h2 class="anchored" data-anchor-id="document">Document</h2>
+<p><a href="DM_TIMEE.pdf">📄 Télécharger / Consulter le devoir maison (2016-2017) au format PDF</a></p>
 
 
 </section>

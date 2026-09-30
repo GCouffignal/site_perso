@@ -85,6 +85,54 @@
     ]
   },
   {
+    "objectID": "enseignements/A1/cours/dm-timee.html",
+    "href": "enseignements/A1/cours/dm-timee.html",
+    "title": "Devoir maison : autour du Timée de Platon",
+    "section": "",
+    "text": "Devoir maison de première année (A1) de l’IPSA, premier semestre 2016-2017 (module Ma12). Il propose d’aider le Démiurge du Timée de Platon à former le Monde : le Démiurge y emploie trois médiétés (proportions), qui correspondent aux moyennes arithmétique, géométrique et harmonique.\nIl s’agit d’un document ancien, repris tel quel. L’énoncé ne contient pas de corrigé.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "DM : autour du Timée (2016-2017)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/dm-timee.html#présentation",
+    "href": "enseignements/A1/cours/dm-timee.html#présentation",
+    "title": "Devoir maison : autour du Timée de Platon",
+    "section": "",
+    "text": "Devoir maison de première année (A1) de l’IPSA, premier semestre 2016-2017 (module Ma12). Il propose d’aider le Démiurge du Timée de Platon à former le Monde : le Démiurge y emploie trois médiétés (proportions), qui correspondent aux moyennes arithmétique, géométrique et harmonique.\nIl s’agit d’un document ancien, repris tel quel. L’énoncé ne contient pas de corrigé.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "DM : autour du Timée (2016-2017)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/dm-timee.html#contenu",
+    "href": "enseignements/A1/cours/dm-timee.html#contenu",
+    "title": "Devoir maison : autour du Timée de Platon",
+    "section": "Contenu",
+    "text": "Contenu\nLe devoir comporte quatre parties :\n\nUn Dieu calculateur… : les trois médiétés, inégalités entre les moyennes, suites arithmétiques, géométriques et harmoniques.\nThis One’s For You… : suites définies par récurrence en mélangeant moyennes arithmétique et harmonique, suites adjacentes.\nCette fois c’est la bonne ! : étude d’une fonction, existence de limites, dérivabilité.\nLe remix de trop : suites mêlant moyennes harmonique et géométrique.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "DM : autour du Timée (2016-2017)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/dm-timee.html#document",
+    "href": "enseignements/A1/cours/dm-timee.html#document",
+    "title": "Devoir maison : autour du Timée de Platon",
+    "section": "Document",
+    "text": "Document\n📄 Télécharger / Consulter le devoir maison (2016-2017) au format PDF",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "DM : autour du Timée (2016-2017)"
+    ]
+  },
+  {
     "objectID": "enseignements/A3/projets/geominf.html",
     "href": "enseignements/A3/projets/geominf.html",
     "title": "BE : Introduction à la géométrie de l’information ou comment calculer pour comprendre pourquoi on se trompe.",
@@ -539,9 +587,67 @@
     "href": "enseignements/A1/index.html",
     "title": "A1 (Bac+1)",
     "section": "",
-    "text": "Cette section est en cours de constitution.",
+    "text": "Titre\n\n\n\nAnnée\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDevoir maison : autour du Timée de Platon\n\n\n2016-2017\n\n\nDevoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.\n\n\n\n\n\n\nKit de survie d’analyse : primitives, développements limités, trigonométrie\n\n\n2015-2016\n\n\nFiche de formules classiques : intégration, primitives usuelles, développements limités usuels et trigonométrie.\n\n\n\n\n\n\nAucun article correspondant",
     "crumbs": [
       "A1 (Bac+1)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/index.html#cours",
+    "href": "enseignements/A1/index.html#cours",
+    "title": "A1 (Bac+1)",
+    "section": "",
+    "text": "Titre\n\n\n\nAnnée\n\n\n\nDescription\n\n\n\n\n\n\n\n\nDevoir maison : autour du Timée de Platon\n\n\n2016-2017\n\n\nDevoir maison d’analyse inspiré du Timée : moyennes arithmétique, géométrique et harmonique, suites définies par récurrence, suites adjacentes, limites et dérivabilité.\n\n\n\n\n\n\nKit de survie d’analyse : primitives, développements limités, trigonométrie\n\n\n2015-2016\n\n\nFiche de formules classiques : intégration, primitives usuelles, développements limités usuels et trigonométrie.\n\n\n\n\n\n\nAucun article correspondant",
+    "crumbs": [
+      "A1 (Bac+1)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/kit-survie-analyse.html",
+    "href": "enseignements/A1/cours/kit-survie-analyse.html",
+    "title": "Kit de survie d’analyse : primitives, développements limités, trigonométrie",
+    "section": "",
+    "text": "Fiche de formules de première année (A1) de l’IPSA, année 2015-2016, intitulée « Kit de survie d’analyse ». Elle rassemble sur deux pages les formules classiques à connaître ou à avoir sous la main.\nIl s’agit d’un document ancien, repris tel quel.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "Kit de survie d'analyse (2015-2016)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/kit-survie-analyse.html#présentation",
+    "href": "enseignements/A1/cours/kit-survie-analyse.html#présentation",
+    "title": "Kit de survie d’analyse : primitives, développements limités, trigonométrie",
+    "section": "",
+    "text": "Fiche de formules de première année (A1) de l’IPSA, année 2015-2016, intitulée « Kit de survie d’analyse ». Elle rassemble sur deux pages les formules classiques à connaître ou à avoir sous la main.\nIl s’agit d’un document ancien, repris tel quel.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "Kit de survie d'analyse (2015-2016)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/kit-survie-analyse.html#contenu",
+    "href": "enseignements/A1/cours/kit-survie-analyse.html#contenu",
+    "title": "Kit de survie d’analyse : primitives, développements limités, trigonométrie",
+    "section": "Contenu",
+    "text": "Contenu\n\nFormules générales : théorème fondamental de l’analyse, intégration par parties, changement de variable.\nPrimitives de base, y compris pour les fonctions hyperboliques.\nDéveloppements limités usuels (sinus, sinus hyperbolique, tangente, arc sinus, arc cosinus…).\nTrigonométrie : valeurs remarquables, relations remarquables, formules d’addition et de duplication, transformation des sommes en produits.",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "Kit de survie d'analyse (2015-2016)"
+    ]
+  },
+  {
+    "objectID": "enseignements/A1/cours/kit-survie-analyse.html#document",
+    "href": "enseignements/A1/cours/kit-survie-analyse.html#document",
+    "title": "Kit de survie d’analyse : primitives, développements limités, trigonométrie",
+    "section": "Document",
+    "text": "Document\n📄 Télécharger / Consulter la fiche (2015-2016) au format PDF",
+    "crumbs": [
+      "A1 (Bac+1)",
+      "Cours et exercices",
+      "Kit de survie d'analyse (2015-2016)"
     ]
   },
   {

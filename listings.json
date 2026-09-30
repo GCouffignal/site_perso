@@ -23,6 +23,13 @@
     ]
   },
   {
+    "listing": "/enseignements/A1/index.html",
+    "items": [
+      "/enseignements/A1/cours/dm-timee.html",
+      "/enseignements/A1/cours/kit-survie-analyse.html"
+    ]
+  },
+  {
     "listing": "/notes/index.html",
     "items": []
   }
