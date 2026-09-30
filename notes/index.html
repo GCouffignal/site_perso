@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Notes personnelles – Archives et Projets de Mathématiques</title>
+<title>Notes et présentations – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -85,9 +85,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-year','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-title","listing-author"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -136,7 +136,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Notes personnelles – Archives et Projets de Mathématiques">
+<meta property="og:title" content="Notes et présentations – Archives et Projets de Mathématiques">
 <meta property="og:description" content="">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
 </head>
@@ -191,7 +191,7 @@ window.Quarto = {
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../notes/index.html" aria-current="page"> 
-<span class="menu-text">Notes</span></a>
+<span class="menu-text">Notes et présentations</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -212,15 +212,15 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Toutes <span class="quarto-category-count">(0)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Notes personnelles</h1>
+<h1 class="title">Notes et présentations</h1>
 </div>
 
 
@@ -237,20 +237,118 @@ window.Quarto = {
 </header>
 
 
-<p>Notes sur diverses notions et autres travaux. Cette section est en cours de constitution.</p>
+<p>Notes sur diverses notions, et présentations données lors de séminaires et d’exposés, pour des étudiants, des collègues ou un public non spécialiste.</p>
 <!--
-Pour ajouter une note : créer un dossier notes/<nom-de-la-note>/ contenant un
-fichier index.qmd avec un title, une date et éventuellement des categories.
-Elle apparaît alors automatiquement dans la liste de cette page.
+Pour ajouter une note ou une présentation : créer un dossier notes/<nom>/ contenant
+un fichier index.qmd (avec title, description, year et order) et, le cas échéant,
+son PDF. Elle apparaît alors automatiquement dans la liste de cette page.
+Les plus récentes ont les numéros d'ordre (order) les plus petits.
 -->
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
 
-</div>
+<th>
+Titre
+</th>
+
+<th>
+Année
+</th>
+
+<th>
+Description
+</th>
+
+</tr>
+</thead>
+<tbody class="list">
+
+<tr data-index="0" data-listing-file-modified-sort="1790800924451" data-listing-reading-time-sort="1" data-listing-word-count-sort="131" data-listing-title-sort="Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/valeurs/index.html" class="title listing-title">Repenser la notion de valeur : appréhender une mutation actuelle du capitalisme</a>
+</td>
+<td>
+<span class="listing-year">2019</span>
+</td>
+<td>
+<span class="listing-description">Séminaire pour les étudiants de l’IPSA (25 février 2019) : sociétés, individus, choses et valeurs, modèle de la cité, capitalisme intégral.</span>
+</td>
+
+</tr>
+
+<tr data-index="1" data-listing-file-modified-sort="1790800924436" data-listing-reading-time-sort="1" data-listing-word-count-sort="128" data-listing-title-sort="De la géométrie aux géométries : une promenade mathématico-historique" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/geometries/index.html" class="title listing-title">De la géométrie aux géométries : une promenade mathématico-historique</a>
+</td>
+<td>
+<span class="listing-year">2018</span>
+</td>
+<td>
+<span class="listing-description">Séminaire pour les étudiants de l’IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes.</span>
+</td>
+
+</tr>
+
+<tr data-index="2" data-listing-file-modified-sort="1790800924446" data-listing-reading-time-sort="1" data-listing-word-count-sort="69" data-listing-title-sort="Des mathématiques à la philosophie… …de la philosophie aux mathématiques" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/maths-philosophie/index.html" class="title listing-title">Des mathématiques à la philosophie… …de la philosophie aux mathématiques</a>
+</td>
+<td>
+<span class="listing-year">2017</span>
+</td>
+<td>
+<span class="listing-description">Séminaire tout public pour l’association La Sauce aux idées (12 mai 2017) : allers-retours entre mathématiques et philosophie.</span>
+</td>
+
+</tr>
+
+<tr data-index="3" data-listing-file-modified-sort="1790800924438" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-title-sort="La théorie des catégories et la théorie de l'homotopie chez Daniel Kan" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/homotopie-kan/index.html" class="title listing-title">La théorie des catégories et la théorie de l’homotopie chez Daniel Kan</a>
+</td>
+<td>
+<span class="listing-year">2014</span>
+</td>
+<td>
+<span class="listing-description">Séminaire à l’université Paul Sabatier (mars 2014) : les premiers travaux de Daniel Kan en théorie de l’homotopie, et le problème de l’identification.</span>
+</td>
+
+</tr>
+
+<tr data-index="4" data-listing-file-modified-sort="1790800924442" data-listing-reading-time-sort="1" data-listing-word-count-sort="129" data-listing-title-sort="Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/kan-cavailles-sphere/index.html" class="title listing-title">Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès</a>
+</td>
+<td>
+<span class="listing-year">juin 2013</span>
+</td>
+<td>
+<span class="listing-description">Séminaire Mathématiques et philosophie, 19e et 20e siècles (SΦHERE), 25 juin 2013 : paradigme et thématisation chez Cavaillès, processus de production et de comparaison en mathématique, de l’homotopie à l’identification.</span>
+</td>
+
+</tr>
+
+<tr data-index="5" data-listing-file-modified-sort="1790800924440" data-listing-reading-time-sort="1" data-listing-word-count-sort="109" data-listing-title-sort="Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d'avril 2013)" data-listing-filename-sort="index.qmd">
+<td>
+<a href="../notes/kan-cavailles-avril/index.html" class="title listing-title">Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d’avril 2013)</a>
+</td>
+<td>
+<span class="listing-year">avril 2013</span>
+</td>
+<td>
+<span class="listing-description">Exposé d’avril 2013 : une étude philosophique (Cavaillès), une étude mathématique (premiers travaux de Kan en théorie de l’homotopie), puis une synthèse.</span>
+</td>
+
+</tr>
+
+</tbody>
+</table>
 <div class="listing-no-matching d-none">Aucun article correspondant</div>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

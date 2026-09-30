@@ -31,6 +31,13 @@
   },
   {
     "listing": "/notes/index.html",
-    "items": []
+    "items": [
+      "/notes/valeurs/index.html",
+      "/notes/geometries/index.html",
+      "/notes/maths-philosophie/index.html",
+      "/notes/homotopie-kan/index.html",
+      "/notes/kan-cavailles-sphere/index.html",
+      "/notes/kan-cavailles-avril/index.html"
+    ]
   }
 ]

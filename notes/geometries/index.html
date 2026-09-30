@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Détermination du mouvement apparent (flux optique) à partir des images d’une vidéo.">
+<meta name="description" content="Séminaire pour les étudiants de l’IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes.">
 
-<title>BE : détermination du mouvement apparent sur des images – Archives et Projets de Mathématiques</title>
+<title>De la géométrie aux géométries : une promenade mathématico-historique – Archives et Projets de Mathématiques</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -30,23 +30,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-b57573f11d9b08cc55eebe10b237b341.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,23 +76,20 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../../styles.css">
-<meta property="og:title" content="BE : détermination du mouvement apparent sur des images – Archives et Projets de Mathématiques">
-<meta property="og:description" content="Détermination du mouvement apparent (flux optique) à partir des images d’une vidéo.">
-<meta property="og:image" content="https://gcouffignal.github.io/site_perso/sujets_BE/sphere_resultat.png">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="De la géométrie aux géométries : une promenade mathématico-historique – Archives et Projets de Mathématiques">
+<meta property="og:description" content="Séminaire pour les étudiants de l’IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes.">
 <meta property="og:site_name" content="Archives et Projets de Mathématiques">
-<meta property="og:image:height" content="150">
-<meta property="og:image:width" content="150">
 </head>
 
-<body class="nav-sidebar docked nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Archives et Projets de Mathématiques</span>
     </a>
   </div>
@@ -103,7 +100,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Accueil</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -112,37 +109,37 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-enseignements">    
         <li>
-    <a class="dropdown-item" href="../../../enseignements/index.html">
+    <a class="dropdown-item" href="../../enseignements/index.html">
  <span class="dropdown-text">Vue d’ensemble</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A1/index.html">
+    <a class="dropdown-item" href="../../enseignements/A1/index.html">
  <span class="dropdown-text">A1 (Bac+1)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A2/index.html">
+    <a class="dropdown-item" href="../../enseignements/A2/index.html">
  <span class="dropdown-text">A2 (Bac+2)</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../enseignements/A3/index.html">
+    <a class="dropdown-item" href="../../enseignements/A3/index.html">
  <span class="dropdown-text">A3 (Bac+3)</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../autres-enseignements/index.html"> 
+    <a class="nav-link" href="../../autres-enseignements/index.html"> 
 <span class="menu-text">Autres enseignements</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../notes/index.html"> 
+    <a class="nav-link" href="../../notes/index.html"> 
 <span class="menu-text">Notes et présentations</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../blog/index.html"> 
+    <a class="nav-link" href="../../blog/index.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">À propos</span></a>
   </li>  
 </ul>
@@ -151,210 +148,33 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A2/index.html">A2 (Bac+2)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/projets/fluxopt.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/projets/fluxopt.html">BE : flux optique (2024)</a></li></ol></nav>
-        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Vue d’ensemble</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A1/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A1 (Bac+1)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A1/cours/dm-timee.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">DM : autour du Timée (2016-2017)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A1/cours/kit-survie-analyse.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kit de survie d’analyse (2015-2016)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A2/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A2 (Bac+2)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A2/cours/ma223-analyse-numerique-matricielle.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse numérique matricielle (2026)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A2/projets/fluxopt.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">BE : flux optique (2024)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a href="../../../enseignements/A3/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A3 (Bac+3)</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
- <span class="menu-text">Cours et exercices</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/outils-analyse-calcul-differentiel.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Calcul différentiel, Typst (2026-2027)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/ma312-analyse-harmonique.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse harmonique (2025)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/cours/ma311-312-analyse-complexe.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Analyse complexe (2021-2022)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true">
- <span class="menu-text">Projets</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="true" aria-label="Basculer la section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/inpainting.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : gradient conjugué, inpainting (2024)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/geominf.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : géométrie de l’information (2025-2026)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/ica.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : analyse en composantes indépendantes (2023)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../../enseignements/A3/projets/reducpartimage.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">BE : réduction en dimension, segmentation (2024)</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-  <li><a href="#présentation-du-problème" id="toc-présentation-du-problème" class="nav-link active" data-scroll-target="#présentation-du-problème">Présentation du problème</a></li>
-  <li><a href="#sujet-complet" id="toc-sujet-complet" class="nav-link" data-scroll-target="#sujet-complet">Sujet complet</a></li>
-  <li><a href="#prérequis" id="toc-prérequis" class="nav-link" data-scroll-target="#prérequis">Prérequis</a></li>
+  <li><a href="#présentation" id="toc-présentation" class="nav-link active" data-scroll-target="#présentation">Présentation</a></li>
+  <li><a href="#contenu" id="toc-contenu" class="nav-link" data-scroll-target="#contenu">Contenu</a></li>
+  <li><a href="#document" id="toc-document" class="nav-link" data-scroll-target="#document">Document</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/GCouffignal/site_perso/issues/new" class="toc-action"><i class="bi bi-github"></i>Faire part d'un problème</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../../enseignements/A2/index.html">A2 (Bac+2)</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/projets/fluxopt.html">Projets</a></li><li class="breadcrumb-item"><a href="../../../enseignements/A2/projets/fluxopt.html">BE : flux optique (2024)</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">BE : détermination du mouvement apparent sur des images</h1>
+<h1 class="title">De la géométrie aux géométries : une promenade mathématico-historique</h1>
 </div>
 
 <div>
   <div class="description">
-    Détermination du mouvement apparent (flux optique) à partir des images d’une vidéo.
+    Séminaire pour les étudiants de l’IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes.
   </div>
 </div>
 
@@ -371,24 +191,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="présentation-du-problème" class="level2">
-<h2 class="anchored" data-anchor-id="présentation-du-problème">Présentation du problème</h2>
-<p>Dans ce BE nous allons nous intéresser au problème de la détermination du mouvement à partir des images d’une vidéo. Une vidéo est en général la restitution planaire i.e.&nbsp;2D d’une scène 3D et le mouvement réel en trois dimensions n’est en pratique pas déterminable à partir de ces données 2D uniquement. Ce que l’on perçoit dans une vidéo est le mouvement apparent, ce que l’on nomme le flux optique. Dans ce BE on pourra utiliser les données tests fournis par le site du Middlebury College et son équipe recherche en vision assitée par ordinateur. On trouvera cette base de donnée sur la page : [https://vision.middlebury.edu/flow/data/].</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="../../../sujets_BE/sphere_resultat.png" class="img-fluid figure-img" style="width:40.0%"></p>
-<figcaption>Un exemple de calcul du flux optique sur des images.</figcaption>
-</figure>
-</div>
+<section id="présentation" class="level2">
+<h2 class="anchored" data-anchor-id="présentation">Présentation</h2>
+<p>Exposé présenté en 2018 lors d’un séminaire destiné aux étudiants de l’IPSA. Il propose une promenade à la fois mathématique et historique, de la géométrie euclidienne aux géométries non euclidiennes.</p>
 </section>
-<section id="sujet-complet" class="level2">
-<h2 class="anchored" data-anchor-id="sujet-complet">Sujet complet</h2>
-<p>Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :</p>
-<p><a href="../../../sujets_BE/Ma223_BE_2024.pdf">📄 Télécharger / Consulter le sujet (2024) au format PDF</a></p>
+<section id="contenu" class="level2">
+<h2 class="anchored" data-anchor-id="contenu">Contenu</h2>
+<ul>
+<li><strong>La géométrie « euclidienne »</strong> : les <em>Éléments</em> et leurs principes.</li>
+<li><strong>Le postulatum en question</strong> : un long chemin historique, de la recherche d’une démonstration (Saccheri) aux premières géométries non euclidiennes.</li>
+<li><strong>Redécouverte tardive et postérités</strong> : Lobatchevski et Bolyai, Riemann, modèles de la géométrie, programme d’Erlangen, principe de relativité.</li>
+<li><strong>Conclusion, « au-delà des mathématiques : une matière à penser »</strong> : ce que cette promenade historique amène à penser, de la double création grecque de la philosophie et de la démocratie à l’institution social-historique de la géométrie.</li>
+</ul>
 </section>
-<section id="prérequis" class="level2">
-<h2 class="anchored" data-anchor-id="prérequis">Prérequis</h2>
-<p>Bases du calcul différentiel, moindres carrés, méthodes itératives matricielles (Jacobi, Relaxation).</p>
+<section id="document" class="level2">
+<h2 class="anchored" data-anchor-id="document">Document</h2>
+<p><a href="De_la_geometrie_aux_geometries.pdf">📄 Télécharger / Consulter les diapositives (2018) au format PDF</a></p>
 
 
 </section>
