@@ -1,6 +1,7 @@
 ---
 title: "G. Couffignal"
 image: avatar.jpeg
+toc: false
 about:
   template: trestles
   links:
@@ -15,9 +16,3 @@ about:
 ## Bienvenue
 
 Cet espace rassemble mes enseignements de mathématiques, les sujets de projets proposés à mes étudiants, des notes personnelles et des billets de réflexion.
-
-## Par où commencer ?
-
-* **Étudiants** : les [enseignements mathématiques](enseignements/index.qmd) par niveau (A1, A2, A3) et les sujets de projets (BE).
-* **Collègues et chercheurs** : les [notes personnelles](notes/index.qmd) sur diverses notions.
-* **Curieux** : le [blog](blog/index.qmd) et les [autres enseignements](autres-enseignements/index.qmd) (histoire des mathématiques, pensée de Castoriadis).

@@ -1,0 +1,30 @@
+---
+title: "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières"
+description: "Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d'Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés."
+order: 1
+---
+
+## Présentation
+
+Ce fascicule a été rédigé pour la seconde année (A2) de l'IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.
+
+::: {.callout-note}
+## Avertissement
+
+Ces notes ne constituent pas un cours exhaustif d'analyse numérique matricielle : les formulations sont simplifiées, certaines démonstrations sont incomplètes ou omises, et l'accent est mis sur des exemples numériques sous Python (les codes complets étant vus en séance de travaux dirigés).
+
+Version préliminaire du 12/04/2026.
+:::
+
+## Contenu
+
+* Décomposition en valeurs singulières : structure euclidienne de l'espace des matrices, norme de Frobenius, SVD, valeurs singulières comme mesure de l'information.
+* Théorème d'Eckart-Young-Mirsky et ses conséquences : problème d'approximation de Schmidt, compression d'image, analyse en composantes principales (version algébrique).
+* Analyse procustéenne linéaire : cas d'une transformation orthogonale, cas d'une transformation affine, exemples sous Python.
+* Moindres carrés : résolution par SVD, moindres carrés totaux, exemple d'apprentissage supervisé (reconnaissance de chiffres manuscrits).
+* Ouverture : décompositions biconjuguées.
+* Annexes : rappels de calcul matriciel, formes bilinéaires et quadratiques, produit de Kronecker, éléments de Python (dont OpenCV), bibliographie.
+
+## Document
+
+[📄 Télécharger / Consulter le cours au format PDF](Ma223_Cours.pdf)

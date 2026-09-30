@@ -6,6 +6,8 @@ listing:
     type: table
     sort: "order"
     fields: [title, description]
+    sort-ui: false
+    filter-ui: false
 ---
 
 ## Projets {#projets}
