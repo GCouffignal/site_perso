@@ -26,8 +26,8 @@ website:
             text: "A3 (Bac+3)"
           - href: enseignements/autres/index.qmd
             text: "Autres enseignements"
-      - href: notes/index.qmd
-        text: "Notes et présentations"
+      - href: seminaires/index.qmd
+        text: "Séminaires"
       - href: blog/index.qmd
         text: "Blog"
       - href: about.qmd
