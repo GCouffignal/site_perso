@@ -74,8 +74,6 @@ website:
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: theme.scss
     css: styles.css
     toc: true

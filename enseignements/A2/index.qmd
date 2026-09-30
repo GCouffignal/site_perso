@@ -6,11 +6,15 @@ listing:
     type: table
     sort: "order"
     fields: [title, description]
+    sort-ui: false
+    filter-ui: false
   - id: projets-a2
     contents: "projets/*.qmd"
     type: table
     sort: "order"
     fields: [title, description]
+    sort-ui: false
+    filter-ui: false
 ---
 
 ## Cours et exercices {#cours}

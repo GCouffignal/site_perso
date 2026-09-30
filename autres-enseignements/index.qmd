@@ -11,6 +11,7 @@ Cours d'histoire des mathématiques que j'ai co-enseigné avec Christophes Eckes
 **Partie 1 : Généralités et géométrie** [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P1%20geometrie.pdf)
 
 **Partie 2 : De la règle et du compas à l'algèbre**
+
 - Partie 1 : [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P2_regle_compas.pdf)
 - Partie 2 : [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P2_regle_compas_2.pdf)
 

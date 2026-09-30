@@ -2,6 +2,9 @@
 # MODÈLE DE BILLET. Ce fichier est ignoré à la compilation (son nom commence par « _ »).
 # Pour écrire un billet : créer le dossier blog/posts/AAAA-MM-JJ-titre-court/
 # et y copier ce fichier sous le nom index.qmd, puis retirer « draft: true ».
+# Tant que « draft: true » est présent, le billet n'est pas publié : il n'apparaît
+# ni dans la liste, ni dans la recherche, ni dans le flux RSS, et son texte n'est
+# pas mis en ligne (son adresse renvoie une page vide).
 title: "Titre du billet"
 description: "Une phrase qui résume le billet (affichée dans la liste)."
 date: 2026-01-01

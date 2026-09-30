@@ -1,0 +1,252 @@
+/*-- scss:defaults --*/
+
+// Palette : sobre, un seul accent (bleu profond) et des gris neutres.
+$accent:  #1f5f8b;
+$ink:     #1f2328;
+$muted:   #59616b;
+$surface: #f6f7f9;
+$line:    #e3e6ea;
+
+$body-bg:          #ffffff;
+$body-color:       $ink;
+$primary:          $accent;
+$link-color:       $accent;
+$link-hover-color: #174866;
+$link-decoration:  none;
+$border-color:     $line;
+
+// Polices système : aucune requête vers un service tiers, chargement immédiat.
+$font-family-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+$headings-font-weight:   600;
+$headings-color:         $ink;
+$font-size-base:         1.0625rem;
+$line-height-base:       1.65;
+$border-radius:          .5rem;
+
+$navbar-bg: #ffffff;
+$navbar-fg: $ink;
+$navbar-hl: $accent;
+
+$sidebar-bg: #ffffff;
+$sidebar-fg: $muted;
+$sidebar-hl: $accent;
+
+$callout-color-note: $accent;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// ---- Barre de navigation du haut ------------------------------------------
+.navbar {
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+}
+.navbar .navbar-title {
+  font-size: 1.02rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+}
+.navbar .nav-link {
+  color: $muted;
+  font-size: .92rem;
+  font-weight: 500;
+  white-space: nowrap;
+  transition: color .15s ease;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active,
+.navbar .nav-item.dropdown.show > .nav-link {
+  color: $accent;
+}
+
+// ---- Titres ------------------------------------------------------------------
+h1, h2, h3, h4 {
+  letter-spacing: -0.012em;
+}
+.quarto-title h1.title {
+  font-size: 1.95rem;
+  line-height: 1.25;
+}
+.quarto-title-block .subtitle,
+.quarto-title p.subtitle {
+  color: $muted;
+  font-size: 1.05rem;
+}
+#quarto-document-content h2 {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-top: 2.4rem;
+  font-size: 1.55rem;
+}
+#quarto-document-content h3 {
+  font-size: 1.25rem;
+}
+
+// ---- Liens dans le texte : discrets, soulignés d'un trait fin -----------------
+#quarto-document-content a:where(:not(.btn, .about-link, .listing-category)) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+  text-decoration-color: rgba($accent, .35);
+  transition: color .15s ease, text-decoration-color .15s ease;
+}
+#quarto-document-content a:where(:not(.btn, .about-link, .listing-category)):hover {
+  text-decoration-color: currentColor;
+}
+
+// ---- Liens vers des PDF : présentés comme des boutons -------------------------
+#quarto-document-content a[href$=".pdf"] {
+  display: inline-block;
+  margin: .15rem 0;
+  padding: .3rem .85rem;
+  border: 1px solid rgba($accent, .4);
+  border-radius: .5rem;
+  font-size: .95rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+#quarto-document-content a[href$=".pdf"]:hover {
+  background-color: rgba($accent, .07);
+  border-color: $accent;
+}
+
+// ---- Listes en tableau (cours, projets) -------------------------------------
+#quarto-document-content table.quarto-listing-table {
+  font-size: .98rem;
+  border-collapse: collapse;
+}
+#quarto-document-content table.quarto-listing-table > thead > tr > th {
+  padding: .6rem .8rem;
+  border-bottom: 1px solid $line;
+  color: $muted;
+  font-size: .76rem;
+  font-weight: 600;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+}
+#quarto-document-content table.quarto-listing-table > tbody > tr > td {
+  padding: 1rem .8rem;
+  border-bottom: 1px solid $line;
+  color: $muted;
+  vertical-align: top;
+}
+#quarto-document-content table.quarto-listing-table > tbody > tr:hover > td {
+  background-color: $surface;
+}
+#quarto-document-content table.quarto-listing-table > tbody > tr > td:first-child a {
+  color: $ink;
+  font-weight: 600;
+  text-decoration: none;
+}
+#quarto-document-content table.quarto-listing-table > tbody > tr > td:first-child a:hover {
+  color: $accent;
+}
+
+@media (max-width: 576px) {
+  #quarto-document-content table.quarto-listing-table,
+  #quarto-document-content table.quarto-listing-table > tbody,
+  #quarto-document-content table.quarto-listing-table > tbody > tr,
+  #quarto-document-content table.quarto-listing-table > tbody > tr > td {
+    display: block;
+    width: 100%;
+  }
+  #quarto-document-content table.quarto-listing-table > thead {
+    display: none;
+  }
+  #quarto-document-content table.quarto-listing-table > tbody > tr {
+    padding: .9rem 0;
+    border-bottom: 1px solid $line;
+  }
+  #quarto-document-content table.quarto-listing-table > tbody > tr > td {
+    padding: .1rem 0;
+    border-bottom: none;
+  }
+}
+
+// ---- Blog : liste de billets ---------------------------------------------------
+#quarto-document-content .quarto-listing-default a {
+  color: inherit;
+  text-decoration: none;
+}
+#quarto-document-content .quarto-listing-default a:hover .listing-title {
+  color: $accent;
+}
+.quarto-listing-default .listing-title {
+  color: $ink;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.quarto-listing-default .listing-date,
+.quarto-listing-default .listing-reading-time {
+  color: $muted;
+  font-size: .85rem;
+}
+.quarto-listing-default .listing-description {
+  color: $muted;
+}
+.listing-category {
+  border: 1px solid $line;
+  border-radius: 999px;
+  background: $surface;
+  color: $muted;
+  font-size: .72rem;
+  padding: .1rem .6rem;
+}
+
+// ---- Barre latérale et table des matières ------------------------------------
+.sidebar-navigation .sidebar-item-text {
+  font-size: .93rem;
+  line-height: 1.4;
+}
+.sidebar-navigation .sidebar-item {
+  margin-bottom: .2rem;
+}
+.sidebar-navigation .sidebar-link.active {
+  color: $accent;
+  font-weight: 600;
+}
+nav[role="doc-toc"] a.active {
+  color: $accent;
+}
+
+// ---- Page d'accueil ------------------------------------------------------------
+.quarto-about-trestles .about-image {
+  border-radius: .75rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 10px 28px rgba(0, 0, 0, .10);
+}
+.quarto-about-trestles .about-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+.quarto-about-trestles .about-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  padding: .35rem .9rem;
+  border: 1px solid $line;
+  border-radius: .5rem;
+  color: $ink;
+  font-size: .92rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: border-color .15s ease, color .15s ease, background-color .15s ease;
+}
+.quarto-about-trestles .about-link:hover {
+  border-color: $accent;
+  color: $accent;
+  background-color: rgba($accent, .05);
+}
+
+// ---- Encadrés ---------------------------------------------------------------------
+.callout {
+  border-radius: .5rem;
+  box-shadow: none;
+}
