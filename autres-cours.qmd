@@ -10,7 +10,7 @@ Cours d'histoire des mathématiques que j'ai co-enseigné avec Christophes Eckes
 
 **Partie 2 : De la règle et du compas à l'algèbre**
 - Partie 1 : [📄 Télécharger / Consulter les slides au format PDF](Autres_cours/P2_regle_compas.pdf)
-- Partie 2 : [📄 Télécharger / Consulter les slides au format PDF](Autres_cours/P2_regle_compas_P2.pdf)
+- Partie 2 : [📄 Télécharger / Consulter les slides au format PDF](Autres_cours/P2_regle_compas_2.pdf)
 
 **Partie 3 : Sur la construction des nombres réels** [📄 Télécharger / Consulter les slides au format PDF](Autres_cours/P3_construction_des_reels.pdf)
 
