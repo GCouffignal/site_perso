@@ -1,0 +1,14 @@
+---
+title: "A3 (Bac+3)"
+listing:
+  - id: projets-a3
+    contents: "projets/*.qmd"
+    type: table
+    sort: "order"
+    fields: [title, description]
+---
+
+## Projets {#projets}
+
+::: {#projets-a3}
+:::

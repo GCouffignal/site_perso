@@ -1,0 +1,20 @@
+---
+# MODÈLE DE BILLET. Ce fichier est ignoré à la compilation (son nom commence par « _ »).
+# Pour écrire un billet : créer le dossier blog/posts/AAAA-MM-JJ-titre-court/
+# et y copier ce fichier sous le nom index.qmd, puis retirer « draft: true ».
+title: "Titre du billet"
+description: "Une phrase qui résume le billet (affichée dans la liste)."
+date: 2026-01-01
+categories: [mathématiques]
+draft: true
+---
+
+Le texte s'écrit en Markdown. Les formules s'écrivent en LaTeX : en ligne, $e^{i\pi}+1=0$ ; en bloc :
+
+$$
+\int_0^{+\infty} e^{-x^2}\,dx=\frac{\sqrt{\pi}}{2}.
+$$
+
+## Une section
+
+Du texte, une liste, une image `![légende](image.png)`, un lien vers un [autre billet](../2026-01-02-autre/index.qmd).

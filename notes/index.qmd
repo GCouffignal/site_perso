@@ -1,0 +1,18 @@
+---
+title: "Notes personnelles"
+aliases:
+  - /notes-personnelles.html
+listing:
+  contents: "*/index.qmd"
+  type: default
+  sort: "date desc"
+  categories: true
+---
+
+Notes sur diverses notions et autres travaux. Cette section est en cours de constitution.
+
+<!--
+Pour ajouter une note : créer un dossier notes/<nom-de-la-note>/ contenant un
+fichier index.qmd avec un title, une date et éventuellement des categories.
+Elle apparaît alors automatiquement dans la liste de cette page.
+-->

@@ -1,0 +1,26 @@
+---
+title: "Autres enseignements"
+aliases:
+  - /autres-cours.html
+---
+Sur cette page, vous trouverez d'autres cours et présentations que j'ai préparés pour mes étudiants ou pour des conférences. Ces ressources couvrent une variété de sujets allant de l'histoire des mathématiques en passant par la philosophie.
+
+# Histoire des mathématiques (avec C. Eckes)
+Cours d'histoire des mathématiques que j'ai co-enseigné avec Christophes Eckes (niveau BAC+3).
+
+**Partie 1 : Généralités et géométrie** [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P1%20geometrie.pdf)
+
+**Partie 2 : De la règle et du compas à l'algèbre**
+- Partie 1 : [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P2_regle_compas.pdf)
+- Partie 2 : [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P2_regle_compas_2.pdf)
+
+**Partie 3 : Sur la construction des nombres réels** [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/P3_construction_des_reels.pdf)
+
+---
+
+# Introduction à la pensée de Cornelius Castoriadis
+Cours d'introduction à la pensée de Cornelius Castoriadis que j'ai donné à l'ISAE (niveau BAC+3/+4) sur la philosophie politique de ce penseur.
+
+**Partie 1 : Introduction à la pensée de Castoriadis** [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/seance_1.pdf)
+
+**Partie 2 : Autour du texte : "Valeur, égalité, justice politique de Marx à Aristote et d'Aristote à nous"** [📄 Télécharger / Consulter les slides au format PDF](/Autres_cours/seance_2.pdf)
