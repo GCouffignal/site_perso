@@ -53,7 +53,7 @@ website:
             - section: "Cours et exercices"
               contents:
                 - href: enseignements/A2/cours/ma223-analyse-numerique-matricielle.qmd
-                  text: "Ma223 : analyse numérique matricielle (SVD)"
+                  text: "Analyse numérique matricielle (SVD)"
             - section: "Projets"
               contents:
                 - href: enseignements/A2/projets/fluxopt.qmd
@@ -64,9 +64,9 @@ website:
             - section: "Cours et exercices"
               contents:
                 - href: enseignements/A3/cours/ma312-analyse-harmonique.qmd
-                  text: "Ma312 : analyse harmonique (Fourier, Laplace)"
+                  text: "Analyse harmonique (Fourier, Laplace)"
                 - href: enseignements/A3/cours/ma311-312-analyse-complexe.qmd
-                  text: "Ma311-312 : analyse complexe (cours 2021-2022)"
+                  text: "Analyse complexe (cours 2021-2022)"
             - section: "Projets"
               contents:
                 - href: enseignements/A3/projets/inpainting.qmd

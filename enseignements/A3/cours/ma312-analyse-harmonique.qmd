@@ -1,12 +1,12 @@
 ---
-title: "Ma312 : Éléments d'analyse harmonique pour l'ingénieur"
+title: "Éléments d'analyse harmonique pour l'ingénieur"
 description: "Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d'échantillonnage, transformée de Laplace."
 order: 1
 ---
 
 ## Présentation
 
-Ce fascicule a été rédigé pour la troisième année (A3) de l'IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d'une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d'échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.
+Ce fascicule, qui correspond au module Ma312, a été rédigé pour la troisième année (A3) de l'IPSA. Il traite des séries de Fourier, de la transformée de Fourier et d'une courte introduction à la transformée de Laplace. La formule de sommation de Poisson y permet notamment de démontrer le théorème d'échantillonnage (Shannon). Il se termine par une introduction à la transformée de Fourier discrète et à la transformation de Fourier rapide.
 
 ::: {.callout-note}
 ## Avertissement
