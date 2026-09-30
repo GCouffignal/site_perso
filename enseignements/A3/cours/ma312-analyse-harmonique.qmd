@@ -1,7 +1,8 @@
 ---
 title: "Éléments d'analyse harmonique pour l'ingénieur"
 description: "Fascicule de cours avec applications numériques sous Python et quatre TD : séries de Fourier, transformée de Fourier, formule de sommation de Poisson et théorème d'échantillonnage, transformée de Laplace."
-order: 1
+year: "2025"
+order: 2
 ---
 
 ## Présentation
@@ -28,6 +29,8 @@ Version du 15/09/2025.
 [📄 Télécharger / Consulter le fascicule de cours au format PDF](Ma312_Fascicule_cours.pdf)
 
 ## Travaux dirigés
+
+TD de 2024.
 
 * **TD 1 : séries de Fourier.** [📄 Énoncé au format PDF](Ma312_TD1.pdf)
 * **TD 2 : introduction à la transformée de Fourier.** [📄 Énoncé au format PDF](Ma312_TD2.pdf)

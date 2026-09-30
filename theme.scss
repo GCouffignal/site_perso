@@ -135,6 +135,9 @@ h1, h2, h3, h4 {
   color: $muted;
   vertical-align: top;
 }
+#quarto-document-content table.quarto-listing-table > tbody > tr > td:nth-child(2) {
+  white-space: nowrap;
+}
 #quarto-document-content table.quarto-listing-table > tbody > tr:hover > td {
   background-color: $surface;
 }

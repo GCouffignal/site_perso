@@ -53,30 +53,32 @@ website:
             - section: "Cours et exercices"
               contents:
                 - href: enseignements/A2/cours/ma223-analyse-numerique-matricielle.qmd
-                  text: "Analyse numérique matricielle (SVD)"
+                  text: "Analyse numérique matricielle (2026)"
             - section: "Projets"
               contents:
                 - href: enseignements/A2/projets/fluxopt.qmd
-                  text: "BE : flux optique"
+                  text: "BE : flux optique (2024)"
         - section: "A3 (Bac+3)"
           href: enseignements/A3/index.qmd
           contents:
             - section: "Cours et exercices"
               contents:
+                - href: enseignements/A3/cours/outils-analyse-calcul-differentiel.qmd
+                  text: "Calcul différentiel, Typst (2026-2027)"
                 - href: enseignements/A3/cours/ma312-analyse-harmonique.qmd
-                  text: "Analyse harmonique (Fourier, Laplace)"
+                  text: "Analyse harmonique (2025)"
                 - href: enseignements/A3/cours/ma311-312-analyse-complexe.qmd
-                  text: "Analyse complexe (cours 2021-2022)"
+                  text: "Analyse complexe (2021-2022)"
             - section: "Projets"
               contents:
                 - href: enseignements/A3/projets/inpainting.qmd
-                  text: "BE : gradient conjugué, inpainting"
+                  text: "BE : gradient conjugué, inpainting (2024)"
                 - href: enseignements/A3/projets/geominf.qmd
-                  text: "BE : géométrie de l'information"
+                  text: "BE : géométrie de l'information (2025-2026)"
                 - href: enseignements/A3/projets/ica.qmd
-                  text: "BE : analyse en composantes indépendantes"
+                  text: "BE : analyse en composantes indépendantes (2023)"
                 - href: enseignements/A3/projets/reducpartimage.qmd
-                  text: "BE : réduction en dimension, segmentation"
+                  text: "BE : réduction en dimension, segmentation (2024)"
 
 format:
   html:

@@ -1,6 +1,7 @@
 ---
 title: "Analyse numérique matricielle : autour de la décomposition en valeurs singulières"
 description: "Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d'Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés."
+year: "2026"
 order: 1
 ---
 

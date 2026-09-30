@@ -1,7 +1,8 @@
 ---
 title: "Analyse complexe, transformées de Fourier et de Laplace"
 description: "Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace."
-order: 2
+year: "2021-2022"
+order: 3
 ---
 
 ## Présentation
@@ -23,7 +24,7 @@ Pour une version plus récente du volet Fourier et Laplace, voir le cours [Élé
 
 ## Travaux dirigés
 
-Les TD sont regroupés dans un fascicule unique.
+Les TD (2021) sont regroupés dans un fascicule unique.
 
 [📄 Télécharger / Consulter le fascicule de TD au format PDF](Fascicule_TD_Ma311_312_.pdf)
 

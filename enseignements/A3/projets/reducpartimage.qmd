@@ -1,6 +1,7 @@
 ---
 title: "BE : Réduction en dimension et segmentation d'image"
 description: "Segmentation d'image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting."
+year: "2024"
 order: 4
 aliases:
   - /projetA3_reducpartimage.html
@@ -27,7 +28,7 @@ Le but principal de ce BE est de créer un algorithme de partitionnement ou segm
 
 Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :
 
-[📄 Télécharger / Consulter le sujet au format PDF](/sujets_BE/Ma324_BE_2024.pdf)
+[📄 Télécharger / Consulter le sujet (2024) au format PDF](/sujets_BE/Ma324_BE_2024.pdf)
 
 ## Prérequis 
 

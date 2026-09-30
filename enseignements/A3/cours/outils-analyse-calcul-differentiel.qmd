@@ -1,0 +1,39 @@
+---
+title: "Outils d'analyse pour l'ingénieur : rappels de calcul différentiel"
+description: "Notes de cours et trois feuilles de TD rédigées avec Typst : dérivée directionnelle, formule de Taylor, formulation variationnelle, multiplicateurs de Lagrange."
+year: "2026-2027"
+order: 1
+---
+
+## Présentation
+
+Petit cours de rappels de calcul différentiel, orienté vers les applications physiques, pour le premier semestre de troisième année (Aéro 3) de l'IPSA, année 2026-2027. Il correspond au module Ma311 et comporte deux séances de cours et cinq séances de travaux dirigés.
+
+Ces notes de cours et les feuilles de TD sont rédigées avec [Typst](https://typst.app), et non avec LaTeX.
+
+::: {.callout-note}
+## Avertissement
+
+Le cours présente les idées et l'articulation des résultats importants sans chercher à tout démontrer : plusieurs démonstrations sont laissées en travaux dirigés.
+
+Version du 14/09/2026.
+:::
+
+## Contenu
+
+* Introduction et notions de base : le cadre de travail, pourquoi l'espace de dimension n, convention d'indices et sommation d'Einstein, hypothèse déterministe et étude de la stabilité.
+* Taylor, fonctions affines et fonctions quadratiques : formule de chaîne, dérivée directionnelle, jacobienne, conditions d'optimalité locale.
+* Une application pour réviser, la formulation variationnelle : action, moment conjugué et force généralisée, retour à la mécanique de Newton.
+* Optimisation sous contraintes : théorème des fonctions implicites et multiplicateurs de Lagrange.
+
+## Document
+
+[📄 Télécharger / Consulter les notes de cours au format PDF](Ma311_Fascicule.pdf)
+
+## Travaux dirigés
+
+Les feuilles de TD (2026-2027) reprennent les chapitres du fascicule.
+
+* **TD 1 : rappels de calcul différentiel** (chapitres 1 et 2). [📄 Énoncé au format PDF](Ma311_TD1.pdf)
+* **TD 2 : formulation variationnelle** (chapitre 3). [📄 Énoncé au format PDF](Ma311_TD2.pdf)
+* **TD 3 : multiplicateurs de Lagrange** (chapitre 4). [📄 Énoncé au format PDF](Ma311_TD3.pdf)
