@@ -1,18 +1,23 @@
 ---
-title: "Notes personnelles"
+title: "Notes et présentations"
 aliases:
   - /notes-personnelles.html
 listing:
   contents: "*/index.qmd"
-  type: default
-  sort: "date desc"
-  categories: true
+  type: table
+  sort: "order"
+  fields: [title, year, description]
+  field-display-names:
+    year: "Année"
+  sort-ui: false
+  filter-ui: false
 ---
 
-Notes sur diverses notions et autres travaux. Cette section est en cours de constitution.
+Notes sur diverses notions, et présentations données lors de séminaires et d'exposés, pour des étudiants, des collègues ou un public non spécialiste.
 
 <!--
-Pour ajouter une note : créer un dossier notes/<nom-de-la-note>/ contenant un
-fichier index.qmd avec un title, une date et éventuellement des categories.
-Elle apparaît alors automatiquement dans la liste de cette page.
+Pour ajouter une note ou une présentation : créer un dossier notes/<nom>/ contenant
+un fichier index.qmd (avec title, description, year et order) et, le cas échéant,
+son PDF. Elle apparaît alors automatiquement dans la liste de cette page.
+Les plus récentes ont les numéros d'ordre (order) les plus petits.
 -->

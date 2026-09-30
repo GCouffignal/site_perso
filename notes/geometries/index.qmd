@@ -1,0 +1,21 @@
+---
+title: "De la géométrie aux géométries : une promenade mathématico-historique"
+description: "Séminaire pour les étudiants de l'IPSA (2018) : la géométrie euclidienne, le postulat des parallèles en question, la redécouverte tardive des géométries non euclidiennes."
+year: "2018"
+order: 2
+---
+
+## Présentation
+
+Exposé présenté en 2018 lors d'un séminaire destiné aux étudiants de l'IPSA. Il propose une promenade à la fois mathématique et historique, de la géométrie euclidienne aux géométries non euclidiennes.
+
+## Contenu
+
+* **La géométrie « euclidienne »** : les *Éléments* et leurs principes.
+* **Le postulatum en question** : un long chemin historique, de la recherche d'une démonstration (Saccheri) aux premières géométries non euclidiennes.
+* **Redécouverte tardive et postérités** : Lobatchevski et Bolyai, Riemann, modèles de la géométrie, programme d'Erlangen, principe de relativité.
+* **Conclusion, « au-delà des mathématiques : une matière à penser »** : ce que cette promenade historique amène à penser, de la double création grecque de la philosophie et de la démocratie à l'institution social-historique de la géométrie.
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (2018) au format PDF](De_la_geometrie_aux_geometries.pdf)

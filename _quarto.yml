@@ -27,7 +27,7 @@ website:
       - href: autres-enseignements/index.qmd
         text: "Autres enseignements"
       - href: notes/index.qmd
-        text: "Notes"
+        text: "Notes et présentations"
       - href: blog/index.qmd
         text: "Blog"
       - href: about.qmd

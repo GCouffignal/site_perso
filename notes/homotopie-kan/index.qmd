@@ -1,0 +1,20 @@
+---
+title: "La théorie des catégories et la théorie de l'homotopie chez Daniel Kan"
+description: "Séminaire à l'université Paul Sabatier (mars 2014) : les premiers travaux de Daniel Kan en théorie de l'homotopie, et le problème de l'identification."
+year: "2014"
+order: 4
+---
+
+## Présentation
+
+Exposé présenté en mars 2014 lors d'un séminaire à l'université Paul Sabatier, à Toulouse. Il présente les premiers travaux en théorie de l'homotopie du mathématicien Daniel Kan, à l'origine de concepts catégoriques importants.
+
+## Contenu
+
+* Motivations.
+* Les premiers travaux en théorie de l'homotopie de Daniel Kan : catégories munies d'une notion d'homotopie, catégorie homotopique, théorie des catégories « relatives ».
+* Ouverture : le problème de l'identification.
+
+## Document
+
+[📄 Télécharger / Consulter les diapositives (2014) au format PDF](Kan_homotopie_categories_2014.pdf)
