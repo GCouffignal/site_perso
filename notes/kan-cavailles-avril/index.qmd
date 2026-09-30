@@ -2,7 +2,7 @@
 title: "Processus de création et de comparaison chez Kan : une approche inspirée de Cavaillès (exposé d'avril 2013)"
 description: "Exposé d'avril 2013 : une étude philosophique (Cavaillès), une étude mathématique (premiers travaux de Kan en théorie de l'homotopie), puis une synthèse."
 year: "avril 2013"
-order: 6
+order: 7
 ---
 
 ## Présentation
