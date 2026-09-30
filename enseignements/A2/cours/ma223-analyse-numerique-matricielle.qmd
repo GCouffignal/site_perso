@@ -1,12 +1,12 @@
 ---
-title: "Ma223 : Analyse numérique matricielle. Autour de la décomposition en valeurs singulières"
+title: "Analyse numérique matricielle : autour de la décomposition en valeurs singulières"
 description: "Fascicule de cours avec applications numériques sous Python : décomposition en valeurs singulières, théorème d'Eckart-Young-Mirsky, ACP, analyse procustéenne, moindres carrés."
 order: 1
 ---
 
 ## Présentation
 
-Ce fascicule a été rédigé pour la seconde année (A2) de l'IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.
+Ce fascicule, qui correspond au module Ma223, a été rédigé pour la seconde année (A2) de l'IPSA. Il est centré sur la décomposition en valeurs singulières (SVD) et sur quelques-unes de ses applications, et contient des exercices dans le texte.
 
 ::: {.callout-note}
 ## Avertissement
