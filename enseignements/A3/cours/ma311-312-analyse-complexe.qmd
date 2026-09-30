@@ -1,0 +1,31 @@
+---
+title: "Ma311-312 : Analyse complexe, transformées de Fourier et de Laplace"
+description: "Cours 2021-2022 et fascicule de TD : fonctions holomorphes, intégration complexe, résidus, écoulements plans et portance (transformation de Joukovski), puis séries de Fourier, transformées de Fourier et de Laplace."
+order: 2
+---
+
+## Présentation
+
+Cours de troisième année (A3) de l'IPSA, dans sa version 2021-2022. Sa première partie porte sur l'analyse complexe, avec pour application l'aérodynamique plane : écoulements plans, calcul de la portance et transformation de Joukovski. La seconde partie présente les séries de Fourier, les transformées de Fourier et de Laplace.
+
+Pour une version plus récente du volet Fourier et Laplace, voir le cours [Ma312 : Éléments d'analyse harmonique pour l'ingénieur](ma312-analyse-harmonique.qmd).
+
+## Contenu
+
+* Analyse complexe : fonctions holomorphes et leurs propriétés géométriques, intégration complexe (théorème de Cauchy, théorème des résidus).
+* Fonctions harmoniques et mécanique des fluides : exemples d'écoulements plans, calculs de portance.
+* Transformations conformes : transformation de Möbius, transformation de Joukovski.
+* Séries de Fourier, transformée de Fourier, transformée de Laplace.
+
+## Document
+
+[📄 Télécharger / Consulter le cours au format PDF](Ma311_312_cours.pdf)
+
+## Travaux dirigés
+
+Les TD sont regroupés dans un fascicule unique.
+
+[📄 Télécharger / Consulter le fascicule de TD au format PDF](Fascicule_TD_Ma311_312_.pdf)
+
+* **Ma311, analyse complexe :** TD 0 (révision sur les nombres complexes), TD 1 et 2 (fonctions à variable complexe, fonctions holomorphes), TD 3 (potentiel et vitesse complexe), TD 4 (intégrales, séries de Laurent et résidus), TD 5 (portance et vitesse complexe), TD 6 (travaux pratiques).
+* **Ma312, analyse harmonique :** TD 1 (séries de Fourier), TD 2 (transformées de Fourier), TD 3 (transformées de Laplace).

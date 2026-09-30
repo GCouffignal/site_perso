@@ -65,6 +65,8 @@ website:
               contents:
                 - href: enseignements/A3/cours/ma312-analyse-harmonique.qmd
                   text: "Ma312 : analyse harmonique (Fourier, Laplace)"
+                - href: enseignements/A3/cours/ma311-312-analyse-complexe.qmd
+                  text: "Ma311-312 : analyse complexe (cours 2021-2022)"
             - section: "Projets"
               contents:
                 - href: enseignements/A3/projets/inpainting.qmd
