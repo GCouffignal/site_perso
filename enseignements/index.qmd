@@ -1,0 +1,16 @@
+---
+title: "Enseignements mathématiques"
+aliases:
+  - /notes-cours.html
+  - /projets-etudiants/index.html
+---
+
+Cette section rassemble mes enseignements de mathématiques, par année d'études post-bac :
+
+* [A1 (Bac+1)](A1/index.qmd)
+* [A2 (Bac+2)](A2/index.qmd), avec ses [projets](A2/index.qmd#projets)
+* [A3 (Bac+3)](A3/index.qmd), avec ses [projets](A3/index.qmd#projets)
+
+## Projets (bureaux d'études)
+
+Dans cette section, vous trouverez les sujets de projets proposés à mes étudiants de niveau A2 (Bac+2) et A3 (Bac+3). Ces projets couvrent divers domaines liés à l'informatique, à l'intelligence artificielle, à la vision par ordinateur, et plus encore. Chaque projet est accompagné d'une description détaillée, des objectifs, des ressources recommandées, et des critères d'évaluation. Chaque projet est conçu pour exemplifier et développer des notions précises de cours, ils sont donc écrits de manière à être accessibles aux étudiants ayant suivi les cours correspondants et sous la contrainte forte de ne pas nécessiter de connaissances préalables en dehors du cours.

@@ -1,5 +1,9 @@
 ---
 title: "BE : une introduction à l'analyse en composantes indépendantes (ICA)."
+description: "Séparation « aveugle » des sources par analyse en composantes indépendantes (ICA), à partir du problème du « cocktail party »."
+order: 3
+aliases:
+  - /projetA3_ICA.html
 ---
 
 ## Présentation du problème
@@ -11,7 +15,7 @@ Dans ce bureau d'étude nous allons étudier le difficile problème de la sépar
 
 Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :
 
-[📄 Télécharger / Consulter le sujet au format PDF](sujets_BE/Ma315_BE_2023.pdf)
+[📄 Télécharger / Consulter le sujet au format PDF](/sujets_BE/Ma315_BE_2023.pdf)
 
 ## Prérequis 
 

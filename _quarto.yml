@@ -1,32 +1,72 @@
 project:
   type: website
 
+lang: fr
+
 website:
   title: "Archives et Projets de Mathématiques"
+  site-url: "https://gcouffignal.github.io/site_perso"
   repo-url: "https://github.com/GCouffignal/site_perso"
   repo-actions: [issue]
+  open-graph: true
+
   navbar:
     left:
       - href: index.qmd
         text: "Accueil"
-      - text: "Projets Bac+2"
+      - text: "Enseignements"
         menu:
-          - href: projetA2_fluxopt.qmd
-            text: "BE: Détermination flux optique"
-          # Ajoutez itérativement vos autres projets Bac+2 ici en respectant l'indentation
-      - text: "Projets Bac+3"
-        menu:
-          - href: projetA3_inpainting.qmd
-            text: "BE : en généralisant l'algorithme du gradient conjugué..."
-          - href: projetA3_geominf.qmd
-            text: "BE :  Introduction à la géométrie de l'information"
-          - href: projetA3_ICA.qmd
-            text: "BE :  une introduction à l'analyse en composantes indépendantes (ICA)"
-          - href: projetA3_reducpartimage.qmd
-            text: "BE : Réduction en dimension et segmentation d'image"
-           # Ajoutez itérativement vos autres projets Bac+3 ici
+          - href: enseignements/index.qmd
+            text: "Vue d'ensemble"
+          - href: enseignements/A1/index.qmd
+            text: "A1 (Bac+1)"
+          - href: enseignements/A2/index.qmd
+            text: "A2 (Bac+2)"
+          - href: enseignements/A3/index.qmd
+            text: "A3 (Bac+3)"
+      - href: autres-enseignements/index.qmd
+        text: "Autres enseignements"
+      - href: notes/index.qmd
+        text: "Notes"
+      - href: blog/index.qmd
+        text: "Blog"
       - href: about.qmd
         text: "À propos"
+
+  # Barre latérale de la section Enseignements.
+  # Pour ajouter un projet : créer le .qmd dans projets/ (il apparaît tout seul
+  # dans la liste de la page du niveau), puis, si on le veut aussi dans cette
+  # barre, ajouter une ligne "href / text" ci-dessous.
+  sidebar:
+    - id: enseignements
+      title: "Enseignements mathématiques"
+      style: docked
+      collapse-level: 2
+      contents:
+        - href: enseignements/index.qmd
+          text: "Vue d'ensemble"
+        - href: enseignements/A1/index.qmd
+          text: "A1 (Bac+1)"
+        - section: "A2 (Bac+2)"
+          href: enseignements/A2/index.qmd
+          contents:
+            - section: "Projets"
+              contents:
+                - href: enseignements/A2/projets/fluxopt.qmd
+                  text: "BE : flux optique"
+        - section: "A3 (Bac+3)"
+          href: enseignements/A3/index.qmd
+          contents:
+            - section: "Projets"
+              contents:
+                - href: enseignements/A3/projets/inpainting.qmd
+                  text: "BE : gradient conjugué, inpainting"
+                - href: enseignements/A3/projets/geominf.qmd
+                  text: "BE : géométrie de l'information"
+                - href: enseignements/A3/projets/ica.qmd
+                  text: "BE : analyse en composantes indépendantes"
+                - href: enseignements/A3/projets/reducpartimage.qmd
+                  text: "BE : réduction en dimension, segmentation"
 
 format:
   html:
@@ -35,6 +75,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-

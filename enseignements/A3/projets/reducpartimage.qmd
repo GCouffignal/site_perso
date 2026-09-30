@@ -1,5 +1,9 @@
 ---
 title: "BE : Réduction en dimension et segmentation d'image"
+description: "Segmentation d'image par réduction en dimension (ACP ou auto-encodeur), k-moyennes et inpainting."
+order: 4
+aliases:
+  - /projetA3_reducpartimage.html
 ---
 
 ## Présentation du problème
@@ -17,13 +21,13 @@ Le but principal de ce BE est de créer un algorithme de partitionnement ou segm
 5. On utilisera enfin un algorithme d'inpainting. Cet algorithme permettra de donner une couleur de catégorie à tous les pixels de l'image (et non uniquement aux pixels choisis initialement). On crée ainsi des masques sur l'image totale. 
 
 
-![Résultat de l'algorithme de segmentation par ACP.](sujets_BE/test8.png){fig-align="center" width="75%"}
+![Résultat de l'algorithme de segmentation par ACP.](/sujets_BE/test8.png){fig-align="center" width="75%"}
 
 ## Sujet complet
 
 Le développement complet des hypothèses, le formalisme et les questions intermédiaires sont disponibles dans le document ci-dessous :
 
-[📄 Télécharger / Consulter le sujet au format PDF](sujets_BE/Ma324_BE_2024.pdf)
+[📄 Télécharger / Consulter le sujet au format PDF](/sujets_BE/Ma324_BE_2024.pdf)
 
 ## Prérequis 
 
